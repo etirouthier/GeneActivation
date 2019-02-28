@@ -4,7 +4,7 @@ This project is aimed at predicting the gene activation of S.cerevisiae using co
 Gene activation is determined by the density of RNA-seq reads. The CNN can be trained to predict either the RNA-seq landscape
 or the number of RNA-seq reads that match a every genes (which is used in DESeq protocol to detect effect of mutations).
 
-## Predicting mutations
+## Predicting  effect of mutations
 
 The goal of this project is to assess the question of predicting the effect of mutation on gene activation. 
 We use for that the data coming from RNA-seq experiment that give the gene activation measure on the wild type genome of
