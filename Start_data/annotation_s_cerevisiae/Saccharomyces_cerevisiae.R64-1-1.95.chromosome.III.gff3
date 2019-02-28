@@ -1,0 +1,1005 @@
+chr	1	type	start	stop	2	strand	3	4
+III	SGD	chromosome	1	316620	.	.	.	ID=chromosome:III;Alias=BK006937.2
+###
+III	sgd	gene	1392	2135	.	+	.	ID=gene:YCL076W;biotype=protein_coding;description=Dubious open reading frame%3B unlikely to encode a functional protein%2C based on available experimental and comparative sequence data [Source:SGD%3BAcc:S000000581];gene_id=YCL076W;logic_name=sgd
+III	sgd	mRNA	1392	2135	.	+	.	ID=transcript:YCL076W_mRNA;Parent=gene:YCL076W;biotype=protein_coding;transcript_id=YCL076W_mRNA
+III	sgd	exon	1392	2135	.	+	.	Parent=transcript:YCL076W_mRNA;Name=YCL076W_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCL076W_mRNA-E1;rank=1
+III	sgd	CDS	1392	2135	.	+	0	ID=CDS:YCL076W_mRNA;Parent=transcript:YCL076W_mRNA;protein_id=YCL076W_mRNA
+###
+III	sgd	pseudogene	2126	2566	.	+	.	ID=gene:YCL075W;biotype=pseudogene;description=Pseudogene: encodes fragment of Ty Pol protein [Source:SGD%3BAcc:S000000580];gene_id=YCL075W;logic_name=sgd
+III	sgd	pseudogenic_transcript	2126	2566	.	+	.	ID=transcript:YCL075W;Parent=gene:YCL075W;biotype=pseudogene;transcript_id=YCL075W
+III	sgd	exon	2126	2566	.	+	.	Parent=transcript:YCL075W;Name=YCL075W-E1;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=YCL075W-E1;rank=1
+###
+III	sgd	pseudogene	2824	3750	.	+	.	ID=gene:YCL074W;biotype=pseudogene;description=Pseudogene: encodes fragment of Ty Pol protein [Source:SGD%3BAcc:S000000579];gene_id=YCL074W;logic_name=sgd
+III	sgd	pseudogenic_transcript	2824	3750	.	+	.	ID=transcript:YCL074W;Parent=gene:YCL074W;biotype=pseudogene;transcript_id=YCL074W
+III	sgd	exon	2824	3750	.	+	.	Parent=transcript:YCL074W;Name=YCL074W-E1;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=YCL074W-E1;rank=1
+###
+III	sgd	gene	6479	8326	.	-	.	ID=gene:YCL073C;biotype=protein_coding;description=Proton:glutathione antiporter%3B localized to the vacuolar and plasma membranes%3B imports glutathione from the vacuole and exports it through the plasma membrane%3B has a role in resistance to oxidative stress and modulation of the PKA pathway%3B GEX1 has a paralog%2C GEX2%2C that arose from a segmental duplication [Source:SGD%3BAcc:S000000575];gene_id=YCL073C;logic_name=sgd
+III	sgd	mRNA	6479	8326	.	-	.	ID=transcript:YCL073C_mRNA;Parent=gene:YCL073C;biotype=protein_coding;transcript_id=YCL073C_mRNA
+III	sgd	exon	6479	8326	.	-	.	Parent=transcript:YCL073C_mRNA;Name=YCL073C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCL073C_mRNA-E1;rank=1
+III	sgd	CDS	6479	8326	.	-	0	ID=CDS:YCL073C_mRNA;Parent=transcript:YCL073C_mRNA;protein_id=YCL073C_mRNA
+###
+III	sgd	gene	9706	11082	.	+	.	ID=gene:YCL069W;biotype=protein_coding;description=Permease of basic amino acids in the vacuolar membrane%3B VBA3 has a paralog%2C VBA5%2C that arose from a segmental duplication [Source:SGD%3BAcc:S000000574];gene_id=YCL069W;logic_name=sgd
+III	sgd	mRNA	9706	11082	.	+	.	ID=transcript:YCL069W_mRNA;Parent=gene:YCL069W;biotype=protein_coding;transcript_id=YCL069W_mRNA
+III	sgd	exon	9706	11082	.	+	.	Parent=transcript:YCL069W_mRNA;Name=YCL069W_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCL069W_mRNA-E1;rank=1
+III	sgd	CDS	9706	11082	.	+	0	ID=CDS:YCL069W_mRNA;Parent=transcript:YCL069W_mRNA;protein_id=YCL069W_mRNA
+###
+III	sgd	gene	11503	12285	.	-	.	ID=gene:YCL068C;biotype=protein_coding;description=Putative protein of unknown function [Source:SGD%3BAcc:S000000573];gene_id=YCL068C;logic_name=sgd
+III	sgd	mRNA	11503	12285	.	-	.	ID=transcript:YCL068C_mRNA;Parent=gene:YCL068C;biotype=protein_coding;transcript_id=YCL068C_mRNA
+III	sgd	exon	11503	12285	.	-	.	Parent=transcript:YCL068C_mRNA;Name=YCL068C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCL068C_mRNA-E1;rank=1
+III	sgd	CDS	11503	12285	.	-	0	ID=CDS:YCL068C_mRNA;Parent=transcript:YCL068C_mRNA;protein_id=YCL068C_mRNA
+###
+III	sgd	gene	12386	13018	.	-	.	ID=gene:YCL067C;Name=HMLALPHA2;biotype=protein_coding;description=Silenced copy of ALPHA2 at HML%3B homeobox-domain protein that associates with Mcm1p in haploid cells to repress a-specific gene expression and interacts with a1p in diploid cells to repress haploid-specific gene expression [Source:SGD%3BAcc:S000000572];gene_id=YCL067C;logic_name=sgd
+III	sgd	mRNA	12386	13018	.	-	.	ID=transcript:YCL067C_mRNA;Parent=gene:YCL067C;biotype=protein_coding;transcript_id=YCL067C_mRNA
+III	sgd	exon	12386	13018	.	-	.	Parent=transcript:YCL067C_mRNA;Name=YCL067C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCL067C_mRNA-E1;rank=1
+III	sgd	CDS	12386	13018	.	-	0	ID=CDS:YCL067C_mRNA;Parent=transcript:YCL067C_mRNA;protein_id=YCL067C_mRNA
+###
+III	sgd	gene	13282	13809	.	+	.	ID=gene:YCL066W;Name=HMLALPHA1;biotype=protein_coding;description=Silenced copy of ALPHA1 at HML%3B ALPHA1 encodes a transcriptional coactivator involved in the regulation of mating-type alpha-specific gene expression [Source:SGD%3BAcc:S000000571];gene_id=YCL066W;logic_name=sgd
+III	sgd	mRNA	13282	13809	.	+	.	ID=transcript:YCL066W_mRNA;Parent=gene:YCL066W;biotype=protein_coding;transcript_id=YCL066W_mRNA
+III	sgd	exon	13282	13809	.	+	.	Parent=transcript:YCL066W_mRNA;Name=YCL066W_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCL066W_mRNA-E1;rank=1
+III	sgd	CDS	13282	13809	.	+	0	ID=CDS:YCL066W_mRNA;Parent=transcript:YCL066W_mRNA;protein_id=YCL066W_mRNA
+###
+III	sgd	gene	13751	14119	.	+	.	ID=gene:YCL065W;biotype=protein_coding;description=Dubious open reading frame%3B unlikely to encode a functional protein%2C based on available experimental and comparative sequence data%3B overlaps HMLALPHA1 [Source:SGD%3BAcc:S000000570];gene_id=YCL065W;logic_name=sgd
+III	sgd	mRNA	13751	14119	.	+	.	ID=transcript:YCL065W_mRNA;Parent=gene:YCL065W;biotype=protein_coding;transcript_id=YCL065W_mRNA
+III	sgd	exon	13751	14119	.	+	.	Parent=transcript:YCL065W_mRNA;Name=YCL065W_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCL065W_mRNA-E1;rank=1
+III	sgd	CDS	13751	14119	.	+	0	ID=CDS:YCL065W_mRNA;Parent=transcript:YCL065W_mRNA;protein_id=YCL065W_mRNA
+###
+III	sgd	gene	15798	16880	.	-	.	ID=gene:YCL064C;biotype=protein_coding;description=Catabolic L-serine (L-threonine) deaminase%3B catalyzes the degradation of both L-serine and L-threonine%3B required to use serine or threonine as the sole nitrogen source%2C transcriptionally induced by serine and threonine [Source:SGD%3BAcc:S000000569];gene_id=YCL064C;logic_name=sgd
+III	sgd	mRNA	15798	16880	.	-	.	ID=transcript:YCL064C_mRNA;Parent=gene:YCL064C;biotype=protein_coding;transcript_id=YCL064C_mRNA
+III	sgd	exon	15798	16880	.	-	.	Parent=transcript:YCL064C_mRNA;Name=YCL064C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCL064C_mRNA-E1;rank=1
+III	sgd	CDS	15798	16880	.	-	0	ID=CDS:YCL064C_mRNA;Parent=transcript:YCL064C_mRNA;protein_id=YCL064C_mRNA
+###
+III	sgd	gene	17290	18561	.	+	.	ID=gene:YCL063W;Name=VAC17;biotype=protein_coding;description=Phosphoprotein involved in vacuole inheritance%3B degraded in late M phase of the cell cycle%3B acts as a vacuole-specific receptor for myosin Myo2p%3B involved in regulation of asymmetric inheritance of aggregated/misfolded proteins and age reset [Source:SGD%3BAcc:S000000568];gene_id=YCL063W;logic_name=sgd
+III	sgd	mRNA	17290	18561	.	+	.	ID=transcript:YCL063W_mRNA;Parent=gene:YCL063W;biotype=protein_coding;transcript_id=YCL063W_mRNA
+III	sgd	exon	17290	18561	.	+	.	Parent=transcript:YCL063W_mRNA;Name=YCL063W_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCL063W_mRNA-E1;rank=1
+III	sgd	CDS	17290	18561	.	+	0	ID=CDS:YCL063W_mRNA;Parent=transcript:YCL063W_mRNA;protein_id=YCL063W_mRNA
+###
+III	sgd	gene	18816	22106	.	-	.	ID=gene:YCL061C;Name=MRC1;biotype=protein_coding;description=S-phase checkpoint protein required for DNA replication%3B couples DNA helicase and polymerase%3B interacts with and stabilizes Pol2p at stalled replication forks during stress%2C where it forms a pausing complex with Tof1p and is phosphorylated by Mec1p%3B defines a novel S-phase checkpoint with Hog1p that coordinates DNA replication and transcription upon osmostress%3B protects uncapped telomeres%3B Dia2p-dependent degradation mediates checkpoint recovery%3B mammalian claspin homolog [Source:SGD%3BAcc:S000000566];gene_id=YCL061C;logic_name=sgd
+III	sgd	mRNA	18816	22106	.	-	.	ID=transcript:YCL061C_mRNA;Parent=gene:YCL061C;biotype=protein_coding;transcript_id=YCL061C_mRNA
+III	sgd	exon	18816	22106	.	-	.	Parent=transcript:YCL061C_mRNA;Name=YCL061C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCL061C_mRNA-E1;rank=1
+III	sgd	CDS	18816	22106	.	-	0	ID=CDS:YCL061C_mRNA;Parent=transcript:YCL061C_mRNA;protein_id=YCL061C_mRNA
+###
+III	sgd	gene	22429	23379	.	-	.	ID=gene:YCL059C;biotype=protein_coding;description=Nucleolar protein required for rRNA synthesis and ribosomal assembly%3B required for the synthesis of 18S rRNA and for the assembly of 40S ribosomal subunit%3B essential gene [Source:SGD%3BAcc:S000000564];gene_id=YCL059C;logic_name=sgd
+III	sgd	mRNA	22429	23379	.	-	.	ID=transcript:YCL059C_mRNA;Parent=gene:YCL059C;biotype=protein_coding;transcript_id=YCL059C_mRNA
+III	sgd	exon	22429	23379	.	-	.	Parent=transcript:YCL059C_mRNA;Name=YCL059C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCL059C_mRNA-E1;rank=1
+III	sgd	CDS	22429	23379	.	-	0	ID=CDS:YCL059C_mRNA;Parent=transcript:YCL059C_mRNA;protein_id=YCL059C_mRNA
+###
+III	sgd	gene	23523	23981	.	-	.	ID=gene:YCL058C;Name=FYV5;biotype=protein_coding;description=Protein involved in regulation of the mating pathway%3B binds with Matalpha2p to promoters of haploid-specific genes%3B required for survival upon exposure to K1 killer toxin%3B involved in ion homeostasis [Source:SGD%3BAcc:S000000563];gene_id=YCL058C;logic_name=sgd
+III	sgd	mRNA	23523	23981	.	-	.	ID=transcript:YCL058C_mRNA;Parent=gene:YCL058C;biotype=protein_coding;transcript_id=YCL058C_mRNA
+III	sgd	exon	23523	23981	.	-	.	Parent=transcript:YCL058C_mRNA;Name=YCL058C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCL058C_mRNA-E1;rank=1
+III	sgd	CDS	23523	23981	.	-	0	ID=CDS:YCL058C_mRNA;Parent=transcript:YCL058C_mRNA;protein_id=YCL058C_mRNA
+###
+III	sgd	gene	23584	23925	.	+	.	ID=gene:YCL058W-A;biotype=protein_coding;description=Transcriptional repressor encoded by the FYV5 antisense strand%3B negatively regulates transcription of FYV5 by binding to the promoter on the sense strand [Source:SGD%3BAcc:S000028518];gene_id=YCL058W-A;logic_name=sgd
+III	sgd	mRNA	23584	23925	.	+	.	ID=transcript:YCL058W-A_mRNA;Parent=gene:YCL058W-A;biotype=protein_coding;transcript_id=YCL058W-A_mRNA
+III	sgd	exon	23584	23925	.	+	.	Parent=transcript:YCL058W-A_mRNA;Name=YCL058W-A_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCL058W-A_mRNA-E1;rank=1
+III	sgd	CDS	23584	23925	.	+	0	ID=CDS:YCL058W-A_mRNA;Parent=transcript:YCL058W-A_mRNA;protein_id=YCL058W-A_mRNA
+###
+III	sgd	gene	24032	24325	.	-	.	ID=gene:YCL057C-A;Name=MOS1;biotype=protein_coding;description=Conserved component of the MICOS complex%3B MICOS (formerly MINOS or MitOS) is a mitochondrial inner membrane complex that extends into the intermembrane space and has a role in the maintenance of crista junctions%2C inner membrane architecture%2C and formation of contact sites to the outer membrane%3B forms a subcomplex with Mic12p and Mic27p whose assembly and stability requires cardiolipin%3B homo-oligomers cause membrane bending%3B ortholog of human MINOS1 [Source:SGD%3BAcc:S000007547];gene_id=YCL057C-A;logic_name=sgd
+III	sgd	mRNA	24032	24325	.	-	.	ID=transcript:YCL057C-A_mRNA;Parent=gene:YCL057C-A;biotype=protein_coding;transcript_id=YCL057C-A_mRNA
+III	sgd	exon	24032	24325	.	-	.	Parent=transcript:YCL057C-A_mRNA;Name=YCL057C-A_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCL057C-A_mRNA-E1;rank=1
+III	sgd	CDS	24032	24325	.	-	0	ID=CDS:YCL057C-A_mRNA;Parent=transcript:YCL057C-A_mRNA;protein_id=YCL057C-A_mRNA
+###
+III	sgd	gene	24768	26906	.	+	.	ID=gene:YCL057W;biotype=protein_coding;description=Zinc metalloendopeptidase%3B found in the cytoplasm and intermembrane space of mitochondria%3B with Cym1p%2C involved in degradation of mitochondrial proteins and of presequence peptides cleaved from imported proteins%3B protein abundance increases in response to DNA replication stress [Source:SGD%3BAcc:S000000562];gene_id=YCL057W;logic_name=sgd
+III	sgd	mRNA	24768	26906	.	+	.	ID=transcript:YCL057W_mRNA;Parent=gene:YCL057W;biotype=protein_coding;transcript_id=YCL057W_mRNA
+III	sgd	exon	24768	26906	.	+	.	Parent=transcript:YCL057W_mRNA;Name=YCL057W_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCL057W_mRNA-E1;rank=1
+III	sgd	CDS	24768	26906	.	+	0	ID=CDS:YCL057W_mRNA;Parent=transcript:YCL057W_mRNA;protein_id=YCL057W_mRNA
+###
+III	sgd	gene	26925	27359	.	-	.	ID=gene:YCL056C;biotype=protein_coding;description=Protein that regulates peroxisome populations%3B peroxisomal integral membrane protein%3B interacts with Pex11p%2C Pex25p%2C and Pex27p to control both constitutive peroxisome division and peroxisome morphology and abundance during peroxisome proliferation [Source:SGD%3BAcc:S000000561];gene_id=YCL056C;logic_name=sgd
+III	sgd	mRNA	26925	27359	.	-	.	ID=transcript:YCL056C_mRNA;Parent=gene:YCL056C;biotype=protein_coding;transcript_id=YCL056C_mRNA
+III	sgd	exon	26925	27359	.	-	.	Parent=transcript:YCL056C_mRNA;Name=YCL056C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCL056C_mRNA-E1;rank=1
+III	sgd	CDS	26925	27359	.	-	0	ID=CDS:YCL056C_mRNA;Parent=transcript:YCL056C_mRNA;protein_id=YCL056C_mRNA
+###
+III	sgd	gene	27929	28936	.	+	.	ID=gene:YCL055W;biotype=protein_coding;description=Transcription factor required for response to pheromones%3B also required during meiosis%3B exists in two forms%2C a slower-migrating form more abundant during vegetative growth and a faster-migrating form induced by pheromone [Source:SGD%3BAcc:S000000560];gene_id=YCL055W;logic_name=sgd
+III	sgd	mRNA	27929	28936	.	+	.	ID=transcript:YCL055W_mRNA;Parent=gene:YCL055W;biotype=protein_coding;transcript_id=YCL055W_mRNA
+III	sgd	exon	27929	28936	.	+	.	Parent=transcript:YCL055W_mRNA;Name=YCL055W_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCL055W_mRNA-E1;rank=1
+III	sgd	CDS	27929	28936	.	+	0	ID=CDS:YCL055W_mRNA;Parent=transcript:YCL055W_mRNA;protein_id=YCL055W_mRNA
+###
+III	sgd	gene	30910	30996	.	+	.	ID=gene:YCL054W-A;biotype=protein_coding;description=Short open reading frame%2C shows evidence of translation%3B may be new protein-coding gene that originated de novo from noncoding sequence%3B same allele found in at least 33 other S. cerevisiae strains%3B at least 3 strains have a second allele with three nucleotide substitutions leading to two amino acid differences [Source:SGD%3BAcc:S000178054];gene_id=YCL054W-A;logic_name=sgd
+III	sgd	mRNA	30910	30996	.	+	.	ID=transcript:YCL054W-A_mRNA;Parent=gene:YCL054W-A;biotype=protein_coding;transcript_id=YCL054W-A_mRNA
+III	sgd	exon	30910	30996	.	+	.	Parent=transcript:YCL054W-A_mRNA;Name=YCL054W-A_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCL054W-A_mRNA-E1;rank=1
+III	sgd	CDS	30910	30996	.	+	0	ID=CDS:YCL054W-A_mRNA;Parent=transcript:YCL054W-A_mRNA;protein_id=YCL054W-A_mRNA
+###
+III	sgd	gene	31449	33974	.	+	.	ID=gene:YCL054W;biotype=protein_coding;description=AdoMet-dependent methyltransferase%3B involved in rRNA processing and 60S ribosomal subunit maturation%3B methylates G2922 in the tRNA docking site of the large subunit rRNA and in the absence of snR52%2C U2921%3B suppressor of PAB1 mutants [Source:SGD%3BAcc:S000000559];gene_id=YCL054W;logic_name=sgd
+III	sgd	mRNA	31449	33974	.	+	.	ID=transcript:YCL054W_mRNA;Parent=gene:YCL054W;biotype=protein_coding;transcript_id=YCL054W_mRNA
+III	sgd	exon	31449	33974	.	+	.	Parent=transcript:YCL054W_mRNA;Name=YCL054W_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCL054W_mRNA-E1;rank=1
+III	sgd	CDS	31449	33974	.	+	0	ID=CDS:YCL054W_mRNA;Parent=transcript:YCL054W_mRNA;protein_id=YCL054W_mRNA
+###
+III	sgd	gene	34143	35393	.	-	.	ID=gene:YCL052C;biotype=protein_coding;description=Component of glycosylphosphatidylinositol-mannosyltransferase I%3B essential component%3B required for the autocatalytic post-translational processing of the protease B precursor Prb1p%3B localizes to ER in lumenal orientation%3B homolog of mammalian PIG-X [Source:SGD%3BAcc:S000000557];gene_id=YCL052C;logic_name=sgd
+III	sgd	mRNA	34143	35393	.	-	.	ID=transcript:YCL052C_mRNA;Parent=gene:YCL052C;biotype=protein_coding;transcript_id=YCL052C_mRNA
+III	sgd	exon	34143	35393	.	-	.	Parent=transcript:YCL052C_mRNA;Name=YCL052C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCL052C_mRNA-E1;rank=1
+III	sgd	CDS	34143	35393	.	-	0	ID=CDS:YCL052C_mRNA;Parent=transcript:YCL052C_mRNA;protein_id=YCL052C_mRNA
+###
+III	sgd	gene	35865	37616	.	+	.	ID=gene:YCL051W;biotype=protein_coding;description=Protein involved in control of cell wall structure and stress response%3B direct inhibitor of the nuclear Dbf2 related (NDR) kinase Cbk1p-Mob2p%3B overproduction confers resistance to cell-wall degrading enzymes%3B exhibits genetic interactions with genes involved in the cell wall integrity pathway%3B LRE1 has a paralog%2C HLR1%2C that arose from the whole genome duplication [Source:SGD%3BAcc:S000000556];gene_id=YCL051W;logic_name=sgd
+III	sgd	mRNA	35865	37616	.	+	.	ID=transcript:YCL051W_mRNA;Parent=gene:YCL051W;biotype=protein_coding;transcript_id=YCL051W_mRNA
+III	sgd	exon	35865	37616	.	+	.	Parent=transcript:YCL051W_mRNA;Name=YCL051W_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCL051W_mRNA-E1;rank=1
+III	sgd	CDS	35865	37616	.	+	0	ID=CDS:YCL051W_mRNA;Parent=transcript:YCL051W_mRNA;protein_id=YCL051W_mRNA
+###
+III	sgd	gene	37836	38801	.	-	.	ID=gene:YCL050C;Name=APA1;biotype=protein_coding;description=AP4A phosphorylase%3B bifunctional diadenosine 5'%2C5'''-P1%2CP4-tetraphosphate phosphorylase and ADP sulfurylase involved in catabolism of bis(5'-nucleosidyl) tetraphosphates%3B catalyzes phosphorolysis of dinucleoside oligophosphates%2C cleaving substrates' alpha/beta-anhydride bond and introducing Pi into the beta-position of the corresponding NDP formed%3B protein abundance increases under DNA replication stress%3B APA1 has a paralog%2C APA2%2C that arose from the whole genome duplication [Source:SGD%3BAcc:S000000555];gene_id=YCL050C;logic_name=sgd
+III	sgd	mRNA	37836	38801	.	-	.	ID=transcript:YCL050C_mRNA;Parent=gene:YCL050C;biotype=protein_coding;transcript_id=YCL050C_mRNA
+III	sgd	exon	37836	38801	.	-	.	Parent=transcript:YCL050C_mRNA;Name=YCL050C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCL050C_mRNA-E1;rank=1
+III	sgd	CDS	37836	38801	.	-	0	ID=CDS:YCL050C_mRNA;Parent=transcript:YCL050C_mRNA;protein_id=YCL050C_mRNA
+###
+III	sgd	gene	39786	40724	.	-	.	ID=gene:YCL049C;biotype=protein_coding;description=Protein of unknown function%3B localizes to membrane fraction%3B YCL049C is not an essential gene [Source:SGD%3BAcc:S000000554];gene_id=YCL049C;logic_name=sgd
+III	sgd	mRNA	39786	40724	.	-	.	ID=transcript:YCL049C_mRNA;Parent=gene:YCL049C;biotype=protein_coding;transcript_id=YCL049C_mRNA
+III	sgd	exon	39786	40724	.	-	.	Parent=transcript:YCL049C_mRNA;Name=YCL049C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCL049C_mRNA-E1;rank=1
+III	sgd	CDS	39786	40724	.	-	0	ID=CDS:YCL049C_mRNA;Parent=transcript:YCL049C_mRNA;protein_id=YCL049C_mRNA
+###
+III	sgd	gene	41488	41727	.	+	.	ID=gene:YCL048W-A;biotype=protein_coding;description=Putative protein of unknown function%3B SWAT-GFP and mCherry fusion proteins localize to the cell periphery and vacuole%3B YCL048W-A has a paralog%2C YDR524C-B%2C that arose from the whole genome duplication [Source:SGD%3BAcc:S000087203];gene_id=YCL048W-A;logic_name=sgd
+III	sgd	mRNA	41488	41727	.	+	.	ID=transcript:YCL048W-A_mRNA;Parent=gene:YCL048W-A;biotype=protein_coding;transcript_id=YCL048W-A_mRNA
+III	sgd	exon	41488	41727	.	+	.	Parent=transcript:YCL048W-A_mRNA;Name=YCL048W-A_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCL048W-A_mRNA-E1;rank=1
+III	sgd	CDS	41488	41727	.	+	0	ID=CDS:YCL048W-A_mRNA;Parent=transcript:YCL048W-A_mRNA;protein_id=YCL048W-A_mRNA
+###
+III	sgd	gene	42165	43556	.	+	.	ID=gene:YCL048W;biotype=protein_coding;description=Protein of unknown function%3B SPS22 has a paralog%2C SPS2%2C that arose from the whole genome duplication%3B redundant with Sps2p for the organization of the beta-glucan layer of the spore wall [Source:SGD%3BAcc:S000000553];gene_id=YCL048W;logic_name=sgd
+III	sgd	mRNA	42165	43556	.	+	.	ID=transcript:YCL048W_mRNA;Parent=gene:YCL048W;biotype=protein_coding;transcript_id=YCL048W_mRNA
+III	sgd	exon	42165	43556	.	+	.	Parent=transcript:YCL048W_mRNA;Name=YCL048W_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCL048W_mRNA-E1;rank=1
+III	sgd	CDS	42165	43556	.	+	0	ID=CDS:YCL048W_mRNA;Parent=transcript:YCL048W_mRNA;protein_id=YCL048W_mRNA
+###
+III	sgd	gene	43661	44437	.	-	.	ID=gene:YCL047C;biotype=protein_coding;description=Nicotinamide mononucleotide-specific adenylyltransferase (NMNAT)%3B catalyzes the conversion of nicotinamide mononucleotide (NMN) to nicotinamide adenine dinucleotide (NAD+)%3B role in the nicotinamide riboside (NR) salvage pathway of NAD+ biosynthesis%3B involved in NR and NAD+ homeostasis%3B ATPase involved in protein quality control and filamentation pathways%3B interacts physically with Kss1p and suppresses the filamentation defect of a kss1 deletion [Source:SGD%3BAcc:S000000552];gene_id=YCL047C;logic_name=sgd
+III	sgd	mRNA	43661	44437	.	-	.	ID=transcript:YCL047C_mRNA;Parent=gene:YCL047C;biotype=protein_coding;transcript_id=YCL047C_mRNA
+III	sgd	exon	43661	44437	.	-	.	Parent=transcript:YCL047C_mRNA;Name=YCL047C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCL047C_mRNA-E1;rank=1
+III	sgd	CDS	43661	44437	.	-	0	ID=CDS:YCL047C_mRNA;Parent=transcript:YCL047C_mRNA;protein_id=YCL047C_mRNA
+###
+III	sgd	gene	44623	46905	.	-	.	ID=gene:YCL045C;biotype=protein_coding;description=Member of conserved endoplasmic reticulum membrane complex%3B involved in efficient folding of proteins in the ER%3B null mutant displays induction of the unfolded protein response%3B interacts with Gal80p%3B homologous to worm H17B01.4/EMC-1%2C fly CG2943%2C and human KIAA0090 [Source:SGD%3BAcc:S000000550];gene_id=YCL045C;logic_name=sgd
+III	sgd	mRNA	44623	46905	.	-	.	ID=transcript:YCL045C_mRNA;Parent=gene:YCL045C;biotype=protein_coding;transcript_id=YCL045C_mRNA
+III	sgd	exon	44623	46905	.	-	.	Parent=transcript:YCL045C_mRNA;Name=YCL045C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCL045C_mRNA-E1;rank=1
+III	sgd	CDS	44623	46905	.	-	0	ID=CDS:YCL045C_mRNA;Parent=transcript:YCL045C_mRNA;protein_id=YCL045C_mRNA
+###
+III	sgd	gene	46640	46963	.	+	.	ID=gene:YCL046W;biotype=protein_coding;description=Dubious open reading frame%3B unlikely to encode a functional protein%2C based on available experimental and comparative sequence data%3B partially overlaps the uncharacterized ORF YCL045C [Source:SGD%3BAcc:S000000551];gene_id=YCL046W;logic_name=sgd
+III	sgd	mRNA	46640	46963	.	+	.	ID=transcript:YCL046W_mRNA;Parent=gene:YCL046W;biotype=protein_coding;transcript_id=YCL046W_mRNA
+III	sgd	exon	46640	46963	.	+	.	Parent=transcript:YCL046W_mRNA;Name=YCL046W_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCL046W_mRNA-E1;rank=1
+III	sgd	CDS	46640	46963	.	+	0	ID=CDS:YCL046W_mRNA;Parent=transcript:YCL046W_mRNA;protein_id=YCL046W_mRNA
+###
+III	sgd	gene	47111	48364	.	-	.	ID=gene:YCL044C;biotype=protein_coding;description=Subunit of the mitochondrial (mt) i-AAA protease supercomplex%3B i-AAA degrades misfolded mitochondrial proteins%3B forms a subcomplex with Mgr3p that binds to substrates to facilitate proteolysis%3B required for growth of cells lacking mtDNA [Source:SGD%3BAcc:S000000549];gene_id=YCL044C;logic_name=sgd
+III	sgd	mRNA	47111	48364	.	-	.	ID=transcript:YCL044C_mRNA;Parent=gene:YCL044C;biotype=protein_coding;transcript_id=YCL044C_mRNA
+III	sgd	exon	47111	48364	.	-	.	Parent=transcript:YCL044C_mRNA;Name=YCL044C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCL044C_mRNA-E1;rank=1
+III	sgd	CDS	47111	48364	.	-	0	ID=CDS:YCL044C_mRNA;Parent=transcript:YCL044C_mRNA;protein_id=YCL044C_mRNA
+###
+III	sgd	gene	48653	50221	.	-	.	ID=gene:YCL043C;Name=PDI1;biotype=protein_coding;description=Protein disulfide isomerase%3B multifunctional oxidoreductase of the ER lumen%2C essential for disulfide bond formation in secretory and cell-surface proteins%2C processing of non-native disulfide bonds%3B Ero1p activator%3B complexes with exomannosidase%2C Mnl1p to facilitate the recognition of misfolded glycoproteins and the trimming of glycan Man8GlcNAc2 to Man7GlcNAc2 on substrates%2C thereby accelerating ERAD%3B PDI1 has a paralog%2C EUG1%2C that arose from the whole genome duplication [Source:SGD%3BAcc:S000000548];gene_id=YCL043C;logic_name=sgd
+III	sgd	mRNA	48653	50221	.	-	.	ID=transcript:YCL043C_mRNA;Parent=gene:YCL043C;biotype=protein_coding;transcript_id=YCL043C_mRNA
+III	sgd	exon	48653	50221	.	-	.	Parent=transcript:YCL043C_mRNA;Name=YCL043C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCL043C_mRNA-E1;rank=1
+III	sgd	CDS	48653	50221	.	-	0	ID=CDS:YCL043C_mRNA;Parent=transcript:YCL043C_mRNA;protein_id=YCL043C_mRNA
+###
+III	sgd	gene	50133	50627	.	-	.	ID=gene:YCL041C;biotype=protein_coding;description=Dubious open reading frame%3B unlikely to encode a functional protein%2C based on available experimental and comparative sequence data%3B partially overlaps both the verified gene PDI1/YCL043C and the uncharacterized gene YCL042W [Source:SGD%3BAcc:S000000546];gene_id=YCL041C;logic_name=sgd
+III	sgd	mRNA	50133	50627	.	-	.	ID=transcript:YCL041C_mRNA;Parent=gene:YCL041C;biotype=protein_coding;transcript_id=YCL041C_mRNA
+III	sgd	exon	50133	50627	.	-	.	Parent=transcript:YCL041C_mRNA;Name=YCL041C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCL041C_mRNA-E1;rank=1
+III	sgd	CDS	50133	50627	.	-	0	ID=CDS:YCL041C_mRNA;Parent=transcript:YCL041C_mRNA;protein_id=YCL041C_mRNA
+###
+III	sgd	gene	50584	50943	.	+	.	ID=gene:YCL042W;biotype=protein_coding;description=Putative protein of unknown function%3B epitope-tagged protein localizes to the cytoplasm [Source:SGD%3BAcc:S000000547];gene_id=YCL042W;logic_name=sgd
+III	sgd	mRNA	50584	50943	.	+	.	ID=transcript:YCL042W_mRNA;Parent=gene:YCL042W;biotype=protein_coding;transcript_id=YCL042W_mRNA
+III	sgd	exon	50584	50943	.	+	.	Parent=transcript:YCL042W_mRNA;Name=YCL042W_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCL042W_mRNA-E1;rank=1
+III	sgd	CDS	50584	50943	.	+	0	ID=CDS:YCL042W_mRNA;Parent=transcript:YCL042W_mRNA;protein_id=YCL042W_mRNA
+###
+III	sgd	gene	50838	52340	.	+	.	ID=gene:YCL040W;Name=GLK1;biotype=protein_coding;description=Glucokinase%3B catalyzes the phosphorylation of glucose at C6 in the first irreversible step of glucose metabolism%3B one of three glucose phosphorylating enzymes%3B expression regulated by non-fermentable carbon sources%3B GLK1 has a paralog%2C EMI2%2C that arose from the whole genome duplication [Source:SGD%3BAcc:S000000545];gene_id=YCL040W;logic_name=sgd
+III	sgd	mRNA	50838	52340	.	+	.	ID=transcript:YCL040W_mRNA;Parent=gene:YCL040W;biotype=protein_coding;transcript_id=YCL040W_mRNA
+III	sgd	exon	50838	52340	.	+	.	Parent=transcript:YCL040W_mRNA;Name=YCL040W_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCL040W_mRNA-E1;rank=1
+III	sgd	CDS	50838	52340	.	+	0	ID=CDS:YCL040W_mRNA;Parent=transcript:YCL040W_mRNA;protein_id=YCL040W_mRNA
+###
+III	sgd	gene	52645	54882	.	+	.	ID=gene:YCL039W;Name=GID7;biotype=protein_coding;description=Subunit of GID Complex that binds directly to central component Vid30p%3B GID complex is involved in proteasome-dependent catabolite inactivation of fructose-1%2C6-bisphosphatase%3B Gid7p contains six WD40 repeats%3B computational analysis suggests that Gid7p and Moh1p have similar functions [Source:SGD%3BAcc:S000000544];gene_id=YCL039W;logic_name=sgd
+III	sgd	mRNA	52645	54882	.	+	.	ID=transcript:YCL039W_mRNA;Parent=gene:YCL039W;biotype=protein_coding;transcript_id=YCL039W_mRNA
+III	sgd	exon	52645	54882	.	+	.	Parent=transcript:YCL039W_mRNA;Name=YCL039W_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCL039W_mRNA-E1;rank=1
+III	sgd	CDS	52645	54882	.	+	0	ID=CDS:YCL039W_mRNA;Parent=transcript:YCL039W_mRNA;protein_id=YCL039W_mRNA
+###
+III	sgd	gene	54941	56527	.	-	.	ID=gene:YCL038C;Name=ATG22;biotype=protein_coding;description=Vacuolar integral membrane protein required for efflux of amino acids%3B required for efflux of amino acids during autophagic body breakdown in the vacuole%3B null mutation causes a gradual loss of viability during starvation [Source:SGD%3BAcc:S000000543];gene_id=YCL038C;logic_name=sgd
+III	sgd	mRNA	54941	56527	.	-	.	ID=transcript:YCL038C_mRNA;Parent=gene:YCL038C;biotype=protein_coding;transcript_id=YCL038C_mRNA
+III	sgd	exon	54941	56527	.	-	.	Parent=transcript:YCL038C_mRNA;Name=YCL038C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCL038C_mRNA-E1;rank=1
+III	sgd	CDS	54941	56527	.	-	0	ID=CDS:YCL038C_mRNA;Parent=transcript:YCL038C_mRNA;protein_id=YCL038C_mRNA
+###
+III	sgd	gene	57374	58678	.	-	.	ID=gene:YCL037C;biotype=protein_coding;description=Cytoplasmic RNA-binding protein%3B shuttles between nucleus and cytoplasm and is exported from the nucleus in an mRNA export-dependent manner%3B associates with translating ribosomes%3B involved in heme regulation of Hap1p as a component of the HMC complex%2C also involved in the organization of actin filaments%3B contains a La motif%3B SRO9 has a paralog%2C SLF1%2C that arose from the whole genome duplication [Source:SGD%3BAcc:S000000542];gene_id=YCL037C;logic_name=sgd
+III	sgd	mRNA	57374	58678	.	-	.	ID=transcript:YCL037C_mRNA;Parent=gene:YCL037C;biotype=protein_coding;transcript_id=YCL037C_mRNA
+III	sgd	exon	57374	58678	.	-	.	Parent=transcript:YCL037C_mRNA;Name=YCL037C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCL037C_mRNA-E1;rank=1
+III	sgd	CDS	57374	58678	.	-	0	ID=CDS:YCL037C_mRNA;Parent=transcript:YCL037C_mRNA;protein_id=YCL037C_mRNA
+###
+III	sgd	gene	59026	60726	.	+	.	ID=gene:YCL036W;Name=GFD2;biotype=protein_coding;description=Protein of unknown function%3B identified as a high-copy suppressor of a dbp5 mutation%3B GFD2 has a paralog%2C YDR514C%2C that arose from the whole genome duplication [Source:SGD%3BAcc:S000000541];gene_id=YCL036W;logic_name=sgd
+III	sgd	mRNA	59026	60726	.	+	.	ID=transcript:YCL036W_mRNA;Parent=gene:YCL036W;biotype=protein_coding;transcript_id=YCL036W_mRNA
+III	sgd	exon	59026	60726	.	+	.	Parent=transcript:YCL036W_mRNA;Name=YCL036W_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCL036W_mRNA-E1;rank=1
+III	sgd	CDS	59026	60726	.	+	0	ID=CDS:YCL036W_mRNA;Parent=transcript:YCL036W_mRNA;protein_id=YCL036W_mRNA
+###
+III	sgd	gene	60841	61173	.	-	.	ID=gene:YCL035C;biotype=protein_coding;description=Glutathione-dependent disulfide oxidoreductase%3B hydroperoxide and superoxide-radical responsive%2C heat-stable%2C with active site cysteine pair%3B protects cells from oxidative damage%3B GRX1 has a paralog%2C GRX2%2C that arose from the whole genome duplication%3B protein abundance increases in response to DNA replication stress [Source:SGD%3BAcc:S000000540];gene_id=YCL035C;logic_name=sgd
+III	sgd	mRNA	60841	61173	.	-	.	ID=transcript:YCL035C_mRNA;Parent=gene:YCL035C;biotype=protein_coding;transcript_id=YCL035C_mRNA
+III	sgd	exon	60841	61173	.	-	.	Parent=transcript:YCL035C_mRNA;Name=YCL035C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCL035C_mRNA-E1;rank=1
+III	sgd	CDS	60841	61173	.	-	0	ID=CDS:YCL035C_mRNA;Parent=transcript:YCL035C_mRNA;protein_id=YCL035C_mRNA
+###
+III	sgd	gene	61658	62722	.	+	.	ID=gene:YCL034W;biotype=protein_coding;description=Protein involved in membrane-trafficking events at plasma membrane%3B interacts with actin regulators Sla1p and Las17p%2C ubiquitin%2C Arf3p to couple actin dynamics to membrane trafficking processes%3B similar structure to GGA family of proteins with N-terminal VHS domain and GAT domain%3B binds Las17p%2C which is homolog of human Wiskott-Aldrich Syndrome protein involved in actin patch assembly%2C actin polymerization%3B may mediate disassembly of Pan1 complex from endocytic coat [Source:SGD%3BAcc:S000000539];gene_id=YCL034W;logic_name=sgd
+III	sgd	mRNA	61658	62722	.	+	.	ID=transcript:YCL034W_mRNA;Parent=gene:YCL034W;biotype=protein_coding;transcript_id=YCL034W_mRNA
+III	sgd	exon	61658	62722	.	+	.	Parent=transcript:YCL034W_mRNA;Name=YCL034W_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCL034W_mRNA-E1;rank=1
+III	sgd	CDS	61658	62722	.	+	0	ID=CDS:YCL034W_mRNA;Parent=transcript:YCL034W_mRNA;protein_id=YCL034W_mRNA
+###
+III	sgd	gene	62776	63282	.	-	.	ID=gene:YCL033C;Name=MXR2;biotype=protein_coding;description=Methionine-R-sulfoxide reductase%3B involved in the response to oxidative stress%3B protects iron-sulfur clusters from oxidative inactivation along with MXR1%3B involved in the regulation of lifespan [Source:SGD%3BAcc:S000000538];gene_id=YCL033C;logic_name=sgd
+III	sgd	mRNA	62776	63282	.	-	.	ID=transcript:YCL033C_mRNA;Parent=gene:YCL033C;biotype=protein_coding;transcript_id=YCL033C_mRNA
+III	sgd	exon	62776	63282	.	-	.	Parent=transcript:YCL033C_mRNA;Name=YCL033C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCL033C_mRNA-E1;rank=1
+III	sgd	CDS	62776	63282	.	-	0	ID=CDS:YCL033C_mRNA;Parent=transcript:YCL033C_mRNA;protein_id=YCL033C_mRNA
+###
+III	sgd	gene	63441	64481	.	+	.	ID=gene:YCL032W;biotype=protein_coding;description=Adaptor protein for various signaling pathways%3B involved in mating response%2C invasive/filamentous growth%2C osmotolerance%3B acts as an adaptor that links G protein-associated Cdc42p-Ste20p complex to the effector Ste11p to modulate signal transduction [Source:SGD%3BAcc:S000000537];gene_id=YCL032W;logic_name=sgd
+III	sgd	mRNA	63441	64481	.	+	.	ID=transcript:YCL032W_mRNA;Parent=gene:YCL032W;biotype=protein_coding;transcript_id=YCL032W_mRNA
+III	sgd	exon	63441	64481	.	+	.	Parent=transcript:YCL032W_mRNA;Name=YCL032W_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCL032W_mRNA-E1;rank=1
+III	sgd	CDS	63441	64481	.	+	0	ID=CDS:YCL032W_mRNA;Parent=transcript:YCL032W_mRNA;protein_id=YCL032W_mRNA
+###
+III	sgd	gene	64675	65568	.	-	.	ID=gene:YCL031C;biotype=protein_coding;description=Essential protein involved in rRNA processing and ribosome biogenesis%3B protein abundance increases in response to DNA replication stress [Source:SGD%3BAcc:S000000536];gene_id=YCL031C;logic_name=sgd
+III	sgd	mRNA	64675	65568	.	-	.	ID=transcript:YCL031C_mRNA;Parent=gene:YCL031C;biotype=protein_coding;transcript_id=YCL031C_mRNA
+III	sgd	exon	64675	65568	.	-	.	Parent=transcript:YCL031C_mRNA;Name=YCL031C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCL031C_mRNA-E1;rank=1
+III	sgd	CDS	64675	65568	.	-	0	ID=CDS:YCL031C_mRNA;Parent=transcript:YCL031C_mRNA;protein_id=YCL031C_mRNA
+###
+III	sgd	gene	65934	68333	.	-	.	ID=gene:YCL030C;biotype=protein_coding;description=Multifunctional enzyme containing phosphoribosyl-ATP pyrophosphatase%3B phosphoribosyl-AMP cyclohydrolase%2C and histidinol dehydrogenase activities%3B catalyzes the second%2C third%2C ninth and tenth steps in histidine biosynthesis [Source:SGD%3BAcc:S000000535];gene_id=YCL030C;logic_name=sgd
+III	sgd	mRNA	65934	68333	.	-	.	ID=transcript:YCL030C_mRNA;Parent=gene:YCL030C;biotype=protein_coding;transcript_id=YCL030C_mRNA
+III	sgd	exon	65934	68333	.	-	.	Parent=transcript:YCL030C_mRNA;Name=YCL030C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCL030C_mRNA-E1;rank=1
+III	sgd	CDS	65934	68333	.	-	0	ID=CDS:YCL030C_mRNA;Parent=transcript:YCL030C_mRNA;protein_id=YCL030C_mRNA
+###
+III	sgd	gene	68599	69921	.	-	.	ID=gene:YCL029C;Name=BIK1;biotype=protein_coding;description=Microtubule-associated protein%3B component of the interface between microtubules and kinetochore%2C involved in sister chromatid separation%3B essential in polyploid cells but not in haploid or diploid cells%3B ortholog of mammalian CLIP-170 [Source:SGD%3BAcc:S000000534];gene_id=YCL029C;logic_name=sgd
+III	sgd	mRNA	68599	69921	.	-	.	ID=transcript:YCL029C_mRNA;Parent=gene:YCL029C;biotype=protein_coding;transcript_id=YCL029C_mRNA
+III	sgd	exon	68599	69921	.	-	.	Parent=transcript:YCL029C_mRNA;Name=YCL029C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCL029C_mRNA-E1;rank=1
+III	sgd	CDS	68599	69921	.	-	0	ID=CDS:YCL029C_mRNA;Parent=transcript:YCL029C_mRNA;protein_id=YCL029C_mRNA
+###
+III	sgd	gene	70150	71367	.	+	.	ID=gene:YCL028W;Name=RNQ1;biotype=protein_coding;description=[PIN(+)] prion%3B an infectious protein conformation that is generally an ordered protein aggregate [Source:SGD%3BAcc:S000000533];gene_id=YCL028W;logic_name=sgd
+III	sgd	mRNA	70150	71367	.	+	.	ID=transcript:YCL028W_mRNA;Parent=gene:YCL028W;biotype=protein_coding;transcript_id=YCL028W_mRNA
+III	sgd	exon	70150	71367	.	+	.	Parent=transcript:YCL028W_mRNA;Name=YCL028W_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCL028W_mRNA-E1;rank=1
+III	sgd	CDS	70150	71367	.	+	0	ID=CDS:YCL028W_mRNA;Parent=transcript:YCL028W_mRNA;protein_id=YCL028W_mRNA
+###
+III	sgd	gene	71803	73341	.	+	.	ID=gene:YCL027W;biotype=protein_coding;description=Membrane protein localized to the shmoo tip%3B required for cell fusion%3B expression regulated by mating pheromone%3B proposed to coordinate signaling%2C fusion%2C and polarization events required for fusion%3B potential Cdc28p substrate [Source:SGD%3BAcc:S000000532];gene_id=YCL027W;logic_name=sgd
+III	sgd	mRNA	71803	73341	.	+	.	ID=transcript:YCL027W_mRNA;Parent=gene:YCL027W;biotype=protein_coding;transcript_id=YCL027W_mRNA
+III	sgd	exon	71803	73341	.	+	.	Parent=transcript:YCL027W_mRNA;Name=YCL027W_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCL027W_mRNA-E1;rank=1
+III	sgd	CDS	71803	73341	.	+	0	ID=CDS:YCL027W_mRNA;Parent=transcript:YCL027W_mRNA;protein_id=YCL027W_mRNA
+###
+III	sgd	gene	73405	73986	.	-	.	ID=gene:YCL026C-B;Name=HBN1;biotype=protein_coding;description=Protein of unknown function%3B similar to bacterial nitroreductases%3B green fluorescent protein (GFP)-fusion protein localizes to the cytoplasm and nucleus%3B protein becomes insoluble upon intracellular iron depletion%3B protein abundance increases in response to DNA replication stress [Source:SGD%3BAcc:S000007548];gene_id=YCL026C-B;logic_name=sgd
+III	sgd	mRNA	73405	73986	.	-	.	ID=transcript:YCL026C-B_mRNA;Parent=gene:YCL026C-B;biotype=protein_coding;transcript_id=YCL026C-B_mRNA
+III	sgd	exon	73405	73986	.	-	.	Parent=transcript:YCL026C-B_mRNA;Name=YCL026C-B_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCL026C-B_mRNA-E1;rank=1
+III	sgd	CDS	73405	73986	.	-	0	ID=CDS:YCL026C-B_mRNA;Parent=transcript:YCL026C-B_mRNA;protein_id=YCL026C-B_mRNA
+###
+III	sgd	gene	74704	75285	.	-	.	ID=gene:YCL026C-A;Name=FRM2;biotype=protein_coding;description=Type II nitroreductase%2C using NADH as reductant%3B mutants are defective in fatty acid mediated repression of genes involved in fatty acid biosynthesis indicative of a role in lipid signaling%3B involved in the oxidative stress response%3B transcription induction by cadmium and selenite indicates a possible role in the metal stress response%3B expression induced in cells treated with the mycotoxin patulin [Source:SGD%3BAcc:S000000589];gene_id=YCL026C-A;logic_name=sgd
+III	sgd	mRNA	74704	75285	.	-	.	ID=transcript:YCL026C-A_mRNA;Parent=gene:YCL026C-A;biotype=protein_coding;transcript_id=YCL026C-A_mRNA
+III	sgd	exon	74704	75285	.	-	.	Parent=transcript:YCL026C-A_mRNA;Name=YCL026C-A_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCL026C-A_mRNA-E1;rank=1
+III	sgd	CDS	74704	75285	.	-	0	ID=CDS:YCL026C-A_mRNA;Parent=transcript:YCL026C-A_mRNA;protein_id=YCL026C-A_mRNA
+###
+III	sgd	gene	76018	77919	.	-	.	ID=gene:YCL025C;Name=AGP1;biotype=protein_coding;description=Low-affinity amino acid permease with broad substrate range%3B involved in uptake of asparagine%2C glutamine%2C and other amino acids%3B expression regulated by SPS plasma membrane amino acid sensor system (Ssy1p-Ptr3p-Ssy5p)%3B AGP1 has a paralog%2C GNP1%2C that arose from the whole genome duplication [Source:SGD%3BAcc:S000000530];gene_id=YCL025C;logic_name=sgd
+III	sgd	mRNA	76018	77919	.	-	.	ID=transcript:YCL025C_mRNA;Parent=gene:YCL025C;biotype=protein_coding;transcript_id=YCL025C_mRNA
+III	sgd	exon	76018	77919	.	-	.	Parent=transcript:YCL025C_mRNA;Name=YCL025C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCL025C_mRNA-E1;rank=1
+III	sgd	CDS	76018	77919	.	-	0	ID=CDS:YCL025C_mRNA;Parent=transcript:YCL025C_mRNA;protein_id=YCL025C_mRNA
+###
+III	sgd	gene	78949	79296	.	-	.	ID=gene:YCL023C;biotype=protein_coding;description=Dubious open reading frame%3B unlikely to encode a functional protein%2C based on available experimental and comparative sequence data%3B partially overlaps verified ORF KCC4 [Source:SGD%3BAcc:S000000528];gene_id=YCL023C;logic_name=sgd
+III	sgd	mRNA	78949	79296	.	-	.	ID=transcript:YCL023C_mRNA;Parent=gene:YCL023C;biotype=protein_coding;transcript_id=YCL023C_mRNA
+III	sgd	exon	78949	79296	.	-	.	Parent=transcript:YCL023C_mRNA;Name=YCL023C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCL023C_mRNA-E1;rank=1
+III	sgd	CDS	78949	79296	.	-	0	ID=CDS:YCL023C_mRNA;Parent=transcript:YCL023C_mRNA;protein_id=YCL023C_mRNA
+###
+III	sgd	gene	79162	82275	.	+	.	ID=gene:YCL024W;biotype=protein_coding;description=Protein kinase of the bud neck involved in the septin checkpoint%3B associates with septin proteins%2C negatively regulates Swe1p by phosphorylation%2C shows structural homology to bud neck kinases Gin4p and Hsl1p%3B KCC4 has a paralog%2C GIN4%2C that arose from the whole genome duplication [Source:SGD%3BAcc:S000000529];gene_id=YCL024W;logic_name=sgd
+III	sgd	mRNA	79162	82275	.	+	.	ID=transcript:YCL024W_mRNA;Parent=gene:YCL024W;biotype=protein_coding;transcript_id=YCL024W_mRNA
+III	sgd	exon	79162	82275	.	+	.	Parent=transcript:YCL024W_mRNA;Name=YCL024W_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCL024W_mRNA-E1;rank=1
+III	sgd	CDS	79162	82275	.	+	0	ID=CDS:YCL024W_mRNA;Parent=transcript:YCL024W_mRNA;protein_id=YCL024W_mRNA
+###
+III	sgd	gene	81570	82085	.	-	.	ID=gene:YCL022C;biotype=protein_coding;description=Dubious open reading frame%3B unlikely to encode a functional protein%2C based on available experimental and comparative sequence data%3B completely overlaps verified gene KCC4/YCL024W [Source:SGD%3BAcc:S000000527];gene_id=YCL022C;logic_name=sgd
+III	sgd	mRNA	81570	82085	.	-	.	ID=transcript:YCL022C_mRNA;Parent=gene:YCL022C;biotype=protein_coding;transcript_id=YCL022C_mRNA
+III	sgd	exon	81570	82085	.	-	.	Parent=transcript:YCL022C_mRNA;Name=YCL022C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCL022C_mRNA-E1;rank=1
+III	sgd	CDS	81570	82085	.	-	0	ID=CDS:YCL022C_mRNA;Parent=transcript:YCL022C_mRNA;protein_id=YCL022C_mRNA
+###
+III	sgd	ncRNA_gene	82462	82533	.	-	.	ID=gene:tE(UUC)C;biotype=tRNA;description=Glutamine tRNA (tRNA-Glu)%2C predicted by tRNAscan-SE analysis%3B thiolation of uridine at wobble position (34) requires Ncs6p [Source:SGD%3BAcc:S000006549];gene_id=tE(UUC)C;logic_name=sgd
+III	sgd	tRNA	82462	82533	.	-	.	ID=transcript:tE(UUC)C_tRNA;Parent=gene:tE(UUC)C;biotype=tRNA;transcript_id=tE(UUC)C_tRNA
+III	sgd	exon	82462	82533	.	-	.	Parent=transcript:tE(UUC)C_tRNA;Name=tE(UUC)C_tRNA-E1;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=tE(UUC)C_tRNA-E1;rank=1
+###
+III	sgd	gene	83620	83997	.	+	.	ID=gene:YCL021W-A;biotype=protein_coding;description=Putative protein of unknown function%3B SWAT-GFP and mCherry fusion proteins localize to the vacuole [Source:SGD%3BAcc:S000007549];gene_id=YCL021W-A;logic_name=sgd
+III	sgd	mRNA	83620	83997	.	+	.	ID=transcript:YCL021W-A_mRNA;Parent=gene:YCL021W-A;biotype=protein_coding;transcript_id=YCL021W-A_mRNA
+III	sgd	exon	83620	83997	.	+	.	Parent=transcript:YCL021W-A_mRNA;Name=YCL021W-A_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCL021W-A_mRNA-E1;rank=1
+III	sgd	CDS	83620	83997	.	+	0	ID=CDS:YCL021W-A_mRNA;Parent=transcript:YCL021W-A_mRNA;protein_id=YCL021W-A_mRNA
+###
+III	sgd	ncRNA_gene	90859	90972	.	+	.	ID=gene:tL(CAA)C;biotype=tRNA;description=Leucine tRNA (tRNA-Leu)%2C predicted by tRNAscan-SE analysis%3B can mutate to suppress amber nonsense mutations [Source:SGD%3BAcc:S000006637];gene_id=tL(CAA)C;logic_name=sgd
+III	sgd	tRNA	90859	90972	.	+	.	ID=transcript:tL(CAA)C_tRNA;Parent=gene:tL(CAA)C;biotype=tRNA;transcript_id=tL(CAA)C_tRNA
+III	sgd	exon	90859	90896	.	+	.	Parent=transcript:tL(CAA)C_tRNA;Name=tL(CAA)C_tRNA-E1;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=tL(CAA)C_tRNA-E1;rank=1
+III	sgd	exon	90929	90972	.	+	.	Parent=transcript:tL(CAA)C_tRNA;Name=tL(CAA)C_tRNA-E2;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=tL(CAA)C_tRNA-E2;rank=2
+###
+III	sgd	gene	91324	92418	.	+	.	ID=gene:YCL018W;biotype=protein_coding;description=Beta-isopropylmalate dehydrogenase (IMDH)%3B catalyzes the third step in the leucine biosynthesis pathway%3B can additionally catalyze the conversion of beta-ethylmalate into alpha-ketovalerate [Source:SGD%3BAcc:S000000523];gene_id=YCL018W;logic_name=sgd
+III	sgd	mRNA	91324	92418	.	+	.	ID=transcript:YCL018W_mRNA;Parent=gene:YCL018W;biotype=protein_coding;transcript_id=YCL018W_mRNA
+III	sgd	exon	91324	92418	.	+	.	Parent=transcript:YCL018W_mRNA;Name=YCL018W_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCL018W_mRNA-E1;rank=1
+III	sgd	CDS	91324	92418	.	+	0	ID=CDS:YCL018W_mRNA;Parent=transcript:YCL018W_mRNA;protein_id=YCL018W_mRNA
+###
+III	sgd	gene	92777	94270	.	-	.	ID=gene:YCL017C;Name=NFS1;biotype=protein_coding;description=Cysteine desulfurase%3B involved in iron-sulfur cluster (Fe/S) biogenesis and in thio-modification of mitochondrial and cytoplasmic tRNAs%3B essential protein located predominantly in mitochondria [Source:SGD%3BAcc:S000000522];gene_id=YCL017C;logic_name=sgd
+III	sgd	mRNA	92777	94270	.	-	.	ID=transcript:YCL017C_mRNA;Parent=gene:YCL017C;biotype=protein_coding;transcript_id=YCL017C_mRNA
+III	sgd	exon	92777	94270	.	-	.	Parent=transcript:YCL017C_mRNA;Name=YCL017C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCL017C_mRNA-E1;rank=1
+III	sgd	CDS	92777	94270	.	-	0	ID=CDS:YCL017C_mRNA;Parent=transcript:YCL017C_mRNA;protein_id=YCL017C_mRNA
+###
+III	sgd	gene	94621	95763	.	-	.	ID=gene:YCL016C;biotype=protein_coding;description=Subunit of a complex with Ctf8p and Ctf18p%3B shares some components with Replication Factor C%3B required for sister chromatid cohesion and telomere length maintenance [Source:SGD%3BAcc:S000000521];gene_id=YCL016C;logic_name=sgd
+III	sgd	mRNA	94621	95763	.	-	.	ID=transcript:YCL016C_mRNA;Parent=gene:YCL016C;biotype=protein_coding;transcript_id=YCL016C_mRNA
+III	sgd	exon	94621	95763	.	-	.	Parent=transcript:YCL016C_mRNA;Name=YCL016C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCL016C_mRNA-E1;rank=1
+III	sgd	CDS	94621	95763	.	-	0	ID=CDS:YCL016C_mRNA;Parent=transcript:YCL016C_mRNA;protein_id=YCL016C_mRNA
+###
+III	sgd	gene	96281	101191	.	+	.	ID=gene:YCL014W;Name=BUD3;biotype=protein_coding;description=Guanine nucleotide exchange factor (GEF) for Cdc42p%3B activates Cdc42p in early G1%2C accounting for the first stage of biphasic activation%2C with Cdc24p accounting for the second stage in late G1%3B involved in the Cdc42p-mediated assembly of the axial landmark that dictates the site for the next round of budding%2C resulting in the axial budding pattern observed in haploids%3B localizes with septins to the bud neck contractile ring in mitosis [Source:SGD%3BAcc:S000000520];gene_id=YCL014W;logic_name=sgd
+III	sgd	mRNA	96281	101191	.	+	.	ID=transcript:YCL014W_mRNA;Parent=gene:YCL014W;biotype=protein_coding;transcript_id=YCL014W_mRNA
+III	sgd	exon	96281	101191	.	+	.	Parent=transcript:YCL014W_mRNA;Name=YCL014W_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCL014W_mRNA-E1;rank=1
+III	sgd	CDS	96281	101191	.	+	0	ID=CDS:YCL014W_mRNA;Parent=transcript:YCL014W_mRNA;protein_id=YCL014W_mRNA
+###
+III	sgd	gene	101317	101788	.	-	.	ID=gene:YCL012C;Name=YCL012C;biotype=protein_coding;description=Protein of unknown function%3B SWAT-GFP and mCherry fusion proteins localize to the endoplasmic reticulum and vacuole respectively%3B orthologs are present in S. bayanus%2C S. paradoxus and Ashbya gossypii%3B YCL012C is not an essential gene [Source:SGD%3BAcc:S000029705];gene_id=YCL012C;logic_name=sgd
+III	sgd	mRNA	101317	101788	.	-	.	ID=transcript:YCL012C_mRNA;Parent=gene:YCL012C;biotype=protein_coding;transcript_id=YCL012C_mRNA
+III	sgd	exon	101317	101633	.	-	.	Parent=transcript:YCL012C_mRNA;Name=YCL012C_mRNA-E2;constitutive=1;ensembl_end_phase=0;ensembl_phase=1;exon_id=YCL012C_mRNA-E2;rank=2
+III	sgd	CDS	101317	101633	.	-	2	ID=CDS:YCL012C_mRNA;Parent=transcript:YCL012C_mRNA;protein_id=YCL012C_mRNA
+III	sgd	exon	101701	101788	.	-	.	Parent=transcript:YCL012C_mRNA;Name=YCL012C_mRNA-E1;constitutive=1;ensembl_end_phase=1;ensembl_phase=0;exon_id=YCL012C_mRNA-E1;rank=1
+III	sgd	CDS	101701	101788	.	-	0	ID=CDS:YCL012C_mRNA;Parent=transcript:YCL012C_mRNA;protein_id=YCL012C_mRNA
+###
+III	sgd	gene	102075	103358	.	-	.	ID=gene:YCL011C;Name=GBP2;biotype=protein_coding;description=Poly(A+) RNA-binding protein%3B key surveillance factor for the selective export of spliced mRNAs from the nucleus to the cytoplasm%3B preference for intron-containing genes%3B similar to Npl3p%3B also binds single-stranded telomeric repeat sequence in vitro%3B relocalizes to the cytosol in response to hypoxia%3B GBP2 has a paralog%2C HRB1%2C that arose from the whole genome duplication [Source:SGD%3BAcc:S000000517];gene_id=YCL011C;logic_name=sgd
+III	sgd	mRNA	102075	103358	.	-	.	ID=transcript:YCL011C_mRNA;Parent=gene:YCL011C;biotype=protein_coding;transcript_id=YCL011C_mRNA
+III	sgd	exon	102075	103358	.	-	.	Parent=transcript:YCL011C_mRNA;Name=YCL011C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCL011C_mRNA-E1;rank=1
+III	sgd	CDS	102075	103358	.	-	0	ID=CDS:YCL011C_mRNA;Parent=transcript:YCL011C_mRNA;protein_id=YCL011C_mRNA
+###
+III	sgd	gene	103571	104350	.	-	.	ID=gene:YCL010C;biotype=protein_coding;description=Component of the HAT/Core module of the SAGA%2C SLIK%2C and ADA complexes%3B HAT/Core module also contains Gcn5p%2C Ngg1p%2C and Ada2p%3B binds methylated histone H3K4%3B involved in transcriptional regulation through SAGA and TBP recruitment to target promoters and H3 acetylation [Source:SGD%3BAcc:S000000516];gene_id=YCL010C;logic_name=sgd
+III	sgd	mRNA	103571	104350	.	-	.	ID=transcript:YCL010C_mRNA;Parent=gene:YCL010C;biotype=protein_coding;transcript_id=YCL010C_mRNA
+III	sgd	exon	103571	104350	.	-	.	Parent=transcript:YCL010C_mRNA;Name=YCL010C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCL010C_mRNA-E1;rank=1
+III	sgd	CDS	103571	104350	.	-	0	ID=CDS:YCL010C_mRNA;Parent=transcript:YCL010C_mRNA;protein_id=YCL010C_mRNA
+###
+III	sgd	gene	104619	105548	.	-	.	ID=gene:YCL009C;biotype=protein_coding;description=Regulatory subunit of acetolactate synthase%3B acetolactate synthase catalyzes the first step of branched-chain amino acid biosynthesis%3B enhances activity of the Ilv2p catalytic subunit%2C localizes to mitochondria [Source:SGD%3BAcc:S000000515];gene_id=YCL009C;logic_name=sgd
+III	sgd	mRNA	104619	105548	.	-	.	ID=transcript:YCL009C_mRNA;Parent=gene:YCL009C;biotype=protein_coding;transcript_id=YCL009C_mRNA
+III	sgd	exon	104619	105548	.	-	.	Parent=transcript:YCL009C_mRNA;Name=YCL009C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCL009C_mRNA-E1;rank=1
+III	sgd	CDS	104619	105548	.	-	0	ID=CDS:YCL009C_mRNA;Parent=transcript:YCL009C_mRNA;protein_id=YCL009C_mRNA
+###
+III	sgd	gene	105696	106853	.	-	.	ID=gene:YCL008C;Name=STP22;biotype=protein_coding;description=Component of the ESCRT-I complex%3B ESCRT-I is involved in ubiquitin-dependent sorting of proteins into the endosome%3B prevents polyubiquitination of the arrestin-related protein Rim8p%2C thereby directing its monoubiquitination by Rsp5p%3B homologous to the mouse and human Tsg101 tumor susceptibility gene%3B mutants exhibit a Class E Vps phenotype%3B [Source:SGD%3BAcc:S000000514];gene_id=YCL008C;logic_name=sgd
+III	sgd	mRNA	105696	106853	.	-	.	ID=transcript:YCL008C_mRNA;Parent=gene:YCL008C;biotype=protein_coding;transcript_id=YCL008C_mRNA
+III	sgd	exon	105696	106853	.	-	.	Parent=transcript:YCL008C_mRNA;Name=YCL008C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCL008C_mRNA-E1;rank=1
+III	sgd	CDS	105696	106853	.	-	0	ID=CDS:YCL008C_mRNA;Parent=transcript:YCL008C_mRNA;protein_id=YCL008C_mRNA
+###
+III	sgd	gene	106974	107366	.	-	.	ID=gene:YCL007C;Name=YCL007C;biotype=protein_coding;description=Dubious open reading frame%3B unlikely to encode a functional protein%2C based on available experimental and comparative sequence data%3B overlaps verified ORF YCL005W-A%3B mutations in YCL007C were thought to confer sensitivity to calcofluor white%2C but this phenotype was later shown to be due to the defect in YCL005W-A [Source:SGD%3BAcc:S000000513];gene_id=YCL007C;logic_name=sgd
+III	sgd	mRNA	106974	107366	.	-	.	ID=transcript:YCL007C_mRNA;Parent=gene:YCL007C;biotype=protein_coding;transcript_id=YCL007C_mRNA
+III	sgd	exon	106974	107366	.	-	.	Parent=transcript:YCL007C_mRNA;Name=YCL007C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCL007C_mRNA-E1;rank=1
+III	sgd	CDS	106974	107366	.	-	0	ID=CDS:YCL007C_mRNA;Parent=transcript:YCL007C_mRNA;protein_id=YCL007C_mRNA
+###
+III	sgd	gene	107023	107417	.	+	.	ID=gene:YCL005W-A;Name=VMA9;biotype=protein_coding;description=Vacuolar H+ ATPase subunit e of the V-ATPase V0 subcomplex%3B essential for vacuolar acidification%3B interacts with the V-ATPase assembly factor Vma21p in the ER%3B involved in V0 biogenesis [Source:SGD%3BAcc:S000028508];gene_id=YCL005W-A;logic_name=sgd
+III	sgd	mRNA	107023	107417	.	+	.	ID=transcript:YCL005W-A_mRNA;Parent=gene:YCL005W-A;biotype=protein_coding;transcript_id=YCL005W-A_mRNA
+III	sgd	exon	107023	107033	.	+	.	Parent=transcript:YCL005W-A_mRNA;Name=YCL005W-A_mRNA-E1;constitutive=1;ensembl_end_phase=2;ensembl_phase=0;exon_id=YCL005W-A_mRNA-E1;rank=1
+III	sgd	CDS	107023	107033	.	+	0	ID=CDS:YCL005W-A_mRNA;Parent=transcript:YCL005W-A_mRNA;protein_id=YCL005W-A_mRNA
+III	sgd	exon	107111	107191	.	+	.	Parent=transcript:YCL005W-A_mRNA;Name=YCL005W-A_mRNA-E2;constitutive=1;ensembl_end_phase=2;ensembl_phase=2;exon_id=YCL005W-A_mRNA-E2;rank=2
+III	sgd	CDS	107111	107191	.	+	1	ID=CDS:YCL005W-A_mRNA;Parent=transcript:YCL005W-A_mRNA;protein_id=YCL005W-A_mRNA
+III	sgd	exon	107288	107417	.	+	.	Parent=transcript:YCL005W-A_mRNA;Name=YCL005W-A_mRNA-E3;constitutive=1;ensembl_end_phase=0;ensembl_phase=2;exon_id=YCL005W-A_mRNA-E3;rank=3
+III	sgd	CDS	107288	107417	.	+	1	ID=CDS:YCL005W-A_mRNA;Parent=transcript:YCL005W-A_mRNA;protein_id=YCL005W-A_mRNA
+###
+III	sgd	ncRNA_gene	107504	107712	.	-	.	ID=gene:snR43;biotype=snoRNA;description=H/ACA box small nucleolar RNA (snoRNA)%3B guides pseudouridylation of large subunit (LSU) rRNA at position U966 and of 5.8S rRNA at position 73 [Source:SGD%3BAcc:S000006503];gene_id=snR43;logic_name=sgd
+III	sgd	snoRNA	107504	107712	.	-	.	ID=transcript:snR43_snoRNA;Parent=gene:snR43;biotype=snoRNA;transcript_id=snR43_snoRNA
+III	sgd	exon	107504	107712	.	-	.	Parent=transcript:snR43_snoRNA;Name=snR43_snoRNA-E1;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=snR43_snoRNA-E1;rank=1
+###
+III	sgd	gene	108021	108791	.	+	.	ID=gene:YCL005W;biotype=protein_coding;description=Protein involved in lipid droplet (LD) assembly%3B forms a complex with Sei1p at ER-LD contact sites%2C stabilizing contact sites%3B ensures that LDs bud from the ER towards the cytosolic side of the membrane%3B null mutants have decreased net negative cell surface charge and localized accumulation of phosphatidic acid (PA) marker proteins%3B GFP-fusion protein expression is induced in response to MMS%3B null mutant can be complemented by the human seipin%2C BSCL2 [Source:SGD%3BAcc:S000000511];gene_id=YCL005W;logic_name=sgd
+III	sgd	mRNA	108021	108791	.	+	.	ID=transcript:YCL005W_mRNA;Parent=gene:YCL005W;biotype=protein_coding;transcript_id=YCL005W_mRNA
+III	sgd	exon	108021	108791	.	+	.	Parent=transcript:YCL005W_mRNA;Name=YCL005W_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCL005W_mRNA-E1;rank=1
+III	sgd	CDS	108021	108791	.	+	0	ID=CDS:YCL005W_mRNA;Parent=transcript:YCL005W_mRNA;protein_id=YCL005W_mRNA
+###
+III	sgd	gene	109105	110670	.	+	.	ID=gene:YCL004W;Name=PGS1;biotype=protein_coding;description=Phosphatidylglycerolphosphate synthase%3B catalyzes the synthesis of phosphatidylglycerolphosphate from CDP-diacylglycerol and sn-glycerol 3-phosphate in the first committed and rate-limiting step of cardiolipin biosynthesis [Source:SGD%3BAcc:S000000510];gene_id=YCL004W;logic_name=sgd
+III	sgd	mRNA	109105	110670	.	+	.	ID=transcript:YCL004W_mRNA;Parent=gene:YCL004W;biotype=protein_coding;transcript_id=YCL004W_mRNA
+III	sgd	exon	109105	110670	.	+	.	Parent=transcript:YCL004W_mRNA;Name=YCL004W_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCL004W_mRNA-E1;rank=1
+III	sgd	CDS	109105	110670	.	+	0	ID=CDS:YCL004W_mRNA;Parent=transcript:YCL004W_mRNA;protein_id=YCL004W_mRNA
+###
+III	sgd	gene	110808	111675	.	-	.	ID=gene:YCL002C;biotype=protein_coding;description=Putative protein of unknown function%3B YCL002C is not an essential gene [Source:SGD%3BAcc:S000000508];gene_id=YCL002C;logic_name=sgd
+III	sgd	mRNA	110808	111675	.	-	.	ID=transcript:YCL002C_mRNA;Parent=gene:YCL002C;biotype=protein_coding;transcript_id=YCL002C_mRNA
+III	sgd	exon	110808	111557	.	-	.	Parent=transcript:YCL002C_mRNA;Name=YCL002C_mRNA-E2;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCL002C_mRNA-E2;rank=2
+III	sgd	CDS	110808	111557	.	-	0	ID=CDS:YCL002C_mRNA;Parent=transcript:YCL002C_mRNA;protein_id=YCL002C_mRNA
+III	sgd	exon	111634	111675	.	-	.	Parent=transcript:YCL002C_mRNA;Name=YCL002C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCL002C_mRNA-E1;rank=1
+III	sgd	CDS	111634	111675	.	-	0	ID=CDS:YCL002C_mRNA;Parent=transcript:YCL002C_mRNA;protein_id=YCL002C_mRNA
+###
+III	sgd	gene	111916	112482	.	+	.	ID=gene:YCL001W;biotype=protein_coding;description=Protein involved in retention of membrane proteins%3B including Sec12p%2C in the ER%3B localized to Golgi%3B functions as a retrieval receptor in returning membrane proteins to the ER [Source:SGD%3BAcc:S000000507];gene_id=YCL001W;logic_name=sgd
+III	sgd	mRNA	111916	112482	.	+	.	ID=transcript:YCL001W_mRNA;Parent=gene:YCL001W;biotype=protein_coding;transcript_id=YCL001W_mRNA
+III	sgd	exon	111916	112482	.	+	.	Parent=transcript:YCL001W_mRNA;Name=YCL001W_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCL001W_mRNA-E1;rank=1
+III	sgd	CDS	111916	112482	.	+	0	ID=CDS:YCL001W_mRNA;Parent=transcript:YCL001W_mRNA;protein_id=YCL001W_mRNA
+###
+III	sgd	gene	113080	113541	.	+	.	ID=gene:YCL001W-A;biotype=protein_coding;description=Putative protein of unknown function%3B YCL001W-A gene has similarity to DOM34 and is present in a region duplicated between chromosomes XIV and III [Source:SGD%3BAcc:S000007221];gene_id=YCL001W-A;logic_name=sgd
+III	sgd	mRNA	113080	113541	.	+	.	ID=transcript:YCL001W-A_mRNA;Parent=gene:YCL001W-A;biotype=protein_coding;transcript_id=YCL001W-A_mRNA
+III	sgd	exon	113080	113541	.	+	.	Parent=transcript:YCL001W-A_mRNA;Name=YCL001W-A_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCL001W-A_mRNA-E1;rank=1
+III	sgd	CDS	113080	113541	.	+	0	ID=CDS:YCL001W-A_mRNA;Parent=transcript:YCL001W-A_mRNA;protein_id=YCL001W-A_mRNA
+###
+III	sgd	gene	113770	114024	.	+	.	ID=gene:YCL001W-B;biotype=protein_coding;description=Putative protein of unknown function%3B present in a region duplicated between chromosomes XIV and III%3B YCL001W-B has a paralog%2C DOM34%2C that arose from the whole genome duplication [Source:SGD%3BAcc:S000007596];gene_id=YCL001W-B;logic_name=sgd
+III	sgd	mRNA	113770	114024	.	+	.	ID=transcript:YCL001W-B_mRNA;Parent=gene:YCL001W-B;biotype=protein_coding;transcript_id=YCL001W-B_mRNA
+III	sgd	exon	113770	114024	.	+	.	Parent=transcript:YCL001W-B_mRNA;Name=YCL001W-B_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCL001W-B_mRNA-E1;rank=1
+III	sgd	CDS	113770	114024	.	+	0	ID=CDS:YCL001W-B_mRNA;Parent=transcript:YCL001W-B_mRNA;protein_id=YCL001W-B_mRNA
+###
+III	sgd	gene	115685	115999	.	+	.	ID=gene:YCR001W;biotype=protein_coding;description=Putative protein of unknown function%3B conserved among S. cerevisiae strains%3B YCR001W is not an essential gene [Source:SGD%3BAcc:S000000594];gene_id=YCR001W;logic_name=sgd
+III	sgd	mRNA	115685	115999	.	+	.	ID=transcript:YCR001W_mRNA;Parent=gene:YCR001W;biotype=protein_coding;transcript_id=YCR001W_mRNA
+III	sgd	exon	115685	115999	.	+	.	Parent=transcript:YCR001W_mRNA;Name=YCR001W_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR001W_mRNA-E1;rank=1
+III	sgd	CDS	115685	115999	.	+	0	ID=CDS:YCR001W_mRNA;Parent=transcript:YCR001W_mRNA;protein_id=YCR001W_mRNA
+###
+III	sgd	gene	117380	118348	.	-	.	ID=gene:YCR002C;biotype=protein_coding;description=Component of the septin ring%2C required for cytokinesis%3B septins are GTP-binding proteins that assemble into rod-like hetero-oligomers that can associate to form filaments%3B septin rings at the mother-bud neck act as scaffolds for recruiting cell division factors and as barriers to prevent diffusion of specific proteins between mother and daughter cells%3B N-terminus interacts with phosphatidylinositol-4%2C5-bisphosphate%3B protein abundance increases under DNA damage stress [Source:SGD%3BAcc:S000000595];gene_id=YCR002C;logic_name=sgd
+III	sgd	mRNA	117380	118348	.	-	.	ID=transcript:YCR002C_mRNA;Parent=gene:YCR002C;biotype=protein_coding;transcript_id=YCR002C_mRNA
+III	sgd	exon	117380	118348	.	-	.	Parent=transcript:YCR002C_mRNA;Name=YCR002C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR002C_mRNA-E1;rank=1
+III	sgd	CDS	117380	118348	.	-	0	ID=CDS:YCR002C_mRNA;Parent=transcript:YCR002C_mRNA;protein_id=YCR002C_mRNA
+###
+III	sgd	gene	118620	119171	.	+	.	ID=gene:YCR003W;Name=MRPL32;biotype=protein_coding;description=Mitochondrial ribosomal protein of the large subunit%3B protein abundance increases in response to DNA replication stress [Source:SGD%3BAcc:S000000596];gene_id=YCR003W;logic_name=sgd
+III	sgd	mRNA	118620	119171	.	+	.	ID=transcript:YCR003W_mRNA;Parent=gene:YCR003W;biotype=protein_coding;transcript_id=YCR003W_mRNA
+III	sgd	exon	118620	119171	.	+	.	Parent=transcript:YCR003W_mRNA;Name=YCR003W_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR003W_mRNA-E1;rank=1
+III	sgd	CDS	118620	119171	.	+	0	ID=CDS:YCR003W_mRNA;Parent=transcript:YCR003W_mRNA;protein_id=YCR003W_mRNA
+###
+III	sgd	gene	119575	120318	.	-	.	ID=gene:YCR004C;biotype=protein_coding;description=Protein of unknown function%3B has sequence and structural similarity to flavodoxins%3B predicted to be palmitoylated%3B the authentic%2C non-tagged protein is detected in highly purified mitochondria in high-throughput studies [Source:SGD%3BAcc:S000000597];gene_id=YCR004C;logic_name=sgd
+III	sgd	mRNA	119575	120318	.	-	.	ID=transcript:YCR004C_mRNA;Parent=gene:YCR004C;biotype=protein_coding;transcript_id=YCR004C_mRNA
+III	sgd	exon	119575	120318	.	-	.	Parent=transcript:YCR004C_mRNA;Name=YCR004C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR004C_mRNA-E1;rank=1
+III	sgd	CDS	119575	120318	.	-	0	ID=CDS:YCR004C_mRNA;Parent=transcript:YCR004C_mRNA;protein_id=YCR004C_mRNA
+###
+III	sgd	gene	120946	122328	.	-	.	ID=gene:YCR005C;biotype=protein_coding;description=Citrate synthase%2C peroxisomal isozyme involved in glyoxylate cycle%3B catalyzes condensation of acetyl coenzyme A and oxaloacetate to form citrate%3B expression is controlled by Rtg1p and Rtg2p transcription factors%3B SCF-Ucc1 regulates level of Cit2p to maintain citrate homeostasis%3B oxaloacetate-dependent positive feedback loop inhibits Cit2p ubiquitination%3B CIT2 has a paralog%2C CIT1%2C that arose from the whole genome duplication [Source:SGD%3BAcc:S000000598];gene_id=YCR005C;logic_name=sgd
+III	sgd	mRNA	120946	122328	.	-	.	ID=transcript:YCR005C_mRNA;Parent=gene:YCR005C;biotype=protein_coding;transcript_id=YCR005C_mRNA
+III	sgd	exon	120946	122328	.	-	.	Parent=transcript:YCR005C_mRNA;Name=YCR005C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR005C_mRNA-E1;rank=1
+III	sgd	CDS	120946	122328	.	-	0	ID=CDS:YCR005C_mRNA;Parent=transcript:YCR005C_mRNA;protein_id=YCR005C_mRNA
+###
+III	sgd	gene	122530	123003	.	-	.	ID=gene:YCR006C;biotype=protein_coding;description=Putative protein of unknown function%3B conserved among S. cerevisiae strains%3B YCR006C is not an essential gene [Source:SGD%3BAcc:S000000599];gene_id=YCR006C;logic_name=sgd
+III	sgd	mRNA	122530	123003	.	-	.	ID=transcript:YCR006C_mRNA;Parent=gene:YCR006C;biotype=protein_coding;transcript_id=YCR006C_mRNA
+III	sgd	exon	122530	123003	.	-	.	Parent=transcript:YCR006C_mRNA;Name=YCR006C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR006C_mRNA-E1;rank=1
+III	sgd	CDS	122530	123003	.	-	0	ID=CDS:YCR006C_mRNA;Parent=transcript:YCR006C_mRNA;protein_id=YCR006C_mRNA
+###
+III	sgd	ncRNA_gene	123577	123648	.	-	.	ID=gene:tP(AGG)C;biotype=tRNA;description=Proline tRNA (tRNA-Pro)%2C predicted by tRNAscan-SE analysis%3B can mutate to suppress +1 frameshift mutations in proline codons [Source:SGD%3BAcc:S000006678];gene_id=tP(AGG)C;logic_name=sgd
+III	sgd	tRNA	123577	123648	.	-	.	ID=transcript:tP(AGG)C_tRNA;Parent=gene:tP(AGG)C;biotype=tRNA;transcript_id=tP(AGG)C_tRNA
+III	sgd	exon	123577	123648	.	-	.	Parent=transcript:tP(AGG)C_tRNA;Name=tP(AGG)C_tRNA-E1;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=tP(AGG)C_tRNA-E1;rank=1
+###
+III	sgd	gene	126011	126730	.	-	.	ID=gene:YCR007C;biotype=protein_coding;description=Putative integral membrane protein%3B member of DUP240 gene family%3B SWAT-GFP and mCherry fusion proteins localize to the cell periphery and vacuole%3B YCR007C is not an essential gene [Source:SGD%3BAcc:S000000600];gene_id=YCR007C;logic_name=sgd
+III	sgd	mRNA	126011	126730	.	-	.	ID=transcript:YCR007C_mRNA;Parent=gene:YCR007C;biotype=protein_coding;transcript_id=YCR007C_mRNA
+III	sgd	exon	126011	126730	.	-	.	Parent=transcript:YCR007C_mRNA;Name=YCR007C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR007C_mRNA-E1;rank=1
+III	sgd	CDS	126011	126730	.	-	0	ID=CDS:YCR007C_mRNA;Parent=transcript:YCR007C_mRNA;protein_id=YCR007C_mRNA
+###
+III	sgd	ncRNA_gene	127716	127789	.	+	.	ID=gene:tN(GUU)C;biotype=tRNA;description=Asparagine tRNA (tRNA-Asn)%2C predicted by tRNAscan-SE analysis [Source:SGD%3BAcc:S000006668];gene_id=tN(GUU)C;logic_name=sgd
+III	sgd	tRNA	127716	127789	.	+	.	ID=transcript:tN(GUU)C_tRNA;Parent=gene:tN(GUU)C;biotype=tRNA;transcript_id=tN(GUU)C_tRNA
+III	sgd	exon	127716	127789	.	+	.	Parent=transcript:tN(GUU)C_tRNA;Name=tN(GUU)C_tRNA-E1;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=tN(GUU)C_tRNA-E1;rank=1
+###
+III	sgd	gene	128470	130281	.	+	.	ID=gene:YCR008W;Name=SAT4;biotype=protein_coding;description=Ser/Thr protein kinase involved in salt tolerance%3B funtions in regulation of Trk1p-Trk2p potassium transporter%3B overexpression affects the Fe-S and lipoamide containing proteins in the mitochondrion%3B required for lipoylation of Lat1p%2C Kgd2p and Gcv3p%3B partially redundant with Hal5p%3B has similarity to Npr1p%3B localizes to the cytoplasm and mitochondrion [Source:SGD%3BAcc:S000000601];gene_id=YCR008W;logic_name=sgd
+III	sgd	mRNA	128470	130281	.	+	.	ID=transcript:YCR008W_mRNA;Parent=gene:YCR008W;biotype=protein_coding;transcript_id=YCR008W_mRNA
+III	sgd	exon	128470	130281	.	+	.	Parent=transcript:YCR008W_mRNA;Name=YCR008W_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR008W_mRNA-E1;rank=1
+III	sgd	CDS	128470	130281	.	+	0	ID=CDS:YCR008W_mRNA;Parent=transcript:YCR008W_mRNA;protein_id=YCR008W_mRNA
+###
+III	sgd	gene	130745	131542	.	-	.	ID=gene:YCR009C;Name=RVS161;biotype=protein_coding;description=Amphiphysin-like lipid raft protein%3B N-BAR domain protein that interacts with Rvs167p and regulates polarization of the actin cytoskeleton%2C endocytosis%2C cell polarity%2C cell fusion and viability following starvation or osmotic stress [Source:SGD%3BAcc:S000000602];gene_id=YCR009C;logic_name=sgd
+III	sgd	mRNA	130745	131542	.	-	.	ID=transcript:YCR009C_mRNA;Parent=gene:YCR009C;biotype=protein_coding;transcript_id=YCR009C_mRNA
+III	sgd	exon	130745	131542	.	-	.	Parent=transcript:YCR009C_mRNA;Name=YCR009C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR009C_mRNA-E1;rank=1
+III	sgd	CDS	130745	131542	.	-	0	ID=CDS:YCR009C_mRNA;Parent=transcript:YCR009C_mRNA;protein_id=YCR009C_mRNA
+###
+III	sgd	gene	132273	133124	.	-	.	ID=gene:YCR010C;Name=ADY2;biotype=protein_coding;description=Acetate transporter required for normal sporulation%3B phosphorylated in mitochondria%3B ADY2 has a paralog%2C ATO2%2C that arose from the whole genome duplication [Source:SGD%3BAcc:S000000603];gene_id=YCR010C;logic_name=sgd
+III	sgd	mRNA	132273	133124	.	-	.	ID=transcript:YCR010C_mRNA;Parent=gene:YCR010C;biotype=protein_coding;transcript_id=YCR010C_mRNA
+III	sgd	exon	132273	133124	.	-	.	Parent=transcript:YCR010C_mRNA;Name=YCR010C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR010C_mRNA-E1;rank=1
+III	sgd	CDS	132273	133124	.	-	0	ID=CDS:YCR010C_mRNA;Parent=transcript:YCR010C_mRNA;protein_id=YCR010C_mRNA
+###
+III	sgd	gene	133724	136873	.	-	.	ID=gene:YCR011C;biotype=protein_coding;description=Putative ATP-dependent permease of the ABC transporter family [Source:SGD%3BAcc:S000000604];gene_id=YCR011C;logic_name=sgd
+III	sgd	mRNA	133724	136873	.	-	.	ID=transcript:YCR011C_mRNA;Parent=gene:YCR011C;biotype=protein_coding;transcript_id=YCR011C_mRNA
+III	sgd	exon	133724	136873	.	-	.	Parent=transcript:YCR011C_mRNA;Name=YCR011C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR011C_mRNA-E1;rank=1
+III	sgd	CDS	133724	136873	.	-	0	ID=CDS:YCR011C_mRNA;Parent=transcript:YCR011C_mRNA;protein_id=YCR011C_mRNA
+###
+III	sgd	gene	137746	138996	.	+	.	ID=gene:YCR012W;biotype=protein_coding;description=3-phosphoglycerate kinase%3B catalyzes transfer of high-energy phosphoryl groups from the acyl phosphate of 1%2C3-bisphosphoglycerate to ADP to produce ATP%3B key enzyme in glycolysis and gluconeogenesis [Source:SGD%3BAcc:S000000605];gene_id=YCR012W;logic_name=sgd
+III	sgd	mRNA	137746	138996	.	+	.	ID=transcript:YCR012W_mRNA;Parent=gene:YCR012W;biotype=protein_coding;transcript_id=YCR012W_mRNA
+III	sgd	exon	137746	138996	.	+	.	Parent=transcript:YCR012W_mRNA;Name=YCR012W_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR012W_mRNA-E1;rank=1
+III	sgd	CDS	137746	138996	.	+	0	ID=CDS:YCR012W_mRNA;Parent=transcript:YCR012W_mRNA;protein_id=YCR012W_mRNA
+###
+III	sgd	gene	138402	139049	.	-	.	ID=gene:YCR013C;biotype=protein_coding;description=Dubious open reading frame%3B unlikely to encode a functional protein%2C based on available experimental and comparative sequence data%3B transcription of both YCR013C and the overlapping essential gene PGK1 is reduced in a gcr1 null mutant [Source:SGD%3BAcc:S000000606];gene_id=YCR013C;logic_name=sgd
+III	sgd	mRNA	138402	139049	.	-	.	ID=transcript:YCR013C_mRNA;Parent=gene:YCR013C;biotype=protein_coding;transcript_id=YCR013C_mRNA
+III	sgd	exon	138402	139049	.	-	.	Parent=transcript:YCR013C_mRNA;Name=YCR013C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR013C_mRNA-E1;rank=1
+III	sgd	CDS	138402	139049	.	-	0	ID=CDS:YCR013C_mRNA;Parent=transcript:YCR013C_mRNA;protein_id=YCR013C_mRNA
+###
+III	sgd	gene	139185	140933	.	-	.	ID=gene:YCR014C;Name=POL4;biotype=protein_coding;description=DNA polymerase IV%3B undergoes pair-wise interactions with Dnl4p-Lif1p and Rad27p to mediate repair of DNA double-strand breaks by non-homologous end joining (NHEJ)%3B homologous to mammalian DNA polymerase beta [Source:SGD%3BAcc:S000000607];gene_id=YCR014C;logic_name=sgd
+III	sgd	mRNA	139185	140933	.	-	.	ID=transcript:YCR014C_mRNA;Parent=gene:YCR014C;biotype=protein_coding;transcript_id=YCR014C_mRNA
+III	sgd	exon	139185	140933	.	-	.	Parent=transcript:YCR014C_mRNA;Name=YCR014C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR014C_mRNA-E1;rank=1
+III	sgd	CDS	139185	140933	.	-	0	ID=CDS:YCR014C_mRNA;Parent=transcript:YCR014C_mRNA;protein_id=YCR014C_mRNA
+###
+III	sgd	gene	141217	142170	.	-	.	ID=gene:YCR015C;biotype=protein_coding;description=Protein required for cold tolerance%3B involved in phosphate uptake%3B YCR015C is not an essential gene [Source:SGD%3BAcc:S000000608];gene_id=YCR015C;logic_name=sgd
+III	sgd	mRNA	141217	142170	.	-	.	ID=transcript:YCR015C_mRNA;Parent=gene:YCR015C;biotype=protein_coding;transcript_id=YCR015C_mRNA
+III	sgd	exon	141217	142170	.	-	.	Parent=transcript:YCR015C_mRNA;Name=YCR015C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR015C_mRNA-E1;rank=1
+III	sgd	CDS	141217	142170	.	-	0	ID=CDS:YCR015C_mRNA;Parent=transcript:YCR015C_mRNA;protein_id=YCR015C_mRNA
+###
+III	sgd	ncRNA_gene	142364	142546	.	-	.	ID=gene:snR33;biotype=snoRNA;description=H/ACA box small nucleolar RNA (snoRNA)%3B guides pseudouridylation of large subunit (LSU) rRNA at position U1042 [Source:SGD%3BAcc:S000007298];gene_id=snR33;logic_name=sgd
+III	sgd	snoRNA	142364	142546	.	-	.	ID=transcript:snR33_snoRNA;Parent=gene:snR33;biotype=snoRNA;transcript_id=snR33_snoRNA
+III	sgd	exon	142364	142546	.	-	.	Parent=transcript:snR33_snoRNA;Name=snR33_snoRNA-E1;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=snR33_snoRNA-E1;rank=1
+###
+III	sgd	ncRNA_gene	142701	142771	.	-	.	ID=gene:tG(GCC)C;biotype=tRNA;description=Glycine tRNA (tRNA-Gly)%2C predicted by tRNAscan-SE analysis%3Bcan mutate to suppress +1 frameshift mutations in glycine codons [Source:SGD%3BAcc:S000006575];gene_id=tG(GCC)C;logic_name=sgd
+III	sgd	tRNA	142701	142771	.	-	.	ID=transcript:tG(GCC)C_tRNA;Parent=gene:tG(GCC)C;biotype=tRNA;transcript_id=tG(GCC)C_tRNA
+III	sgd	exon	142701	142771	.	-	.	Parent=transcript:tG(GCC)C_tRNA;Name=tG(GCC)C_tRNA-E1;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=tG(GCC)C_tRNA-E1;rank=1
+###
+III	sgd	gene	143634	144506	.	+	.	ID=gene:YCR016W;biotype=protein_coding;description=Putative protein of unknown function%3B green fluorescent protein (GFP)-fusion protein localizes to the nucleolus and nucleus%3B predicted to be involved in ribosome biogenesis [Source:SGD%3BAcc:S000000609];gene_id=YCR016W;logic_name=sgd
+III	sgd	mRNA	143634	144506	.	+	.	ID=transcript:YCR016W_mRNA;Parent=gene:YCR016W;biotype=protein_coding;transcript_id=YCR016W_mRNA
+III	sgd	exon	143634	144506	.	+	.	Parent=transcript:YCR016W_mRNA;Name=YCR016W_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR016W_mRNA-E1;rank=1
+III	sgd	CDS	143634	144506	.	+	0	ID=CDS:YCR016W_mRNA;Parent=transcript:YCR016W_mRNA;protein_id=YCR016W_mRNA
+###
+III	sgd	gene	144773	147634	.	-	.	ID=gene:YCR017C;biotype=protein_coding;description=GPI lipid remodelase%3B responsible for introducing ceramides into GPI anchors having a C26:0 fatty acid in sn-2 of the glycerol moiety%3B can also use lyso-GPI protein anchors and various base resistant lipids as substrates%3B contains 14-16 transmembrane segments and several putative glycosylation and phosphorylation sites%3B null mutation is synthetically lethal with pkc1 deletion [Source:SGD%3BAcc:S000000610];gene_id=YCR017C;logic_name=sgd
+III	sgd	mRNA	144773	147634	.	-	.	ID=transcript:YCR017C_mRNA;Parent=gene:YCR017C;biotype=protein_coding;transcript_id=YCR017C_mRNA
+III	sgd	exon	144773	147634	.	-	.	Parent=transcript:YCR017C_mRNA;Name=YCR017C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR017C_mRNA-E1;rank=1
+III	sgd	CDS	144773	147634	.	-	0	ID=CDS:YCR017C_mRNA;Parent=transcript:YCR017C_mRNA;protein_id=YCR017C_mRNA
+###
+III	sgd	gene	148238	148903	.	-	.	ID=gene:YCR018C;biotype=protein_coding;description=Protein involved in the processing of pre-rRNA to mature rRNA%3B contains a C2/C2 zinc finger motif%3B srd1 mutation suppresses defects caused by the rrp1-1 mutation [Source:SGD%3BAcc:S000000611];gene_id=YCR018C;logic_name=sgd
+III	sgd	mRNA	148238	148903	.	-	.	ID=transcript:YCR018C_mRNA;Parent=gene:YCR018C;biotype=protein_coding;transcript_id=YCR018C_mRNA
+III	sgd	exon	148238	148903	.	-	.	Parent=transcript:YCR018C_mRNA;Name=YCR018C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR018C_mRNA-E1;rank=1
+III	sgd	CDS	148238	148903	.	-	0	ID=CDS:YCR018C_mRNA;Parent=transcript:YCR018C_mRNA;protein_id=YCR018C_mRNA
+###
+III	sgd	ncRNA_gene	149920	149991	.	+	.	ID=gene:tM(CAU)C;biotype=tRNA;description=Methionine tRNA (tRNA-Met)%2C predicted by tRNAscan-SE analysis [Source:SGD%3BAcc:S000006658];gene_id=tM(CAU)C;logic_name=sgd
+III	sgd	tRNA	149920	149991	.	+	.	ID=transcript:tM(CAU)C_tRNA;Parent=gene:tM(CAU)C;biotype=tRNA;transcript_id=tM(CAU)C_tRNA
+III	sgd	exon	149920	149991	.	+	.	Parent=transcript:tM(CAU)C_tRNA;Name=tM(CAU)C_tRNA-E1;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=tM(CAU)C_tRNA-E1;rank=1
+###
+III	sgd	ncRNA_gene	151284	151356	.	-	.	ID=gene:tK(CUU)C;biotype=tRNA;description=Lysine tRNA (tRNA-Lys)%2C predicted by tRNAscan-SE analysis%3B a small portion is imported into mitochondria via interaction with mt lysyl-tRNA synthetase Msk1p and is necessary to decode AAG codons at high temperature%2C when base modification of mt-encoded tRNA-Lys is reduced [Source:SGD%3BAcc:S000006615];gene_id=tK(CUU)C;logic_name=sgd
+III	sgd	tRNA	151284	151356	.	-	.	ID=transcript:tK(CUU)C_tRNA;Parent=gene:tK(CUU)C;biotype=tRNA;transcript_id=tK(CUU)C_tRNA
+III	sgd	exon	151284	151356	.	-	.	Parent=transcript:tK(CUU)C_tRNA;Name=tK(CUU)C_tRNA-E1;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=tK(CUU)C_tRNA-E1;rank=1
+###
+III	sgd	gene	151608	151862	.	-	.	ID=gene:YCR018C-A;biotype=protein_coding;description=Putative protein of unknown function%3B encoded opposite a Ty1 LTR [Source:SGD%3BAcc:S000007230];gene_id=YCR018C-A;logic_name=sgd
+III	sgd	mRNA	151608	151862	.	-	.	ID=transcript:YCR018C-A_mRNA;Parent=gene:YCR018C-A;biotype=protein_coding;transcript_id=YCR018C-A_mRNA
+III	sgd	exon	151608	151862	.	-	.	Parent=transcript:YCR018C-A_mRNA;Name=YCR018C-A_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR018C-A_mRNA-E1;rank=1
+III	sgd	CDS	151608	151862	.	-	0	ID=CDS:YCR018C-A_mRNA;Parent=transcript:YCR018C-A_mRNA;protein_id=YCR018C-A_mRNA
+###
+III	sgd	gene	152837	153928	.	+	.	ID=gene:YCR019W;biotype=protein_coding;description=Protein necessary for stability of L-A dsRNA-containing particles [Source:SGD%3BAcc:S000000612];gene_id=YCR019W;logic_name=sgd
+III	sgd	mRNA	152837	153928	.	+	.	ID=transcript:YCR019W_mRNA;Parent=gene:YCR019W;biotype=protein_coding;transcript_id=YCR019W_mRNA
+III	sgd	exon	152837	153928	.	+	.	Parent=transcript:YCR019W_mRNA;Name=YCR019W_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR019W_mRNA-E1;rank=1
+III	sgd	CDS	152837	153928	.	+	0	ID=CDS:YCR019W_mRNA;Parent=transcript:YCR019W_mRNA;protein_id=YCR019W_mRNA
+###
+III	sgd	gene	154012	154659	.	-	.	ID=gene:YCR020C;Name=PET18;biotype=protein_coding;description=Protein of unknown function%3B has weak similarity to proteins involved in thiamin metabolism%3B expression is induced in the absence of thiamin [Source:SGD%3BAcc:S000000613];gene_id=YCR020C;logic_name=sgd
+III	sgd	mRNA	154012	154659	.	-	.	ID=transcript:YCR020C_mRNA;Parent=gene:YCR020C;biotype=protein_coding;transcript_id=YCR020C_mRNA
+III	sgd	exon	154012	154659	.	-	.	Parent=transcript:YCR020C_mRNA;Name=YCR020C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR020C_mRNA-E1;rank=1
+III	sgd	CDS	154012	154659	.	-	0	ID=CDS:YCR020C_mRNA;Parent=transcript:YCR020C_mRNA;protein_id=YCR020C_mRNA
+###
+III	sgd	gene	154830	155096	.	-	.	ID=gene:YCR020C-A;Name=MAK31;biotype=protein_coding;description=Non-catalytic subunit of N-terminal acetyltransferase of the NatC type%3B required for replication of dsRNA virus%3B member of the Sm protein family [Source:SGD%3BAcc:S000000614];gene_id=YCR020C-A;logic_name=sgd
+III	sgd	mRNA	154830	155096	.	-	.	ID=transcript:YCR020C-A_mRNA;Parent=gene:YCR020C-A;biotype=protein_coding;transcript_id=YCR020C-A_mRNA
+III	sgd	exon	154830	155096	.	-	.	Parent=transcript:YCR020C-A_mRNA;Name=YCR020C-A_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR020C-A_mRNA-E1;rank=1
+III	sgd	CDS	154830	155096	.	-	0	ID=CDS:YCR020C-A_mRNA;Parent=transcript:YCR020C-A_mRNA;protein_id=YCR020C-A_mRNA
+###
+III	sgd	gene	155320	155556	.	+	.	ID=gene:YCR020W-B;biotype=protein_coding;description=Component of the RSC chromatin remodeling complex%3B RSC functions in transcriptional regulation and elongation%2C chromosome stability%2C and establishing sister chromatid cohesion%3B involved in telomere maintenance [Source:SGD%3BAcc:S000006439];gene_id=YCR020W-B;logic_name=sgd
+III	sgd	mRNA	155320	155556	.	+	.	ID=transcript:YCR020W-B_mRNA;Parent=gene:YCR020W-B;biotype=protein_coding;transcript_id=YCR020W-B_mRNA
+III	sgd	exon	155320	155556	.	+	.	Parent=transcript:YCR020W-B_mRNA;Name=YCR020W-B_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR020W-B_mRNA-E1;rank=1
+III	sgd	CDS	155320	155556	.	+	0	ID=CDS:YCR020W-B_mRNA;Parent=transcript:YCR020W-B_mRNA;protein_id=YCR020W-B_mRNA
+###
+III	sgd	gene	156109	157107	.	-	.	ID=gene:YCR021C;Name=HSP30;biotype=protein_coding;description=Negative regulator of the H(+)-ATPase Pma1p%3B stress-responsive protein%3B hydrophobic plasma membrane localized%3B induced by heat shock%2C ethanol treatment%2C weak organic acid%2C glucose limitation%2C and entry into stationary phase [Source:SGD%3BAcc:S000000615];gene_id=YCR021C;logic_name=sgd
+III	sgd	mRNA	156109	157107	.	-	.	ID=transcript:YCR021C_mRNA;Parent=gene:YCR021C;biotype=protein_coding;transcript_id=YCR021C_mRNA
+III	sgd	exon	156109	157107	.	-	.	Parent=transcript:YCR021C_mRNA;Name=YCR021C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR021C_mRNA-E1;rank=1
+III	sgd	CDS	156109	157107	.	-	0	ID=CDS:YCR021C_mRNA;Parent=transcript:YCR021C_mRNA;protein_id=YCR021C_mRNA
+###
+III	sgd	gene	157421	157765	.	-	.	ID=gene:YCR022C;biotype=protein_coding;description=Putative protein of unknown function%3B conserved among S. cerevisiae strains%3B YCR022C is not an essential gene [Source:SGD%3BAcc:S000000616];gene_id=YCR022C;logic_name=sgd
+III	sgd	mRNA	157421	157765	.	-	.	ID=transcript:YCR022C_mRNA;Parent=gene:YCR022C;biotype=protein_coding;transcript_id=YCR022C_mRNA
+III	sgd	exon	157421	157765	.	-	.	Parent=transcript:YCR022C_mRNA;Name=YCR022C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR022C_mRNA-E1;rank=1
+III	sgd	CDS	157421	157765	.	-	0	ID=CDS:YCR022C_mRNA;Parent=transcript:YCR022C_mRNA;protein_id=YCR022C_mRNA
+###
+III	sgd	gene	158538	160373	.	-	.	ID=gene:YCR023C;biotype=protein_coding;description=Vacuolar membrane protein of unknown function%3B member of the multidrug resistance family%3B YCR023C is not an essential gene [Source:SGD%3BAcc:S000000617];gene_id=YCR023C;logic_name=sgd
+III	sgd	mRNA	158538	160373	.	-	.	ID=transcript:YCR023C_mRNA;Parent=gene:YCR023C;biotype=protein_coding;transcript_id=YCR023C_mRNA
+III	sgd	exon	158538	160373	.	-	.	Parent=transcript:YCR023C_mRNA;Name=YCR023C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR023C_mRNA-E1;rank=1
+III	sgd	CDS	158538	160373	.	-	0	ID=CDS:YCR023C_mRNA;Parent=transcript:YCR023C_mRNA;protein_id=YCR023C_mRNA
+###
+III	sgd	gene	160744	162222	.	-	.	ID=gene:YCR024C;biotype=protein_coding;description=Mitochondrial asparaginyl-tRNA synthetase [Source:SGD%3BAcc:S000000618];gene_id=YCR024C;logic_name=sgd
+III	sgd	mRNA	160744	162222	.	-	.	ID=transcript:YCR024C_mRNA;Parent=gene:YCR024C;biotype=protein_coding;transcript_id=YCR024C_mRNA
+III	sgd	exon	160744	162222	.	-	.	Parent=transcript:YCR024C_mRNA;Name=YCR024C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR024C_mRNA-E1;rank=1
+III	sgd	CDS	160744	162222	.	-	0	ID=CDS:YCR024C_mRNA;Parent=transcript:YCR024C_mRNA;protein_id=YCR024C_mRNA
+###
+III	sgd	gene	162599	162865	.	-	.	ID=gene:YCR024C-B;biotype=protein_coding;description=Putative protein of unknown function%3B identified by expression profiling and mass spectrometry [Source:SGD%3BAcc:S000028818];gene_id=YCR024C-B;logic_name=sgd
+III	sgd	mRNA	162599	162865	.	-	.	ID=transcript:YCR024C-B_mRNA;Parent=gene:YCR024C-B;biotype=protein_coding;transcript_id=YCR024C-B_mRNA
+III	sgd	exon	162599	162865	.	-	.	Parent=transcript:YCR024C-B_mRNA;Name=YCR024C-B_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR024C-B_mRNA-E1;rank=1
+III	sgd	CDS	162599	162865	.	-	0	ID=CDS:YCR024C-B_mRNA;Parent=transcript:YCR024C-B_mRNA;protein_id=YCR024C-B_mRNA
+###
+III	sgd	gene	162945	163067	.	-	.	ID=gene:YCR024C-A;biotype=protein_coding;description=Regulatory subunit for the plasma membrane H(+)-ATPase Pma1p%3B small single-membrane span proteolipid%3B forms unique helix and positively charged cytoplasmic domain that is able to specifically segregate phosphatidylserines%3B PMP1 has a paralog%2C PMP2%2C that arose from the whole genome duplication [Source:SGD%3BAcc:S000000619];gene_id=YCR024C-A;logic_name=sgd
+III	sgd	mRNA	162945	163067	.	-	.	ID=transcript:YCR024C-A_mRNA;Parent=gene:YCR024C-A;biotype=protein_coding;transcript_id=YCR024C-A_mRNA
+III	sgd	exon	162945	163067	.	-	.	Parent=transcript:YCR024C-A_mRNA;Name=YCR024C-A_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR024C-A_mRNA-E1;rank=1
+III	sgd	CDS	162945	163067	.	-	0	ID=CDS:YCR024C-A_mRNA;Parent=transcript:YCR024C-A_mRNA;protein_id=YCR024C-A_mRNA
+###
+III	sgd	gene	163446	163856	.	-	.	ID=gene:YCR025C;biotype=protein_coding;description=Putative protein of unknown function%3B conserved across S. cerevisiae strains%3B YCR025C is not an essential gene [Source:SGD%3BAcc:S000000620];gene_id=YCR025C;logic_name=sgd
+III	sgd	mRNA	163446	163856	.	-	.	ID=transcript:YCR025C_mRNA;Parent=gene:YCR025C;biotype=protein_coding;transcript_id=YCR025C_mRNA
+III	sgd	exon	163446	163856	.	-	.	Parent=transcript:YCR025C_mRNA;Name=YCR025C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR025C_mRNA-E1;rank=1
+III	sgd	CDS	163446	163856	.	-	0	ID=CDS:YCR025C_mRNA;Parent=transcript:YCR025C_mRNA;protein_id=YCR025C_mRNA
+###
+III	sgd	gene	164111	166339	.	-	.	ID=gene:YCR026C;biotype=protein_coding;description=Nucleotide pyrophosphatase/phosphodiesterase%3B mediates extracellular nucleotide phosphate hydrolysis along with Npp2p and Pho5p%3B activity and expression enhanced during conditions of phosphate starvation%3B involved in spore wall assembly%3B NPP1 has a paralog%2C NPP2%2C that arose from the whole genome duplication%2C and an npp1 npp2 double mutant exhibits reduced dityrosine fluorescence relative to the single mutants [Source:SGD%3BAcc:S000000621];gene_id=YCR026C;logic_name=sgd
+III	sgd	mRNA	164111	166339	.	-	.	ID=transcript:YCR026C_mRNA;Parent=gene:YCR026C;biotype=protein_coding;transcript_id=YCR026C_mRNA
+III	sgd	exon	164111	166339	.	-	.	Parent=transcript:YCR026C_mRNA;Name=YCR026C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR026C_mRNA-E1;rank=1
+III	sgd	CDS	164111	166339	.	-	0	ID=CDS:YCR026C_mRNA;Parent=transcript:YCR026C_mRNA;protein_id=YCR026C_mRNA
+###
+III	sgd	gene	167370	167999	.	-	.	ID=gene:YCR027C;Name=RHB1;biotype=protein_coding;description=Putative Rheb-related GTPase%3B involved in regulating canavanine resistance and arginine uptake%3B member of the Ras superfamily of G-proteins [Source:SGD%3BAcc:S000000622];gene_id=YCR027C;logic_name=sgd
+III	sgd	mRNA	167370	167999	.	-	.	ID=transcript:YCR027C_mRNA;Parent=gene:YCR027C;biotype=protein_coding;transcript_id=YCR027C_mRNA
+III	sgd	exon	167370	167999	.	-	.	Parent=transcript:YCR027C_mRNA;Name=YCR027C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR027C_mRNA-E1;rank=1
+III	sgd	CDS	167370	167999	.	-	0	ID=CDS:YCR027C_mRNA;Parent=transcript:YCR027C_mRNA;protein_id=YCR027C_mRNA
+###
+III	sgd	ncRNA_gene	168301	168372	.	-	.	ID=gene:tQ(UUG)C;biotype=tRNA;description=Glutamine tRNA (tRNA-Gln)%2C predicted by tRNAscan-SE analysis%3B thiolation of uridine at wobble position (34) requires Ncs6p [Source:SGD%3BAcc:S000006692];gene_id=tQ(UUG)C;logic_name=sgd
+III	sgd	tRNA	168301	168372	.	-	.	ID=transcript:tQ(UUG)C_tRNA;Parent=gene:tQ(UUG)C;biotype=tRNA;transcript_id=tQ(UUG)C_tRNA
+III	sgd	exon	168301	168372	.	-	.	Parent=transcript:tQ(UUG)C_tRNA;Name=tQ(UUG)C_tRNA-E1;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=tQ(UUG)C_tRNA-E1;rank=1
+###
+III	sgd	gene	170886	172424	.	-	.	ID=gene:YCR028C;biotype=protein_coding;description=Plasma membrane H+-pantothenate symporter%3B confers sensitivity to the antifungal agent fenpropimorph%3B relocalizes from vacuole to cytoplasm upon DNA replication stress [Source:SGD%3BAcc:S000000623];gene_id=YCR028C;logic_name=sgd
+III	sgd	mRNA	170886	172424	.	-	.	ID=transcript:YCR028C_mRNA;Parent=gene:YCR028C;biotype=protein_coding;transcript_id=YCR028C_mRNA
+III	sgd	exon	170886	172424	.	-	.	Parent=transcript:YCR028C_mRNA;Name=YCR028C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR028C_mRNA-E1;rank=1
+III	sgd	CDS	170886	172424	.	-	0	ID=CDS:YCR028C_mRNA;Parent=transcript:YCR028C_mRNA;protein_id=YCR028C_mRNA
+###
+III	sgd	gene	172950	173440	.	-	.	ID=gene:YCR028C-A;biotype=protein_coding;description=ssDNA-binding protein essential for mitochondrial genome maintenance%3B involved in mitochondrial DNA replication%3B stimulates utilization by Mip1p DNA polymerase of RNA primers synthesized by Rpo41p [Source:SGD%3BAcc:S000007222];gene_id=YCR028C-A;logic_name=sgd
+III	sgd	mRNA	172950	173440	.	-	.	ID=transcript:YCR028C-A_mRNA;Parent=gene:YCR028C-A;biotype=protein_coding;transcript_id=YCR028C-A_mRNA
+III	sgd	exon	172950	173115	.	-	.	Parent=transcript:YCR028C-A_mRNA;Name=YCR028C-A_mRNA-E2;constitutive=1;ensembl_end_phase=0;ensembl_phase=2;exon_id=YCR028C-A_mRNA-E2;rank=2
+III	sgd	CDS	172950	173115	.	-	1	ID=CDS:YCR028C-A_mRNA;Parent=transcript:YCR028C-A_mRNA;protein_id=YCR028C-A_mRNA
+III	sgd	exon	173199	173440	.	-	.	Parent=transcript:YCR028C-A_mRNA;Name=YCR028C-A_mRNA-E1;constitutive=1;ensembl_end_phase=2;ensembl_phase=0;exon_id=YCR028C-A_mRNA-E1;rank=1
+III	sgd	CDS	173199	173440	.	-	0	ID=CDS:YCR028C-A_mRNA;Parent=transcript:YCR028C-A_mRNA;protein_id=YCR028C-A_mRNA
+###
+III	sgd	gene	173826	176438	.	-	.	ID=gene:YCR030C;Name=SYP1;biotype=protein_coding;description=Negative regulator of WASP-Arp23 complex%3B involved in endocytic site formation%3B directly inhibits Las17p stimulation of Arp23 complex-mediated actin assembly in vitro%3B may regulate assembly and disassembly of the septin ring%3B colocalizes and interacts with septin subunits%3B potential role in actin cytoskeletal organization [Source:SGD%3BAcc:S000000626];gene_id=YCR030C;logic_name=sgd
+III	sgd	mRNA	173826	176438	.	-	.	ID=transcript:YCR030C_mRNA;Parent=gene:YCR030C;biotype=protein_coding;transcript_id=YCR030C_mRNA
+III	sgd	exon	173826	176438	.	-	.	Parent=transcript:YCR030C_mRNA;Name=YCR030C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR030C_mRNA-E1;rank=1
+III	sgd	CDS	173826	176438	.	-	0	ID=CDS:YCR030C_mRNA;Parent=transcript:YCR030C_mRNA;protein_id=YCR030C_mRNA
+###
+III	sgd	ncRNA_gene	177183	177282	.	+	.	ID=gene:snR65;biotype=snoRNA;description=C/D box small nucleolar RNA (snoRNA)%3B guides 2'-O-methylation of large subunit (LSU) rRNA at position U2347 [Source:SGD%3BAcc:S000006456];gene_id=snR65;logic_name=sgd
+III	sgd	snoRNA	177183	177282	.	+	.	ID=transcript:snR65_snoRNA;Parent=gene:snR65;biotype=snoRNA;transcript_id=snR65_snoRNA
+III	sgd	exon	177183	177282	.	+	.	Parent=transcript:snR65_snoRNA;Name=snR65_snoRNA-E1;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=snR65_snoRNA-E1;rank=1
+###
+III	sgd	gene	177500	178220	.	-	.	ID=gene:YCR031C;Name=RPS14A;biotype=protein_coding;description=Protein component of the small (40S) ribosomal subunit%3B required for ribosome assembly and 20S pre-rRNA processing%3B mutations confer cryptopleurine resistance%3B homologous to mammalian ribosomal protein S14 and bacterial S11%3B RPS14A has a paralog%2C RPS14B%2C that arose from the whole genome duplication [Source:SGD%3BAcc:S000000627];gene_id=YCR031C;logic_name=sgd
+III	sgd	mRNA	177500	178220	.	-	.	ID=transcript:YCR031C_mRNA;Parent=gene:YCR031C;biotype=protein_coding;transcript_id=YCR031C_mRNA
+III	sgd	exon	177500	177906	.	-	.	Parent=transcript:YCR031C_mRNA;Name=YCR031C_mRNA-E2;constitutive=1;ensembl_end_phase=0;ensembl_phase=1;exon_id=YCR031C_mRNA-E2;rank=2
+III	sgd	CDS	177500	177906	.	-	2	ID=CDS:YCR031C_mRNA;Parent=transcript:YCR031C_mRNA;protein_id=YCR031C_mRNA
+III	sgd	exon	178214	178220	.	-	.	Parent=transcript:YCR031C_mRNA;Name=YCR031C_mRNA-E1;constitutive=1;ensembl_end_phase=1;ensembl_phase=0;exon_id=YCR031C_mRNA-E1;rank=1
+III	sgd	CDS	178214	178220	.	-	0	ID=CDS:YCR031C_mRNA;Parent=transcript:YCR031C_mRNA;protein_id=YCR031C_mRNA
+###
+III	sgd	ncRNA_gene	178610	178798	.	-	.	ID=gene:snR189;biotype=snoRNA;description=H/ACA box small nucleolar RNA (snoRNA)%3B guides pseudouridylation of large subunit (LSU) rRNA at position U2735 and small subunit (SSU) rRNA at position U466 [Source:SGD%3BAcc:S000007314];gene_id=snR189;logic_name=sgd
+III	sgd	snoRNA	178610	178798	.	-	.	ID=transcript:snR189_snoRNA;Parent=gene:snR189;biotype=snoRNA;transcript_id=snR189_snoRNA
+III	sgd	exon	178610	178798	.	-	.	Parent=transcript:snR189_snoRNA;Name=snR189_snoRNA-E1;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=snR189_snoRNA-E1;rank=1
+###
+III	sgd	gene	179520	186023	.	+	.	ID=gene:YCR032W;biotype=protein_coding;description=Protein homologous to Chediak-Higashi syndrome and Beige proteins%3B both of which are implicated in disease syndromes in human and mouse%2C respectively%2C due to defective lysosomal trafficking%3B mutant phenotype and genetic interactions suggest a role in protein sorting [Source:SGD%3BAcc:S000000628];gene_id=YCR032W;logic_name=sgd
+III	sgd	mRNA	179520	186023	.	+	.	ID=transcript:YCR032W_mRNA;Parent=gene:YCR032W;biotype=protein_coding;transcript_id=YCR032W_mRNA
+III	sgd	exon	179520	186023	.	+	.	Parent=transcript:YCR032W_mRNA;Name=YCR032W_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR032W_mRNA-E1;rank=1
+III	sgd	CDS	179520	186023	.	+	0	ID=CDS:YCR032W_mRNA;Parent=transcript:YCR032W_mRNA;protein_id=YCR032W_mRNA
+###
+III	sgd	gene	186489	190169	.	+	.	ID=gene:YCR033W;biotype=protein_coding;description=Subunit of the Set3C deacetylase complex%3B interacts directly with the Set3C subunit%2C Sif2p%3B putative DNA-binding protein%3B mutant has increased aneuploidy tolerance%3B relocalizes to the cytosol in response to hypoxia [Source:SGD%3BAcc:S000000629];gene_id=YCR033W;logic_name=sgd
+III	sgd	mRNA	186489	190169	.	+	.	ID=transcript:YCR033W_mRNA;Parent=gene:YCR033W;biotype=protein_coding;transcript_id=YCR033W_mRNA
+III	sgd	exon	186489	190169	.	+	.	Parent=transcript:YCR033W_mRNA;Name=YCR033W_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR033W_mRNA-E1;rank=1
+III	sgd	CDS	186489	190169	.	+	0	ID=CDS:YCR033W_mRNA;Parent=transcript:YCR033W_mRNA;protein_id=YCR033W_mRNA
+###
+III	sgd	gene	190592	191635	.	+	.	ID=gene:YCR034W;Name=FEN1;biotype=protein_coding;description=Fatty acid elongase%2C involved in sphingolipid biosynthesis%3B acts on fatty acids of up to 24 carbons in length%3B mutations have regulatory effects on 1%2C3-beta-glucan synthase%2C vacuolar ATPase%2C and the secretory pathway%3B ELO2 has a paralog%2C ELO1%2C that arose from the whole genome duplication%3B lethality of the elo2 elo3 double null mutation is functionally complemented by human ELOVL1 and weakly complemented by human ELOVL3 or ELOV7 [Source:SGD%3BAcc:S000000630];gene_id=YCR034W;logic_name=sgd
+III	sgd	mRNA	190592	191635	.	+	.	ID=transcript:YCR034W_mRNA;Parent=gene:YCR034W;biotype=protein_coding;transcript_id=YCR034W_mRNA
+III	sgd	exon	190592	191635	.	+	.	Parent=transcript:YCR034W_mRNA;Name=YCR034W_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR034W_mRNA-E1;rank=1
+III	sgd	CDS	190592	191635	.	+	0	ID=CDS:YCR034W_mRNA;Parent=transcript:YCR034W_mRNA;protein_id=YCR034W_mRNA
+###
+III	sgd	gene	191834	193018	.	-	.	ID=gene:YCR035C;biotype=protein_coding;description=Exosome non-catalytic core component%3B involved in 3'-5' RNA processing and degradation in both the nucleus and the cytoplasm%3B has similarity to E. coli RNase PH and to human hRrp43p (OIP2%2C EXOSC8)%3B protein abundance increases in response to DNA replication stress [Source:SGD%3BAcc:S000000631];gene_id=YCR035C;logic_name=sgd
+III	sgd	mRNA	191834	193018	.	-	.	ID=transcript:YCR035C_mRNA;Parent=gene:YCR035C;biotype=protein_coding;transcript_id=YCR035C_mRNA
+III	sgd	exon	191834	193018	.	-	.	Parent=transcript:YCR035C_mRNA;Name=YCR035C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR035C_mRNA-E1;rank=1
+III	sgd	CDS	191834	193018	.	-	0	ID=CDS:YCR035C_mRNA;Parent=transcript:YCR035C_mRNA;protein_id=YCR035C_mRNA
+###
+III	sgd	gene	193297	194298	.	+	.	ID=gene:YCR036W;biotype=protein_coding;description=Putative ribokinase [Source:SGD%3BAcc:S000000632];gene_id=YCR036W;logic_name=sgd
+III	sgd	mRNA	193297	194298	.	+	.	ID=transcript:YCR036W_mRNA;Parent=gene:YCR036W;biotype=protein_coding;transcript_id=YCR036W_mRNA
+III	sgd	exon	193297	194298	.	+	.	Parent=transcript:YCR036W_mRNA;Name=YCR036W_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR036W_mRNA-E1;rank=1
+III	sgd	CDS	193297	194298	.	+	0	ID=CDS:YCR036W_mRNA;Parent=transcript:YCR036W_mRNA;protein_id=YCR036W_mRNA
+###
+III	sgd	gene	194414	197185	.	-	.	ID=gene:YCR037C;biotype=protein_coding;description=Low-affinity inorganic phosphate (Pi) transporter%3B acts upstream of Pho81p in regulation of the PHO pathway%3B expression is independent of Pi concentration and Pho4p activity%3B contains 12 membrane-spanning segments%3B PHO87 has a paralog%2C PHO90%2C that arose from the whole genome duplication [Source:SGD%3BAcc:S000000633];gene_id=YCR037C;logic_name=sgd
+III	sgd	mRNA	194414	197185	.	-	.	ID=transcript:YCR037C_mRNA;Parent=gene:YCR037C;biotype=protein_coding;transcript_id=YCR037C_mRNA
+III	sgd	exon	194414	197185	.	-	.	Parent=transcript:YCR037C_mRNA;Name=YCR037C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR037C_mRNA-E1;rank=1
+III	sgd	CDS	194414	197185	.	-	0	ID=CDS:YCR037C_mRNA;Parent=transcript:YCR037C_mRNA;protein_id=YCR037C_mRNA
+###
+III	sgd	gene	197621	199549	.	-	.	ID=gene:YCR038C;biotype=protein_coding;description=GTP/GDP exchange factor for Rsr1p (Bud1p)%3B required for both axial and bipolar budding patterns%3B mutants exhibit random budding in all cell types [Source:SGD%3BAcc:S000000634];gene_id=YCR038C;logic_name=sgd
+III	sgd	mRNA	197621	199549	.	-	.	ID=transcript:YCR038C_mRNA;Parent=gene:YCR038C;biotype=protein_coding;transcript_id=YCR038C_mRNA
+III	sgd	exon	197621	199549	.	-	.	Parent=transcript:YCR038C_mRNA;Name=YCR038C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR038C_mRNA-E1;rank=1
+III	sgd	CDS	197621	199549	.	-	0	ID=CDS:YCR038C_mRNA;Parent=transcript:YCR038C_mRNA;protein_id=YCR038C_mRNA
+###
+III	sgd	gene	199293	199418	.	+	.	ID=gene:YCR038W-A;biotype=protein_coding;description=Dubious open reading frame%3B unlikely to encode a functional protein%2C based on available experimental and comparative sequence data%3B completely overlaps the verified gene BUD5/YCR038C%3B identified by homology with hemiascomycetous yeast species [Source:SGD%3BAcc:S000007597];gene_id=YCR038W-A;logic_name=sgd
+III	sgd	mRNA	199293	199418	.	+	.	ID=transcript:YCR038W-A_mRNA;Parent=gene:YCR038W-A;biotype=protein_coding;transcript_id=YCR038W-A_mRNA
+III	sgd	exon	199293	199418	.	+	.	Parent=transcript:YCR038W-A_mRNA;Name=YCR038W-A_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR038W-A_mRNA-E1;rank=1
+III	sgd	CDS	199293	199418	.	+	0	ID=CDS:YCR038W-A_mRNA;Parent=transcript:YCR038W-A_mRNA;protein_id=YCR038W-A_mRNA
+###
+III	sgd	gene	199546	200178	.	-	.	ID=gene:YCR039C;Name=MATALPHA2;biotype=protein_coding;description=Homeobox-domain protein%3B with Mcm1p%2C represses a-specific genes in haploids%3B acts with A1p to repress transcription of haploid-specific genes in diploids%3B one of two genes encoded by the MATalpha mating type cassette [Source:SGD%3BAcc:S000000635];gene_id=YCR039C;logic_name=sgd
+III	sgd	mRNA	199546	200178	.	-	.	ID=transcript:YCR039C_mRNA;Parent=gene:YCR039C;biotype=protein_coding;transcript_id=YCR039C_mRNA
+III	sgd	exon	199546	200178	.	-	.	Parent=transcript:YCR039C_mRNA;Name=YCR039C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR039C_mRNA-E1;rank=1
+III	sgd	CDS	199546	200178	.	-	0	ID=CDS:YCR039C_mRNA;Parent=transcript:YCR039C_mRNA;protein_id=YCR039C_mRNA
+###
+III	sgd	gene	200442	200969	.	+	.	ID=gene:YCR040W;Name=MATALPHA1;biotype=protein_coding;description=Transcriptional co-activator that regulates mating-type-specific genes%3B targets the transcription factor Mcm1p to the promoters of alpha-specific genes%3B one of two genes encoded by the MATalpha mating type cassette [Source:SGD%3BAcc:S000000636];gene_id=YCR040W;logic_name=sgd
+III	sgd	mRNA	200442	200969	.	+	.	ID=transcript:YCR040W_mRNA;Parent=gene:YCR040W;biotype=protein_coding;transcript_id=YCR040W_mRNA
+III	sgd	exon	200442	200969	.	+	.	Parent=transcript:YCR040W_mRNA;Name=YCR040W_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR040W_mRNA-E1;rank=1
+III	sgd	CDS	200442	200969	.	+	0	ID=CDS:YCR040W_mRNA;Parent=transcript:YCR040W_mRNA;protein_id=YCR040W_mRNA
+###
+III	sgd	gene	200911	201243	.	+	.	ID=gene:YCR041W;biotype=protein_coding;description=Protein of unknown function%3B overexpression suppresses the high-frequency loss of mini-chromosomes%2C probably by increasing the rate of proper chromosome segregation%3B translated gene product of YCR041W%2C but not its transcript%2C is responsible for suppression%3B suppression ability of YCR041W is completely dependent on silencing protein Sir4p [Source:SGD%3BAcc:S000000637];gene_id=YCR041W;logic_name=sgd
+III	sgd	mRNA	200911	201243	.	+	.	ID=transcript:YCR041W_mRNA;Parent=gene:YCR041W;biotype=protein_coding;transcript_id=YCR041W_mRNA
+III	sgd	exon	200911	201243	.	+	.	Parent=transcript:YCR041W_mRNA;Name=YCR041W_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR041W_mRNA-E1;rank=1
+III	sgd	CDS	200911	201243	.	+	0	ID=CDS:YCR041W_mRNA;Parent=transcript:YCR041W_mRNA;protein_id=YCR041W_mRNA
+###
+III	sgd	gene	201174	205397	.	-	.	ID=gene:YCR042C;Name=TAF2;biotype=protein_coding;description=TFIID subunit (150 kDa)%3B involved in RNA polymerase II transcription initiation [Source:SGD%3BAcc:S000000638];gene_id=YCR042C;logic_name=sgd
+III	sgd	mRNA	201174	205397	.	-	.	ID=transcript:YCR042C_mRNA;Parent=gene:YCR042C;biotype=protein_coding;transcript_id=YCR042C_mRNA
+III	sgd	exon	201174	205397	.	-	.	Parent=transcript:YCR042C_mRNA;Name=YCR042C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR042C_mRNA-E1;rank=1
+III	sgd	CDS	201174	205397	.	-	0	ID=CDS:YCR042C_mRNA;Parent=transcript:YCR042C_mRNA;protein_id=YCR042C_mRNA
+###
+III	sgd	gene	206261	206644	.	-	.	ID=gene:YCR043C;biotype=protein_coding;description=Putative protein of unknown function%3B green fluorescent protein (GFP)-fusion protein localizes to the Golgi apparatus%3B YCR043C is not an essential gene [Source:SGD%3BAcc:S000000639];gene_id=YCR043C;logic_name=sgd
+III	sgd	mRNA	206261	206644	.	-	.	ID=transcript:YCR043C_mRNA;Parent=gene:YCR043C;biotype=protein_coding;transcript_id=YCR043C_mRNA
+III	sgd	exon	206261	206644	.	-	.	Parent=transcript:YCR043C_mRNA;Name=YCR043C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR043C_mRNA-E1;rank=1
+III	sgd	CDS	206261	206644	.	-	0	ID=CDS:YCR043C_mRNA;Parent=transcript:YCR043C_mRNA;protein_id=YCR043C_mRNA
+###
+III	sgd	gene	206877	207950	.	-	.	ID=gene:YCR044C;Name=PER1;biotype=protein_coding;description=Protein of the endoplasmic reticulum%3B required for GPI-phospholipase A2 activity that remodels the GPI anchor as a prerequisite for association of GPI-anchored proteins with lipid rafts%3B functionally complemented by human ortholog PERLD1 [Source:SGD%3BAcc:S000000640];gene_id=YCR044C;logic_name=sgd
+III	sgd	mRNA	206877	207950	.	-	.	ID=transcript:YCR044C_mRNA;Parent=gene:YCR044C;biotype=protein_coding;transcript_id=YCR044C_mRNA
+III	sgd	exon	206877	207950	.	-	.	Parent=transcript:YCR044C_mRNA;Name=YCR044C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR044C_mRNA-E1;rank=1
+III	sgd	CDS	206877	207950	.	-	0	ID=CDS:YCR044C_mRNA;Parent=transcript:YCR044C_mRNA;protein_id=YCR044C_mRNA
+###
+III	sgd	gene	208135	209610	.	-	.	ID=gene:YCR045C;Name=RRT12;biotype=protein_coding;description=Probable subtilisin-family protease%3B role in formation of the dityrosine layer of spore walls%3B localizes to the spore wall and also the nuclear envelope and ER region in mature spores [Source:SGD%3BAcc:S000000641];gene_id=YCR045C;logic_name=sgd
+III	sgd	mRNA	208135	209610	.	-	.	ID=transcript:YCR045C_mRNA;Parent=gene:YCR045C;biotype=protein_coding;transcript_id=YCR045C_mRNA
+III	sgd	exon	208135	209610	.	-	.	Parent=transcript:YCR045C_mRNA;Name=YCR045C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR045C_mRNA-E1;rank=1
+III	sgd	CDS	208135	209610	.	-	0	ID=CDS:YCR045C_mRNA;Parent=transcript:YCR045C_mRNA;protein_id=YCR045C_mRNA
+###
+III	sgd	gene	208751	209101	.	+	.	ID=gene:YCR045W-A;biotype=protein_coding;description=Dubious open reading frame%3B unlikely to encode a functional protein%2C based on available experimental and comparative sequence data%3B completely overlaps with YCR045C%3B identified by gene-trapping%2C microarray expression analysis%2C and genome-wide homology searching [Source:SGD%3BAcc:S000028607];gene_id=YCR045W-A;logic_name=sgd
+III	sgd	mRNA	208751	209101	.	+	.	ID=transcript:YCR045W-A_mRNA;Parent=gene:YCR045W-A;biotype=protein_coding;transcript_id=YCR045W-A_mRNA
+III	sgd	exon	208751	209101	.	+	.	Parent=transcript:YCR045W-A_mRNA;Name=YCR045W-A_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR045W-A_mRNA-E1;rank=1
+III	sgd	CDS	208751	209101	.	+	0	ID=CDS:YCR045W-A_mRNA;Parent=transcript:YCR045W-A_mRNA;protein_id=YCR045W-A_mRNA
+###
+III	sgd	gene	209914	210423	.	-	.	ID=gene:YCR046C;biotype=protein_coding;description=Mitochondrial ribosomal protein of the large subunit%3B required for respiration and for maintenance of the mitochondrial genome [Source:SGD%3BAcc:S000000642];gene_id=YCR046C;logic_name=sgd
+III	sgd	mRNA	209914	210423	.	-	.	ID=transcript:YCR046C_mRNA;Parent=gene:YCR046C;biotype=protein_coding;transcript_id=YCR046C_mRNA
+III	sgd	exon	209914	210423	.	-	.	Parent=transcript:YCR046C_mRNA;Name=YCR046C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR046C_mRNA-E1;rank=1
+III	sgd	CDS	209914	210423	.	-	0	ID=CDS:YCR046C_mRNA;Parent=transcript:YCR046C_mRNA;protein_id=YCR046C_mRNA
+###
+III	sgd	gene	210718	211545	.	-	.	ID=gene:YCR047C;biotype=protein_coding;description=Methyltransferase that methylates residue G1575 of 18S rRNA%3B required for rRNA processing and nuclear export of 40S ribosomal subunits independently of methylation activity%3B diploid mutant displays random budding pattern%3B functional homolog of human WBSCR22 [Source:SGD%3BAcc:S000000643];gene_id=YCR047C;logic_name=sgd
+III	sgd	mRNA	210718	211545	.	-	.	ID=transcript:YCR047C_mRNA;Parent=gene:YCR047C;biotype=protein_coding;transcript_id=YCR047C_mRNA
+III	sgd	exon	210718	211545	.	-	.	Parent=transcript:YCR047C_mRNA;Name=YCR047C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR047C_mRNA-E1;rank=1
+III	sgd	CDS	210718	211545	.	-	0	ID=CDS:YCR047C_mRNA;Parent=transcript:YCR047C_mRNA;protein_id=YCR047C_mRNA
+###
+III	sgd	gene	211301	211507	.	+	.	ID=gene:YCR047W-A;biotype=protein_coding;description=Dubious open reading frame%3B unlikely to encode a functional protein%2C based on available experimental and comparative sequence data%3B completely overlaps with YCR047C%3B identified by gene-trapping%2C microarray expression analysis%2C and genome-wide homology searching [Source:SGD%3BAcc:S000028608];gene_id=YCR047W-A;logic_name=sgd
+III	sgd	mRNA	211301	211507	.	+	.	ID=transcript:YCR047W-A_mRNA;Parent=gene:YCR047W-A;biotype=protein_coding;transcript_id=YCR047W-A_mRNA
+III	sgd	exon	211301	211507	.	+	.	Parent=transcript:YCR047W-A_mRNA;Name=YCR047W-A_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR047W-A_mRNA-E1;rank=1
+III	sgd	CDS	211301	211507	.	+	0	ID=CDS:YCR047W-A_mRNA;Parent=transcript:YCR047W-A_mRNA;protein_id=YCR047W-A_mRNA
+###
+III	sgd	gene	211871	212317	.	-	.	ID=gene:YCR049C;biotype=protein_coding;description=Dubious open reading frame%3B unlikely to encode a functional protein%2C based on available experimental and comparative sequence data [Source:SGD%3BAcc:S000000645];gene_id=YCR049C;logic_name=sgd
+III	sgd	mRNA	211871	212317	.	-	.	ID=transcript:YCR049C_mRNA;Parent=gene:YCR049C;biotype=protein_coding;transcript_id=YCR049C_mRNA
+III	sgd	exon	211871	212317	.	-	.	Parent=transcript:YCR049C_mRNA;Name=YCR049C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR049C_mRNA-E1;rank=1
+III	sgd	CDS	211871	212317	.	-	0	ID=CDS:YCR049C_mRNA;Parent=transcript:YCR049C_mRNA;protein_id=YCR049C_mRNA
+###
+III	sgd	gene	211929	213761	.	+	.	ID=gene:YCR048W;Name=ARE1;biotype=protein_coding;description=Acyl-CoA:sterol acyltransferase%3B endoplasmic reticulum enzyme that contributes the major sterol esterification activity in the absence of oxygen%3B ARE1 has a paralog%2C ARE2%2C that arose from the whole genome duplication [Source:SGD%3BAcc:S000000644];gene_id=YCR048W;logic_name=sgd
+III	sgd	mRNA	211929	213761	.	+	.	ID=transcript:YCR048W_mRNA;Parent=gene:YCR048W;biotype=protein_coding;transcript_id=YCR048W_mRNA
+III	sgd	exon	211929	213761	.	+	.	Parent=transcript:YCR048W_mRNA;Name=YCR048W_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR048W_mRNA-E1;rank=1
+III	sgd	CDS	211929	213761	.	+	0	ID=CDS:YCR048W_mRNA;Parent=transcript:YCR048W_mRNA;protein_id=YCR048W_mRNA
+###
+III	sgd	gene	213464	213772	.	-	.	ID=gene:YCR050C;biotype=protein_coding;description=Non-essential protein of unknown function%3B deletion mutant is synthetically sick or lethal with alpha-synuclein [Source:SGD%3BAcc:S000000646];gene_id=YCR050C;logic_name=sgd
+III	sgd	mRNA	213464	213772	.	-	.	ID=transcript:YCR050C_mRNA;Parent=gene:YCR050C;biotype=protein_coding;transcript_id=YCR050C_mRNA
+III	sgd	exon	213464	213772	.	-	.	Parent=transcript:YCR050C_mRNA;Name=YCR050C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR050C_mRNA-E1;rank=1
+III	sgd	CDS	213464	213772	.	-	0	ID=CDS:YCR050C_mRNA;Parent=transcript:YCR050C_mRNA;protein_id=YCR050C_mRNA
+###
+III	sgd	gene	214071	214739	.	+	.	ID=gene:YCR051W;biotype=protein_coding;description=Putative protein of unknown function%3B green fluorescent protein (GFP)-fusion protein localizes to the cytoplasm and nucleus%3B contains ankyrin (Ank) repeats%3B YCR051W is not an essential gene [Source:SGD%3BAcc:S000000647];gene_id=YCR051W;logic_name=sgd
+III	sgd	mRNA	214071	214739	.	+	.	ID=transcript:YCR051W_mRNA;Parent=gene:YCR051W;biotype=protein_coding;transcript_id=YCR051W_mRNA
+III	sgd	exon	214071	214739	.	+	.	Parent=transcript:YCR051W_mRNA;Name=YCR051W_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR051W_mRNA-E1;rank=1
+III	sgd	CDS	214071	214739	.	+	0	ID=CDS:YCR051W_mRNA;Parent=transcript:YCR051W_mRNA;protein_id=YCR051W_mRNA
+###
+III	sgd	gene	214994	216445	.	+	.	ID=gene:YCR052W;biotype=protein_coding;description=Component of the RSC chromatin remodeling complex%3B essential for mitotic growth%3B RSC6 has a paralog%2C SNF12%2C that arose from the whole genome duplication [Source:SGD%3BAcc:S000000648];gene_id=YCR052W;logic_name=sgd
+III	sgd	mRNA	214994	216445	.	+	.	ID=transcript:YCR052W_mRNA;Parent=gene:YCR052W;biotype=protein_coding;transcript_id=YCR052W_mRNA
+III	sgd	exon	214994	216445	.	+	.	Parent=transcript:YCR052W_mRNA;Name=YCR052W_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR052W_mRNA-E1;rank=1
+III	sgd	CDS	214994	216445	.	+	0	ID=CDS:YCR052W_mRNA;Parent=transcript:YCR052W_mRNA;protein_id=YCR052W_mRNA
+###
+III	sgd	gene	216697	218241	.	+	.	ID=gene:YCR053W;biotype=protein_coding;description=Threonine synthase%3B conserved protein that catalyzes formation of threonine from O-phosphohomoserine%3B expression is regulated by the GCN4-mediated general amino acid control pathway [Source:SGD%3BAcc:S000000649];gene_id=YCR053W;logic_name=sgd
+III	sgd	mRNA	216697	218241	.	+	.	ID=transcript:YCR053W_mRNA;Parent=gene:YCR053W;biotype=protein_coding;transcript_id=YCR053W_mRNA
+III	sgd	exon	216697	218241	.	+	.	Parent=transcript:YCR053W_mRNA;Name=YCR053W_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR053W_mRNA-E1;rank=1
+III	sgd	CDS	216697	218241	.	+	0	ID=CDS:YCR053W_mRNA;Parent=transcript:YCR053W_mRNA;protein_id=YCR053W_mRNA
+###
+III	sgd	gene	218376	220067	.	-	.	ID=gene:YCR054C;biotype=protein_coding;description=Essential protein of unknown function%3B with orthologs in Ashbya gossypii and Candida albicans%3B similar to human ATXN10%2C mutations in which cause spinocerebellar ataxia type 10%3B codon usage corresponds to that observed for yeast genes expressed at low levels%3B relative distribution to the nucleus increases upon DNA replication stress [Source:SGD%3BAcc:S000000650];gene_id=YCR054C;logic_name=sgd
+III	sgd	mRNA	218376	220067	.	-	.	ID=transcript:YCR054C_mRNA;Parent=gene:YCR054C;biotype=protein_coding;transcript_id=YCR054C_mRNA
+III	sgd	exon	218376	220067	.	-	.	Parent=transcript:YCR054C_mRNA;Name=YCR054C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR054C_mRNA-E1;rank=1
+III	sgd	CDS	218376	220067	.	-	0	ID=CDS:YCR054C_mRNA;Parent=transcript:YCR054C_mRNA;protein_id=YCR054C_mRNA
+###
+III	sgd	gene	220457	223228	.	-	.	ID=gene:YCR057C;Name=PWP2;biotype=protein_coding;description=Conserved 90S pre-ribosomal component%3B essential for proper endonucleolytic cleavage of the 35 S rRNA precursor at A0%2C A1%2C and A2 sites%3B contains eight WD-repeats%3B PWP2 deletion leads to defects in cell cycle and bud morphogenesis [Source:SGD%3BAcc:S000000653];gene_id=YCR057C;logic_name=sgd
+III	sgd	mRNA	220457	223228	.	-	.	ID=transcript:YCR057C_mRNA;Parent=gene:YCR057C;biotype=protein_coding;transcript_id=YCR057C_mRNA
+III	sgd	exon	220457	223228	.	-	.	Parent=transcript:YCR057C_mRNA;Name=YCR057C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR057C_mRNA-E1;rank=1
+III	sgd	CDS	220457	223228	.	-	0	ID=CDS:YCR057C_mRNA;Parent=transcript:YCR057C_mRNA;protein_id=YCR057C_mRNA
+###
+III	sgd	gene	223454	224230	.	-	.	ID=gene:YCR059C;biotype=protein_coding;description=Negative regulator of eIF2 kinase Gcn2p%3B competes with Gcn2p for binding to Gcn1p%3B may contribute to regulation of translation in response to starvation via regulation of Gcn2p%3B binds to monomeric actin and to ribosomes and polyribosomes%3B ortholog of mammalian IMPACT [Source:SGD%3BAcc:S000000655];gene_id=YCR059C;logic_name=sgd
+III	sgd	mRNA	223454	224230	.	-	.	ID=transcript:YCR059C_mRNA;Parent=gene:YCR059C;biotype=protein_coding;transcript_id=YCR059C_mRNA
+III	sgd	exon	223454	224230	.	-	.	Parent=transcript:YCR059C_mRNA;Name=YCR059C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR059C_mRNA-E1;rank=1
+III	sgd	CDS	223454	224230	.	-	0	ID=CDS:YCR059C_mRNA;Parent=transcript:YCR059C_mRNA;protein_id=YCR059C_mRNA
+###
+III	sgd	gene	224399	224734	.	+	.	ID=gene:YCR060W;biotype=protein_coding;description=Component of conserved R2TP complex (Rvb1-Rvb2-Tah1-Pih1)%3B R2TP complex interacts with Hsp90 (Hsp82p and Hsc82p) to mediate assembly of large protein complexes such as box C/D snoRNPs and RNA polymerase II%3B contains a single TPR domain with at least two TPR motifs%3B plays a role in determining prion variants [Source:SGD%3BAcc:S000000656];gene_id=YCR060W;logic_name=sgd
+III	sgd	mRNA	224399	224734	.	+	.	ID=transcript:YCR060W_mRNA;Parent=gene:YCR060W;biotype=protein_coding;transcript_id=YCR060W_mRNA
+III	sgd	exon	224399	224734	.	+	.	Parent=transcript:YCR060W_mRNA;Name=YCR060W_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR060W_mRNA-E1;rank=1
+III	sgd	CDS	224399	224734	.	+	0	ID=CDS:YCR060W_mRNA;Parent=transcript:YCR060W_mRNA;protein_id=YCR060W_mRNA
+###
+III	sgd	gene	225563	227458	.	+	.	ID=gene:YCR061W;Name=YCR061W;biotype=protein_coding;description=Protein of unknown function%3B green fluorescent protein (GFP)-fusion protein localizes to the cytoplasm in a punctate pattern%3B induced by treatment with 8-methoxypsoralen and UVA irradiation [Source:SGD%3BAcc:S000000657];gene_id=YCR061W;logic_name=sgd
+III	sgd	mRNA	225563	227458	.	+	.	ID=transcript:YCR061W_mRNA;Parent=gene:YCR061W;biotype=protein_coding;transcript_id=YCR061W_mRNA
+III	sgd	exon	225563	227458	.	+	.	Parent=transcript:YCR061W_mRNA;Name=YCR061W_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR061W_mRNA-E1;rank=1
+III	sgd	CDS	225563	227458	.	+	0	ID=CDS:YCR061W_mRNA;Parent=transcript:YCR061W_mRNA;protein_id=YCR061W_mRNA
+###
+III	sgd	ncRNA_gene	227942	228042	.	+	.	ID=gene:tS(CGA)C;biotype=tRNA;description=Serine tRNA (tRNA-Ser)%2C predicted by tRNAscan-SE analysis%3B i6A37 modification is catalyzed by Mod5p%3B can mutate to suppress amber or ochre nonsense mutations%3B suppressor mutant alleles are recessive lethal and can only be maintained when an additional wild-type copy of the gene is present%2C because SUP61 encodes the only tRNA species that can decode UCG codons [Source:SGD%3BAcc:S000006730];gene_id=tS(CGA)C;logic_name=sgd
+III	sgd	tRNA	227942	228042	.	+	.	ID=transcript:tS(CGA)C_tRNA;Parent=gene:tS(CGA)C;biotype=tRNA;transcript_id=tS(CGA)C_tRNA
+III	sgd	exon	227942	227978	.	+	.	Parent=transcript:tS(CGA)C_tRNA;Name=tS(CGA)C_tRNA-E1;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=tS(CGA)C_tRNA-E1;rank=1
+III	sgd	exon	227998	228042	.	+	.	Parent=transcript:tS(CGA)C_tRNA;Name=tS(CGA)C_tRNA-E2;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=tS(CGA)C_tRNA-E2;rank=2
+###
+III	sgd	gene	228095	228505	.	-	.	ID=gene:YCR064C;biotype=protein_coding;description=Dubious open reading frame%3B unlikely to encode a functional protein%2C based on available experimental and comparative sequence data%3B partially overlaps the verified gene BUD31 [Source:SGD%3BAcc:S000000660];gene_id=YCR064C;logic_name=sgd
+III	sgd	mRNA	228095	228505	.	-	.	ID=transcript:YCR064C_mRNA;Parent=gene:YCR064C;biotype=protein_coding;transcript_id=YCR064C_mRNA
+III	sgd	exon	228095	228505	.	-	.	Parent=transcript:YCR064C_mRNA;Name=YCR064C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR064C_mRNA-E1;rank=1
+III	sgd	CDS	228095	228505	.	-	0	ID=CDS:YCR064C_mRNA;Parent=transcript:YCR064C_mRNA;protein_id=YCR064C_mRNA
+###
+III	sgd	gene	228318	228791	.	+	.	ID=gene:YCR063W;Name=BUD31;biotype=protein_coding;description=Component of the SF3b subcomplex of the U2 snRNP%3B increases efficiency of first and second step pre-mRNA splicing%3B diploid mutants display a random budding pattern instead of the wild-type bipolar pattern%3B facilitates passage through G1/S Start%2C but is not required for G2/M transition or exit from mitosis [Source:SGD%3BAcc:S000000659];gene_id=YCR063W;logic_name=sgd
+III	sgd	mRNA	228318	228791	.	+	.	ID=transcript:YCR063W_mRNA;Parent=gene:YCR063W;biotype=protein_coding;transcript_id=YCR063W_mRNA
+III	sgd	exon	228318	228791	.	+	.	Parent=transcript:YCR063W_mRNA;Name=YCR063W_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR063W_mRNA-E1;rank=1
+III	sgd	CDS	228318	228791	.	+	0	ID=CDS:YCR063W_mRNA;Parent=transcript:YCR063W_mRNA;protein_id=YCR063W_mRNA
+###
+III	sgd	gene	229310	231004	.	+	.	ID=gene:YCR065W;biotype=protein_coding;description=Forkhead transcription factor%3B drives S-phase activation of genes involved in chromosome segregation%2C spindle dynamics%2C budding%3B also activates genes involved in respiration%2C use of alternative energy sources (like proline)%2C NAD synthesis%2C oxidative stress resistance%3B key factor in early adaptation to nutrient deficiency and diauxic shift%3B suppressor of calmodulin mutants with specific SPB assembly defects%3B ortholog of C. elegans lifespan regulator PHA-4 [Source:SGD%3BAcc:S000000661];gene_id=YCR065W;logic_name=sgd
+III	sgd	mRNA	229310	231004	.	+	.	ID=transcript:YCR065W_mRNA;Parent=gene:YCR065W;biotype=protein_coding;transcript_id=YCR065W_mRNA
+III	sgd	exon	229310	231004	.	+	.	Parent=transcript:YCR065W_mRNA;Name=YCR065W_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR065W_mRNA-E1;rank=1
+III	sgd	CDS	229310	231004	.	+	0	ID=CDS:YCR065W_mRNA;Parent=transcript:YCR065W_mRNA;protein_id=YCR065W_mRNA
+###
+III	sgd	gene	231500	232963	.	+	.	ID=gene:YCR066W;biotype=protein_coding;description=E3 ubiquitin ligase%3B forms heterodimer with Rad6p to monoubiquitinate PCNA-K164%3B heterodimer binds single-stranded DNA and has single-stranded DNA dependent ATPase activity%3B required for postreplication repair%3B SUMO-targeted ubiquitin ligase (STUbl) that contains a SUMO-interacting motif (SIM) which stimulates its ubiquitin ligase activity towards the sumoylated form of PCNA [Source:SGD%3BAcc:S000000662];gene_id=YCR066W;logic_name=sgd
+III	sgd	mRNA	231500	232963	.	+	.	ID=transcript:YCR066W_mRNA;Parent=gene:YCR066W;biotype=protein_coding;transcript_id=YCR066W_mRNA
+III	sgd	exon	231500	232963	.	+	.	Parent=transcript:YCR066W_mRNA;Name=YCR066W_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR066W_mRNA-E1;rank=1
+III	sgd	CDS	231500	232963	.	+	0	ID=CDS:YCR066W_mRNA;Parent=transcript:YCR066W_mRNA;protein_id=YCR066W_mRNA
+###
+III	sgd	gene	233125	236322	.	-	.	ID=gene:YCR067C;biotype=protein_coding;description=Integral ER membrane protein that stimulates Sar1p GTPase activity%3B involved in COPII vesicle budding through disassociation of coat proteins from membranes onto liposomes%3B binds Sec16p%3B SED4 has a paralog%2C SEC12%2C that arose from the whole genome duplication [Source:SGD%3BAcc:S000000663];gene_id=YCR067C;logic_name=sgd
+III	sgd	mRNA	233125	236322	.	-	.	ID=transcript:YCR067C_mRNA;Parent=gene:YCR067C;biotype=protein_coding;transcript_id=YCR067C_mRNA
+III	sgd	exon	233125	236322	.	-	.	Parent=transcript:YCR067C_mRNA;Name=YCR067C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR067C_mRNA-E1;rank=1
+III	sgd	CDS	233125	236322	.	-	0	ID=CDS:YCR067C_mRNA;Parent=transcript:YCR067C_mRNA;protein_id=YCR067C_mRNA
+###
+III	sgd	gene	237214	238776	.	+	.	ID=gene:YCR068W;Name=ATG15;biotype=protein_coding;description=Phospholipase%3B preferentially hydrolyses phosphatidylserine%2C with minor activity against cardiolipin and phosphatidylethanolamine%3B required for lysis of autophagic and CVT bodies%3B targeted to intravacuolar vesicles during autophagy via the multivesicular body (MVB) pathway%3B required for the maintenance of lipid droplet quantity after the diauxic shift%3B regulates lipolysis%3B expression regulated by Yap1p during autophagy [Source:SGD%3BAcc:S000000664];gene_id=YCR068W;logic_name=sgd
+III	sgd	mRNA	237214	238776	.	+	.	ID=transcript:YCR068W_mRNA;Parent=gene:YCR068W;biotype=protein_coding;transcript_id=YCR068W_mRNA
+III	sgd	exon	237214	238776	.	+	.	Parent=transcript:YCR068W_mRNA;Name=YCR068W_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR068W_mRNA-E1;rank=1
+III	sgd	CDS	237214	238776	.	+	0	ID=CDS:YCR068W_mRNA;Parent=transcript:YCR068W_mRNA;protein_id=YCR068W_mRNA
+###
+III	sgd	gene	239055	240011	.	+	.	ID=gene:YCR069W;Name=CPR4;biotype=protein_coding;description=Peptidyl-prolyl cis-trans isomerase (cyclophilin)%3B catalyzes the cis-trans isomerization of peptide bonds N-terminal to proline residues%3B has a potential role in the secretory pathway%3B CPR4 has a paralog%2C CPR8%2C that arose from the whole genome duplication [Source:SGD%3BAcc:S000000665];gene_id=YCR069W;logic_name=sgd
+III	sgd	mRNA	239055	240011	.	+	.	ID=transcript:YCR069W_mRNA;Parent=gene:YCR069W;biotype=protein_coding;transcript_id=YCR069W_mRNA
+III	sgd	exon	239055	240011	.	+	.	Parent=transcript:YCR069W_mRNA;Name=YCR069W_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR069W_mRNA-E1;rank=1
+III	sgd	CDS	239055	240011	.	+	0	ID=CDS:YCR069W_mRNA;Parent=transcript:YCR069W_mRNA;protein_id=YCR069W_mRNA
+###
+III	sgd	gene	240103	240543	.	-	.	ID=gene:YCR071C;biotype=protein_coding;description=Mitochondrial ribosomal protein of the large subunit%3B conserved in metazoa%2C with similarity to human mitochondrial ribosomal protein MRPL49 [Source:SGD%3BAcc:S000000667];gene_id=YCR071C;logic_name=sgd
+III	sgd	mRNA	240103	240543	.	-	.	ID=transcript:YCR071C_mRNA;Parent=gene:YCR071C;biotype=protein_coding;transcript_id=YCR071C_mRNA
+III	sgd	exon	240103	240543	.	-	.	Parent=transcript:YCR071C_mRNA;Name=YCR071C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR071C_mRNA-E1;rank=1
+III	sgd	CDS	240103	240543	.	-	0	ID=CDS:YCR071C_mRNA;Parent=transcript:YCR071C_mRNA;protein_id=YCR071C_mRNA
+###
+III	sgd	gene	240805	242352	.	-	.	ID=gene:YCR072C;biotype=protein_coding;description=WD-repeat protein involved in ribosome biogenesis%3B may interact with ribosomes%3B required for maturation and efficient intra-nuclear transport or pre-60S ribosomal subunits%2C localizes to the nucleolus [Source:SGD%3BAcc:S000000668];gene_id=YCR072C;logic_name=sgd
+III	sgd	mRNA	240805	242352	.	-	.	ID=transcript:YCR072C_mRNA;Parent=gene:YCR072C;biotype=protein_coding;transcript_id=YCR072C_mRNA
+III	sgd	exon	240805	242352	.	-	.	Parent=transcript:YCR072C_mRNA;Name=YCR072C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR072C_mRNA-E1;rank=1
+III	sgd	CDS	240805	242352	.	-	0	ID=CDS:YCR072C_mRNA;Parent=transcript:YCR072C_mRNA;protein_id=YCR072C_mRNA
+###
+III	sgd	gene	242588	246583	.	-	.	ID=gene:YCR073C;biotype=protein_coding;description=MAP kinase kinase kinase of HOG1 mitogen-activated signaling pathway%3B functionally redundant with Ssk2p%3B interacts with and is activated by Ssk1p%3B phosphorylates Pbs2p%3B SSK22 has a paralog%2C SSK2%2C that arose from the whole genome duplication [Source:SGD%3BAcc:S000000669];gene_id=YCR073C;logic_name=sgd
+III	sgd	mRNA	242588	246583	.	-	.	ID=transcript:YCR073C_mRNA;Parent=gene:YCR073C;biotype=protein_coding;transcript_id=YCR073C_mRNA
+III	sgd	exon	242588	246583	.	-	.	Parent=transcript:YCR073C_mRNA;Name=YCR073C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR073C_mRNA-E1;rank=1
+III	sgd	CDS	242588	246583	.	-	0	ID=CDS:YCR073C_mRNA;Parent=transcript:YCR073C_mRNA;protein_id=YCR073C_mRNA
+###
+III	sgd	gene	246963	247910	.	+	.	ID=gene:YCR073W-A;Name=SOL2;biotype=protein_coding;description=Protein with a possible role in tRNA export%3B shows similarity to 6-phosphogluconolactonase non-catalytic domains but does not exhibit this enzymatic activity%3B homologous to Sol3p and Sol4p%3B SOL2 has a paralog%2C SOL1%2C that arose from the whole genome duplication [Source:SGD%3BAcc:S000000718];gene_id=YCR073W-A;logic_name=sgd
+III	sgd	mRNA	246963	247910	.	+	.	ID=transcript:YCR073W-A_mRNA;Parent=gene:YCR073W-A;biotype=protein_coding;transcript_id=YCR073W-A_mRNA
+III	sgd	exon	246963	247910	.	+	.	Parent=transcript:YCR073W-A_mRNA;Name=YCR073W-A_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR073W-A_mRNA-E1;rank=1
+III	sgd	CDS	246963	247910	.	+	0	ID=CDS:YCR073W-A_mRNA;Parent=transcript:YCR073W-A_mRNA;protein_id=YCR073W-A_mRNA
+###
+III	sgd	gene	248033	248815	.	-	.	ID=gene:YCR075C;biotype=protein_coding;description=Protein involved in cystine transport%3B localizes to the vacuole%2C plasma membrane and endosome%3B similarity to human cystinosin%2C a H(+)-driven transporter involved in L-cystine export from lysosomes and implicated in the disease cystinosis%3B contains seven transmembrane domains%3B mutation is functionally complemented by human CTNS [Source:SGD%3BAcc:S000000671];gene_id=YCR075C;logic_name=sgd
+III	sgd	mRNA	248033	248815	.	-	.	ID=transcript:YCR075C_mRNA;Parent=gene:YCR075C;biotype=protein_coding;transcript_id=YCR075C_mRNA
+III	sgd	exon	248033	248815	.	-	.	Parent=transcript:YCR075C_mRNA;Name=YCR075C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR075C_mRNA-E1;rank=1
+III	sgd	CDS	248033	248815	.	-	0	ID=CDS:YCR075C_mRNA;Parent=transcript:YCR075C_mRNA;protein_id=YCR075C_mRNA
+###
+III	sgd	gene	248975	249202	.	+	.	ID=gene:YCR075W-A;biotype=protein_coding;description=Component of the EGO and GSE complexes%3B identified by homology to Ashbya gossypii%3B YCR075W-A has a paralog%2C YNR034W-A%2C that arose from the whole genome duplication [Source:SGD%3BAcc:S000028519];gene_id=YCR075W-A;logic_name=sgd
+III	sgd	mRNA	248975	249202	.	+	.	ID=transcript:YCR075W-A_mRNA;Parent=gene:YCR075W-A;biotype=protein_coding;transcript_id=YCR075W-A_mRNA
+III	sgd	exon	248975	249202	.	+	.	Parent=transcript:YCR075W-A_mRNA;Name=YCR075W-A_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR075W-A_mRNA-E1;rank=1
+III	sgd	CDS	248975	249202	.	+	0	ID=CDS:YCR075W-A_mRNA;Parent=transcript:YCR075W-A_mRNA;protein_id=YCR075W-A_mRNA
+###
+III	sgd	gene	249293	250045	.	-	.	ID=gene:YCR076C;biotype=protein_coding;description=Proteasome-binding protein%3B interacts physically with multiple subunits of the 20S proteasome and genetically with genes encoding 20S core particle and 19S regulatory particle subunits%3B exhibits boundary activity which blocks the propagation of heterochromatic silencing%3B contains a PI31 proteasome regulator domain and sequence similarity with human PSMF1%2C a proteasome inhibitor%3B not an essential gene [Source:SGD%3BAcc:S000000672];gene_id=YCR076C;logic_name=sgd
+III	sgd	mRNA	249293	250045	.	-	.	ID=transcript:YCR076C_mRNA;Parent=gene:YCR076C;biotype=protein_coding;transcript_id=YCR076C_mRNA
+III	sgd	exon	249293	250045	.	-	.	Parent=transcript:YCR076C_mRNA;Name=YCR076C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR076C_mRNA-E1;rank=1
+III	sgd	CDS	249293	250045	.	-	0	ID=CDS:YCR076C_mRNA;Parent=transcript:YCR076C_mRNA;protein_id=YCR076C_mRNA
+###
+III	sgd	gene	250238	252628	.	-	.	ID=gene:YCR077C;Name=PAT1;biotype=protein_coding;description=Deadenylation-dependent mRNA-decapping factor%3B also required for faithful chromosome transmission%2C maintenance of rDNA locus stability%2C and protection of mRNA 3'-UTRs from trimming%3B associated with topoisomerase II%3B binds to mRNAs under glucose starvation%2C most often in the 3' UTR%3B functionally linked to Pab1p%3B forms cytoplasmic foci upon DNA replication stress%3B phosphorylation by PKA inhibits P body foci formation [Source:SGD%3BAcc:S000000673];gene_id=YCR077C;logic_name=sgd
+III	sgd	mRNA	250238	252628	.	-	.	ID=transcript:YCR077C_mRNA;Parent=gene:YCR077C;biotype=protein_coding;transcript_id=YCR077C_mRNA
+III	sgd	exon	250238	252628	.	-	.	Parent=transcript:YCR077C_mRNA;Name=YCR077C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR077C_mRNA-E1;rank=1
+III	sgd	CDS	250238	252628	.	-	0	ID=CDS:YCR077C_mRNA;Parent=transcript:YCR077C_mRNA;protein_id=YCR077C_mRNA
+###
+III	sgd	gene	252845	254173	.	+	.	ID=gene:YCR079W;Name=PTC6;biotype=protein_coding;description=Mitochondrial type 2C protein phosphatase (PP2C)%3B has similarity to mammalian PP1Ks%3B involved in mitophagy%3B null mutant is sensitive to rapamycin and has decreased phosphorylation of the Pda1 subunit of pyruvate dehydrogenase [Source:SGD%3BAcc:S000002133];gene_id=YCR079W;logic_name=sgd
+III	sgd	mRNA	252845	254173	.	+	.	ID=transcript:YCR079W_mRNA;Parent=gene:YCR079W;biotype=protein_coding;transcript_id=YCR079W_mRNA
+III	sgd	exon	252845	254173	.	+	.	Parent=transcript:YCR079W_mRNA;Name=YCR079W_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR079W_mRNA-E1;rank=1
+III	sgd	CDS	252845	254173	.	+	0	ID=CDS:YCR079W_mRNA;Parent=transcript:YCR079W_mRNA;protein_id=YCR079W_mRNA
+###
+III	sgd	gene	254371	258654	.	+	.	ID=gene:YCR081W;Name=SRB8;biotype=protein_coding;description=Subunit of the RNA polymerase II mediator complex%3B associates with core polymerase subunits to form the RNA polymerase II holoenzyme%3B essential for transcriptional regulation%3B involved in glucose repression [Source:SGD%3BAcc:S000000677];gene_id=YCR081W;logic_name=sgd
+III	sgd	mRNA	254371	258654	.	+	.	ID=transcript:YCR081W_mRNA;Parent=gene:YCR081W;biotype=protein_coding;transcript_id=YCR081W_mRNA
+III	sgd	exon	254371	258654	.	+	.	Parent=transcript:YCR081W_mRNA;Name=YCR081W_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR081W_mRNA-E1;rank=1
+III	sgd	CDS	254371	258654	.	+	0	ID=CDS:YCR081W_mRNA;Parent=transcript:YCR081W_mRNA;protein_id=YCR081W_mRNA
+###
+III	sgd	gene	258415	258651	.	-	.	ID=gene:YCR081C-A;biotype=protein_coding;description=Dubious open reading frame%3B unlikely to encode a functional protein%2C based on available experimental and comparative sequence data%3B completely overlaps with SRB8/YCR081W%3B identified by gene-trapping%2C microarray expression analysis%2C and genome-wide homology searching [Source:SGD%3BAcc:S000028609];gene_id=YCR081C-A;logic_name=sgd
+III	sgd	mRNA	258415	258651	.	-	.	ID=transcript:YCR081C-A_mRNA;Parent=gene:YCR081C-A;biotype=protein_coding;transcript_id=YCR081C-A_mRNA
+III	sgd	exon	258415	258651	.	-	.	Parent=transcript:YCR081C-A_mRNA;Name=YCR081C-A_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR081C-A_mRNA-E1;rank=1
+III	sgd	CDS	258415	258651	.	-	0	ID=CDS:YCR081C-A_mRNA;Parent=transcript:YCR081C-A_mRNA;protein_id=YCR081C-A_mRNA
+###
+III	sgd	gene	258883	259269	.	+	.	ID=gene:YCR082W;biotype=protein_coding;description=Component of the ADA histone acetyltransferase complex%3B Ahc2p and Ahc1p are unique to the ADA complex and not shared with the related SAGA and SLIK complexes%3B may tether Ahc1p to the complex [Source:SGD%3BAcc:S000000678];gene_id=YCR082W;logic_name=sgd
+III	sgd	mRNA	258883	259269	.	+	.	ID=transcript:YCR082W_mRNA;Parent=gene:YCR082W;biotype=protein_coding;transcript_id=YCR082W_mRNA
+III	sgd	exon	258883	259269	.	+	.	Parent=transcript:YCR082W_mRNA;Name=YCR082W_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR082W_mRNA-E1;rank=1
+III	sgd	CDS	258883	259269	.	+	0	ID=CDS:YCR082W_mRNA;Parent=transcript:YCR082W_mRNA;protein_id=YCR082W_mRNA
+###
+III	sgd	gene	259578	259961	.	+	.	ID=gene:YCR083W;biotype=protein_coding;description=Mitochondrial thioredoxin%3B highly conserved oxidoreductase required to maintain the redox homeostasis of the cell%2C forms the mitochondrial thioredoxin system with Trr2p%2C redox state is maintained by both Trr2p and Glr1p [Source:SGD%3BAcc:S000000679];gene_id=YCR083W;logic_name=sgd
+III	sgd	mRNA	259578	259961	.	+	.	ID=transcript:YCR083W_mRNA;Parent=gene:YCR083W;biotype=protein_coding;transcript_id=YCR083W_mRNA
+III	sgd	exon	259578	259961	.	+	.	Parent=transcript:YCR083W_mRNA;Name=YCR083W_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR083W_mRNA-E1;rank=1
+III	sgd	CDS	259578	259961	.	+	0	ID=CDS:YCR083W_mRNA;Parent=transcript:YCR083W_mRNA;protein_id=YCR083W_mRNA
+###
+III	sgd	gene	260311	262452	.	-	.	ID=gene:YCR084C;Name=TUP1;biotype=protein_coding;description=General repressor of transcription%3B forms complex with Cyc8p%2C involved in the establishment of repressive chromatin structure through interactions with histones H3 and H4%2C appears to enhance expression of some genes [Source:SGD%3BAcc:S000000680];gene_id=YCR084C;logic_name=sgd
+III	sgd	mRNA	260311	262452	.	-	.	ID=transcript:YCR084C_mRNA;Parent=gene:YCR084C;biotype=protein_coding;transcript_id=YCR084C_mRNA
+III	sgd	exon	260311	262452	.	-	.	Parent=transcript:YCR084C_mRNA;Name=YCR084C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR084C_mRNA-E1;rank=1
+III	sgd	CDS	260311	262452	.	-	0	ID=CDS:YCR084C_mRNA;Parent=transcript:YCR084C_mRNA;protein_id=YCR084C_mRNA
+###
+III	sgd	gene	262916	263269	.	+	.	ID=gene:YCR085W;biotype=protein_coding;description=Putative protein of unknown function%3B conserved among S. cerevisiae strains%3B YCR085W is not an essential gene [Source:SGD%3BAcc:S000000681];gene_id=YCR085W;logic_name=sgd
+III	sgd	mRNA	262916	263269	.	+	.	ID=transcript:YCR085W_mRNA;Parent=gene:YCR085W;biotype=protein_coding;transcript_id=YCR085W_mRNA
+III	sgd	exon	262916	263269	.	+	.	Parent=transcript:YCR085W_mRNA;Name=YCR085W_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR085W_mRNA-E1;rank=1
+III	sgd	CDS	262916	263269	.	+	0	ID=CDS:YCR085W_mRNA;Parent=transcript:YCR085W_mRNA;protein_id=YCR085W_mRNA
+###
+III	sgd	gene	263392	263964	.	+	.	ID=gene:YCR086W;biotype=protein_coding;description=Nucleolar protein that mediates homolog segregation during meiosis I%3B forms a complex with Lrs4p and then Mam1p at kinetochores%3B required for condensin recruitment to the replication fork barrier site and rDNA repeat segregation [Source:SGD%3BAcc:S000000682];gene_id=YCR086W;logic_name=sgd
+III	sgd	mRNA	263392	263964	.	+	.	ID=transcript:YCR086W_mRNA;Parent=gene:YCR086W;biotype=protein_coding;transcript_id=YCR086W_mRNA
+III	sgd	exon	263392	263964	.	+	.	Parent=transcript:YCR086W_mRNA;Name=YCR086W_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR086W_mRNA-E1;rank=1
+III	sgd	CDS	263392	263964	.	+	0	ID=CDS:YCR086W_mRNA;Parent=transcript:YCR086W_mRNA;protein_id=YCR086W_mRNA
+###
+III	sgd	gene	263976	264491	.	+	.	ID=gene:YCR087W;biotype=protein_coding;description=Dubious open reading frame%3B unlikely to encode a functional protein%2C based on available experimental and comparative sequence data%3B partially overlaps uncharacterized gene YCR087C-A%3B YCR087W is not an essential gene [Source:SGD%3BAcc:S000000683];gene_id=YCR087W;logic_name=sgd
+III	sgd	mRNA	263976	264491	.	+	.	ID=transcript:YCR087W_mRNA;Parent=gene:YCR087W;biotype=protein_coding;transcript_id=YCR087W_mRNA
+III	sgd	exon	263976	264491	.	+	.	Parent=transcript:YCR087W_mRNA;Name=YCR087W_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR087W_mRNA-E1;rank=1
+III	sgd	CDS	263976	264491	.	+	0	ID=CDS:YCR087W_mRNA;Parent=transcript:YCR087W_mRNA;protein_id=YCR087W_mRNA
+###
+III	sgd	gene	264006	264467	.	-	.	ID=gene:YCR087C-A;biotype=protein_coding;description=Putative protein of unknown function%3B green fluorescent protein (GFP)-fusion protein localizes to the nucleolus%3B YCR087C-A is not an essential gene [Source:SGD%3BAcc:S000007223];gene_id=YCR087C-A;logic_name=sgd
+III	sgd	mRNA	264006	264467	.	-	.	ID=transcript:YCR087C-A_mRNA;Parent=gene:YCR087C-A;biotype=protein_coding;transcript_id=YCR087C-A_mRNA
+III	sgd	exon	264006	264467	.	-	.	Parent=transcript:YCR087C-A_mRNA;Name=YCR087C-A_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR087C-A_mRNA-E1;rank=1
+III	sgd	CDS	264006	264467	.	-	0	ID=CDS:YCR087C-A_mRNA;Parent=transcript:YCR087C-A_mRNA;protein_id=YCR087C-A_mRNA
+###
+III	sgd	gene	265068	266846	.	+	.	ID=gene:YCR088W;biotype=protein_coding;description=Actin-binding protein of the cortical actin cytoskeleton%3B important for activation of the Arp2/3 complex that plays a key role actin in cytoskeleton organization%3B inhibits barbed-end actin filament elongation%3B phosphorylation within its Proline-Rich Regio%2C mediated by Cdc28p and Pho85p%2C protects Abp1p from proteolysis mediated by its own PEST sequences%3B mammalian homolog of HIP-55 (hematopoietic progenitor kinase 1 [HPK1]-interacting protein of 55 kDa) [Source:SGD%3BAcc:S000000684];gene_id=YCR088W;logic_name=sgd
+III	sgd	mRNA	265068	266846	.	+	.	ID=transcript:YCR088W_mRNA;Parent=gene:YCR088W;biotype=protein_coding;transcript_id=YCR088W_mRNA
+III	sgd	exon	265068	266846	.	+	.	Parent=transcript:YCR088W_mRNA;Name=YCR088W_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR088W_mRNA-E1;rank=1
+III	sgd	CDS	265068	266846	.	+	0	ID=CDS:YCR088W_mRNA;Parent=transcript:YCR088W_mRNA;protein_id=YCR088W_mRNA
+###
+III	sgd	gene	267434	272263	.	+	.	ID=gene:YCR089W;biotype=protein_coding;description=Cell wall adhesin%2C expressed specifically during mating%3B may be involved in maintenance of cell wall integrity during mating%3B FIG2 has a paralog%2C AGA1%2C that arose from the whole genome duplication [Source:SGD%3BAcc:S000000685];gene_id=YCR089W;logic_name=sgd
+III	sgd	mRNA	267434	272263	.	+	.	ID=transcript:YCR089W_mRNA;Parent=gene:YCR089W;biotype=protein_coding;transcript_id=YCR089W_mRNA
+III	sgd	exon	267434	272263	.	+	.	Parent=transcript:YCR089W_mRNA;Name=YCR089W_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR089W_mRNA-E1;rank=1
+III	sgd	CDS	267434	272263	.	+	0	ID=CDS:YCR089W_mRNA;Parent=transcript:YCR089W_mRNA;protein_id=YCR089W_mRNA
+###
+III	sgd	gene	272315	272863	.	-	.	ID=gene:YCR090C;biotype=protein_coding;description=Putative protein of unknown function%3B green fluorescent protein (GFP)-fusion protein localizes to the cytoplasm and nucleus%3B YCR090C is not an essential gene [Source:SGD%3BAcc:S000000686];gene_id=YCR090C;logic_name=sgd
+III	sgd	mRNA	272315	272863	.	-	.	ID=transcript:YCR090C_mRNA;Parent=gene:YCR090C;biotype=protein_coding;transcript_id=YCR090C_mRNA
+III	sgd	exon	272315	272863	.	-	.	Parent=transcript:YCR090C_mRNA;Name=YCR090C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR090C_mRNA-E1;rank=1
+III	sgd	CDS	272315	272863	.	-	0	ID=CDS:YCR090C_mRNA;Parent=transcript:YCR090C_mRNA;protein_id=YCR090C_mRNA
+###
+III	sgd	gene	274404	276566	.	+	.	ID=gene:YCR091W;Name=KIN82;biotype=protein_coding;description=Putative serine/threonine protein kinase%3B implicated in the regulation of phospholipid asymmetry through the activation of phospholipid translocases (flippases)%3B involved in the phosphorylation of upstream inhibitory kinase Ypk1p along with Fpk1p%3B has a redundant role in the cellular response to mating pheromone%3B KIN82 has a paralog%2C FPK1%2C that arose from the whole genome duplication [Source:SGD%3BAcc:S000000687];gene_id=YCR091W;logic_name=sgd
+III	sgd	mRNA	274404	276566	.	+	.	ID=transcript:YCR091W_mRNA;Parent=gene:YCR091W;biotype=protein_coding;transcript_id=YCR091W_mRNA
+III	sgd	exon	274404	276566	.	+	.	Parent=transcript:YCR091W_mRNA;Name=YCR091W_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR091W_mRNA-E1;rank=1
+III	sgd	CDS	274404	276566	.	+	0	ID=CDS:YCR091W_mRNA;Parent=transcript:YCR091W_mRNA;protein_id=YCR091W_mRNA
+###
+III	sgd	gene	276764	279820	.	-	.	ID=gene:YCR092C;biotype=protein_coding;description=Mismatch repair protein%3B forms dimers with Msh2p that mediate repair of insertion or deletion mutations and removal of nonhomologous DNA ends%2C contains a PCNA (Pol30p) binding motif required for genome stability [Source:SGD%3BAcc:S000000688];gene_id=YCR092C;logic_name=sgd
+III	sgd	mRNA	276764	279820	.	-	.	ID=transcript:YCR092C_mRNA;Parent=gene:YCR092C;biotype=protein_coding;transcript_id=YCR092C_mRNA
+III	sgd	exon	276764	279820	.	-	.	Parent=transcript:YCR092C_mRNA;Name=YCR092C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR092C_mRNA-E1;rank=1
+III	sgd	CDS	276764	279820	.	-	0	ID=CDS:YCR092C_mRNA;Parent=transcript:YCR092C_mRNA;protein_id=YCR092C_mRNA
+###
+III	sgd	gene	280117	286443	.	+	.	ID=gene:YCR093W;Name=CDC39;biotype=protein_coding;description=Subunit of the CCR4-NOT1 core complex%3B this complex has multiple roles in the regulation of mRNA levels including regulation of transcription and destabilization of mRNA by deadenylation%3B basal transcription factor that increases initiation and elongation%3B activates the ATPase activity of Dhh1p%2C resulting in processing body disassembly [Source:SGD%3BAcc:S000000689];gene_id=YCR093W;logic_name=sgd
+III	sgd	mRNA	280117	286443	.	+	.	ID=transcript:YCR093W_mRNA;Parent=gene:YCR093W;biotype=protein_coding;transcript_id=YCR093W_mRNA
+III	sgd	exon	280117	286443	.	+	.	Parent=transcript:YCR093W_mRNA;Name=YCR093W_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR093W_mRNA-E1;rank=1
+III	sgd	CDS	280117	286443	.	+	0	ID=CDS:YCR093W_mRNA;Parent=transcript:YCR093W_mRNA;protein_id=YCR093W_mRNA
+###
+III	sgd	gene	286762	287937	.	+	.	ID=gene:YCR094W;biotype=protein_coding;description=Endosomal protein that interacts with phospholipid flippase Drs2p%3B interaction with Cdc50p is essential for Drs2p catalytic activity%3B mutations affect cell polarity and polarized growth%3B similar to Lem3p%3B CDC50 has a paralog%2C YNR048W%2C that arose from the whole genome duplication [Source:SGD%3BAcc:S000000690];gene_id=YCR094W;logic_name=sgd
+III	sgd	mRNA	286762	287937	.	+	.	ID=transcript:YCR094W_mRNA;Parent=gene:YCR094W;biotype=protein_coding;transcript_id=YCR094W_mRNA
+III	sgd	exon	286762	287937	.	+	.	Parent=transcript:YCR094W_mRNA;Name=YCR094W_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR094W_mRNA-E1;rank=1
+III	sgd	CDS	286762	287937	.	+	0	ID=CDS:YCR094W_mRNA;Parent=transcript:YCR094W_mRNA;protein_id=YCR094W_mRNA
+###
+III	sgd	gene	288170	289258	.	-	.	ID=gene:YCR095C;biotype=protein_coding;description=Cytoplasmic protein required for replication of Brome mosaic virus%3B S. cerevisiae is a model system for studying replication of positive-strand RNA viruses in their natural hosts [Source:SGD%3BAcc:S000000691];gene_id=YCR095C;logic_name=sgd
+III	sgd	mRNA	288170	289258	.	-	.	ID=transcript:YCR095C_mRNA;Parent=gene:YCR095C;biotype=protein_coding;transcript_id=YCR095C_mRNA
+III	sgd	exon	288170	289258	.	-	.	Parent=transcript:YCR095C_mRNA;Name=YCR095C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR095C_mRNA-E1;rank=1
+III	sgd	CDS	288170	289258	.	-	0	ID=CDS:YCR095C_mRNA;Parent=transcript:YCR095C_mRNA;protein_id=YCR095C_mRNA
+###
+III	sgd	gene	289639	289797	.	+	.	ID=gene:YCR095W-A;biotype=protein_coding;description=Putative protein of unknown function [Source:SGD%3BAcc:S000029724];gene_id=YCR095W-A;logic_name=sgd
+III	sgd	mRNA	289639	289797	.	+	.	ID=transcript:YCR095W-A_mRNA;Parent=gene:YCR095W-A;biotype=protein_coding;transcript_id=YCR095W-A_mRNA
+III	sgd	exon	289639	289797	.	+	.	Parent=transcript:YCR095W-A_mRNA;Name=YCR095W-A_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR095W-A_mRNA-E1;rank=1
+III	sgd	CDS	289639	289797	.	+	0	ID=CDS:YCR095W-A_mRNA;Parent=transcript:YCR095W-A_mRNA;protein_id=YCR095W-A_mRNA
+###
+III	sgd	gene	293179	293538	.	-	.	ID=gene:YCR096C;Name=HMRA2;biotype=protein_coding;description=Silenced copy of a2 at HMR%3B similarity to Alpha2p%3B required along with a1p for inhibiting expression of the HO endonuclease in a/alpha HO/HO diploid cells with an active mating-type interconversion system [Source:SGD%3BAcc:S000000692];gene_id=YCR096C;logic_name=sgd
+III	sgd	mRNA	293179	293538	.	-	.	ID=transcript:YCR096C_mRNA;Parent=gene:YCR096C;biotype=protein_coding;transcript_id=YCR096C_mRNA
+III	sgd	exon	293179	293538	.	-	.	Parent=transcript:YCR096C_mRNA;Name=YCR096C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR096C_mRNA-E1;rank=1
+III	sgd	CDS	293179	293538	.	-	0	ID=CDS:YCR096C_mRNA;Parent=transcript:YCR096C_mRNA;protein_id=YCR096C_mRNA
+###
+III	sgd	gene	293835	294321	.	+	.	ID=gene:YCR097W;Name=HMRA1;biotype=protein_coding;description=Silenced copy of a1 at HMR%3B homeobox corepressor that interacts with Alpha2p to repress haploid-specific gene transcription in diploid cells [Source:SGD%3BAcc:S000000694];gene_id=YCR097W;logic_name=sgd
+III	sgd	mRNA	293835	294321	.	+	.	ID=transcript:YCR097W_mRNA;Parent=gene:YCR097W;biotype=protein_coding;transcript_id=YCR097W_mRNA
+III	sgd	exon	293835	293939	.	+	.	Parent=transcript:YCR097W_mRNA;Name=YCR097W_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR097W_mRNA-E1;rank=1
+III	sgd	CDS	293835	293939	.	+	0	ID=CDS:YCR097W_mRNA;Parent=transcript:YCR097W_mRNA;protein_id=YCR097W_mRNA
+III	sgd	exon	293994	294239	.	+	.	Parent=transcript:YCR097W_mRNA;Name=YCR097W_mRNA-E2;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR097W_mRNA-E2;rank=2
+III	sgd	CDS	293994	294239	.	+	0	ID=CDS:YCR097W_mRNA;Parent=transcript:YCR097W_mRNA;protein_id=YCR097W_mRNA
+III	sgd	exon	294292	294321	.	+	.	Parent=transcript:YCR097W_mRNA;Name=YCR097W_mRNA-E3;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR097W_mRNA-E3;rank=3
+III	sgd	CDS	294292	294321	.	+	0	ID=CDS:YCR097W_mRNA;Parent=transcript:YCR097W_mRNA;protein_id=YCR097W_mRNA
+###
+III	sgd	gene	294439	294705	.	+	.	ID=gene:YCR097W-A;biotype=protein_coding;description=Dubious open reading frame%3B unlikely to encode a functional protein%2C based on available experimental and comparative sequence data%3B identified by homology to a hemiascomycetous yeast protein [Source:SGD%3BAcc:S000007632];gene_id=YCR097W-A;logic_name=sgd
+III	sgd	mRNA	294439	294705	.	+	.	ID=transcript:YCR097W-A_mRNA;Parent=gene:YCR097W-A;biotype=protein_coding;transcript_id=YCR097W-A_mRNA
+III	sgd	exon	294439	294705	.	+	.	Parent=transcript:YCR097W-A_mRNA;Name=YCR097W-A_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR097W-A_mRNA-E1;rank=1
+III	sgd	CDS	294439	294705	.	+	0	ID=CDS:YCR097W-A_mRNA;Parent=transcript:YCR097W-A_mRNA;protein_id=YCR097W-A_mRNA
+###
+III	sgd	ncRNA_gene	295484	295556	.	+	.	ID=gene:tT(AGU)C;biotype=tRNA;description=Threonine tRNA (tRNA-Thr)%2C predicted by tRNAscan-SE analysis [Source:SGD%3BAcc:S000006738];gene_id=tT(AGU)C;logic_name=sgd
+III	sgd	tRNA	295484	295556	.	+	.	ID=transcript:tT(AGU)C_tRNA;Parent=gene:tT(AGU)C;biotype=tRNA;transcript_id=tT(AGU)C_tRNA
+III	sgd	exon	295484	295556	.	+	.	Parent=transcript:tT(AGU)C_tRNA;Name=tT(AGU)C_tRNA-E1;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=tT(AGU)C_tRNA-E1;rank=1
+###
+III	sgd	gene	297049	298605	.	-	.	ID=gene:YCR098C;biotype=protein_coding;description=Plasma membrane permease%3B mediates uptake of glycerophosphoinositol and glycerophosphocholine as sources of the nutrients inositol and phosphate%3B expression and transport rate are regulated by phosphate and inositol availability [Source:SGD%3BAcc:S000000695];gene_id=YCR098C;logic_name=sgd
+III	sgd	mRNA	297049	298605	.	-	.	ID=transcript:YCR098C_mRNA;Parent=gene:YCR098C;biotype=protein_coding;transcript_id=YCR098C_mRNA
+III	sgd	exon	297049	298605	.	-	.	Parent=transcript:YCR098C_mRNA;Name=YCR098C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR098C_mRNA-E1;rank=1
+III	sgd	CDS	297049	298605	.	-	0	ID=CDS:YCR098C_mRNA;Parent=transcript:YCR098C_mRNA;protein_id=YCR098C_mRNA
+###
+III	sgd	gene	300832	301299	.	-	.	ID=gene:YCR099C;biotype=protein_coding;description=Putative protein of unknown function [Source:SGD%3BAcc:S000000696];gene_id=YCR099C;logic_name=sgd
+III	sgd	mRNA	300832	301299	.	-	.	ID=transcript:YCR099C_mRNA;Parent=gene:YCR099C;biotype=protein_coding;transcript_id=YCR099C_mRNA
+III	sgd	exon	300832	301299	.	-	.	Parent=transcript:YCR099C_mRNA;Name=YCR099C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR099C_mRNA-E1;rank=1
+III	sgd	CDS	300832	301299	.	-	0	ID=CDS:YCR099C_mRNA;Parent=transcript:YCR099C_mRNA;protein_id=YCR099C_mRNA
+###
+III	sgd	gene	301271	302221	.	-	.	ID=gene:YCR100C;biotype=protein_coding;description=Putative protein of unknown function [Source:SGD%3BAcc:S000000697];gene_id=YCR100C;logic_name=sgd
+III	sgd	mRNA	301271	302221	.	-	.	ID=transcript:YCR100C_mRNA;Parent=gene:YCR100C;biotype=protein_coding;transcript_id=YCR100C_mRNA
+III	sgd	exon	301271	302221	.	-	.	Parent=transcript:YCR100C_mRNA;Name=YCR100C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR100C_mRNA-E1;rank=1
+III	sgd	CDS	301271	302221	.	-	0	ID=CDS:YCR100C_mRNA;Parent=transcript:YCR100C_mRNA;protein_id=YCR100C_mRNA
+###
+III	sgd	gene	302482	303030	.	-	.	ID=gene:YCR101C;biotype=protein_coding;description=Putative protein of unknown function%3B localizes to the membrane fraction%3B YCR101C is not an essential gene [Source:SGD%3BAcc:S000000698];gene_id=YCR101C;logic_name=sgd
+III	sgd	mRNA	302482	303030	.	-	.	ID=transcript:YCR101C_mRNA;Parent=gene:YCR101C;biotype=protein_coding;transcript_id=YCR101C_mRNA
+III	sgd	exon	302482	303030	.	-	.	Parent=transcript:YCR101C_mRNA;Name=YCR101C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR101C_mRNA-E1;rank=1
+III	sgd	CDS	302482	303030	.	-	0	ID=CDS:YCR101C_mRNA;Parent=transcript:YCR101C_mRNA;protein_id=YCR101C_mRNA
+###
+III	sgd	gene	304361	305467	.	-	.	ID=gene:YCR102C;biotype=protein_coding;description=Putative protein of unknown function%3B involved in copper metabolism%3B similar to C. carbonum toxD gene%3B member of the quinone oxidoreductase family [Source:SGD%3BAcc:S000000699];gene_id=YCR102C;logic_name=sgd
+III	sgd	mRNA	304361	305467	.	-	.	ID=transcript:YCR102C_mRNA;Parent=gene:YCR102C;biotype=protein_coding;transcript_id=YCR102C_mRNA
+III	sgd	exon	304361	305467	.	-	.	Parent=transcript:YCR102C_mRNA;Name=YCR102C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR102C_mRNA-E1;rank=1
+III	sgd	CDS	304361	305467	.	-	0	ID=CDS:YCR102C_mRNA;Parent=transcript:YCR102C_mRNA;protein_id=YCR102C_mRNA
+###
+III	sgd	gene	306735	306932	.	+	.	ID=gene:YCR102W-A;biotype=protein_coding;description=Dubious open reading frame%3B unlikely to encode a functional protein%2C based on available experimental and comparative sequence data [Source:SGD%3BAcc:S000007231];gene_id=YCR102W-A;logic_name=sgd
+III	sgd	mRNA	306735	306932	.	+	.	ID=transcript:YCR102W-A_mRNA;Parent=gene:YCR102W-A;biotype=protein_coding;transcript_id=YCR102W-A_mRNA
+III	sgd	exon	306735	306932	.	+	.	Parent=transcript:YCR102W-A_mRNA;Name=YCR102W-A_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR102W-A_mRNA-E1;rank=1
+III	sgd	CDS	306735	306932	.	+	0	ID=CDS:YCR102W-A_mRNA;Parent=transcript:YCR102W-A_mRNA;protein_id=YCR102W-A_mRNA
+###
+III	sgd	gene	307801	308175	.	+	.	ID=gene:YCR104W;biotype=protein_coding;description=Member of the seripauperin multigene family%3B encoded mainly in subtelomeric region%3B active during alcoholic fermentation%3B regulated by anaerobiosis%3B negatively regulated by oxygen%3B repressed by heme [Source:SGD%3BAcc:S000000701];gene_id=YCR104W;logic_name=sgd
+III	sgd	mRNA	307801	308175	.	+	.	ID=transcript:YCR104W_mRNA;Parent=gene:YCR104W;biotype=protein_coding;transcript_id=YCR104W_mRNA
+III	sgd	exon	307801	308175	.	+	.	Parent=transcript:YCR104W_mRNA;Name=YCR104W_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR104W_mRNA-E1;rank=1
+III	sgd	CDS	307801	308175	.	+	0	ID=CDS:YCR104W_mRNA;Parent=transcript:YCR104W_mRNA;protein_id=YCR104W_mRNA
+###
+III	sgd	gene	309070	310155	.	+	.	ID=gene:YCR105W;Name=ADH7;biotype=protein_coding;description=NADPH-dependent medium chain alcohol dehydrogenase%3B has broad substrate specificity%3B member of the cinnamyl family of alcohol dehydrogenases%3B may be involved in fusel alcohol synthesis or in aldehyde tolerance [Source:SGD%3BAcc:S000000702];gene_id=YCR105W;logic_name=sgd
+III	sgd	mRNA	309070	310155	.	+	.	ID=transcript:YCR105W_mRNA;Parent=gene:YCR105W;biotype=protein_coding;transcript_id=YCR105W_mRNA
+III	sgd	exon	309070	310155	.	+	.	Parent=transcript:YCR105W_mRNA;Name=YCR105W_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR105W_mRNA-E1;rank=1
+III	sgd	CDS	309070	310155	.	+	0	ID=CDS:YCR105W_mRNA;Parent=transcript:YCR105W_mRNA;protein_id=YCR105W_mRNA
+###
+III	sgd	gene	310958	313456	.	+	.	ID=gene:YCR106W;biotype=protein_coding;description=Putative zinc cluster transcription factor%3B involved in conferring resistance to cycloheximide [Source:SGD%3BAcc:S000000703];gene_id=YCR106W;logic_name=sgd
+III	sgd	mRNA	310958	313456	.	+	.	ID=transcript:YCR106W_mRNA;Parent=gene:YCR106W;biotype=protein_coding;transcript_id=YCR106W_mRNA
+III	sgd	exon	310958	313456	.	+	.	Parent=transcript:YCR106W_mRNA;Name=YCR106W_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR106W_mRNA-E1;rank=1
+III	sgd	CDS	310958	313456	.	+	0	ID=CDS:YCR106W_mRNA;Parent=transcript:YCR106W_mRNA;protein_id=YCR106W_mRNA
+###
+III	sgd	gene	313890	314981	.	+	.	ID=gene:YCR107W;biotype=protein_coding;description=Putative aryl-alcohol dehydrogenase%3B similar to P. chrysosporium aryl-alcohol dehydrogenase%3B mutational analysis has not yet revealed a physiological role%3B AAD3 has a paralog%2C AAD15%2C that arose from a segmental duplication%3B members of the AAD gene family comprise three pairs (AAD3 + AAD15%2C AAD6/AAD16 + AAD4%2C AAD10 + AAD14) whose two genes are more related to one another than to other members of the family [Source:SGD%3BAcc:S000000704];gene_id=YCR107W;logic_name=sgd
+III	sgd	mRNA	313890	314981	.	+	.	ID=transcript:YCR107W_mRNA;Parent=gene:YCR107W;biotype=protein_coding;transcript_id=YCR107W_mRNA
+III	sgd	exon	313890	314981	.	+	.	Parent=transcript:YCR107W_mRNA;Name=YCR107W_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR107W_mRNA-E1;rank=1
+III	sgd	CDS	313890	314981	.	+	0	ID=CDS:YCR107W_mRNA;Parent=transcript:YCR107W_mRNA;protein_id=YCR107W_mRNA
+###
+III	sgd	gene	315997	316188	.	-	.	ID=gene:YCR108C;biotype=protein_coding;description=Putative protein of unknown function%3B identified by fungal homology and RT-PCR [Source:SGD%3BAcc:S000028536];gene_id=YCR108C;logic_name=sgd
+III	sgd	mRNA	315997	316188	.	-	.	ID=transcript:YCR108C_mRNA;Parent=gene:YCR108C;biotype=protein_coding;transcript_id=YCR108C_mRNA
+III	sgd	exon	315997	316188	.	-	.	Parent=transcript:YCR108C_mRNA;Name=YCR108C_mRNA-E1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=YCR108C_mRNA-E1;rank=1
+III	sgd	CDS	315997	316188	.	-	0	ID=CDS:YCR108C_mRNA;Parent=transcript:YCR108C_mRNA;protein_id=YCR108C_mRNA
+###
