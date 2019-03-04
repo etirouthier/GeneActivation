@@ -42,7 +42,7 @@ def bedfile_to_csv(replica) :
     roman_num = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X', 'XI', 'XII', 'XIII', 'XIV', 'XV', 'XVI']
     
     for (i,j) in zip(range(1,17), roman_num):
-        annotation = pd.read_csv('/home/invites/routhier/Projet_RNA_seq/Start_data/annotation_s_cerevisiae/Saccharomyces_cerevisiae.R64-1-1.95.chromosome.' + j + '.gff3', sep = '\t')
+        annotation = pd.read_csv('./Start_data/annotation_s_cerevisiae/Saccharomyces_cerevisiae.R64-1-1.95.chromosome.' + j + '.gff3', sep = '\t')
         annotation = annotation[annotation.type == 'gene']
         
         forward_start = annotation[annotation.strand == '+'].start.values

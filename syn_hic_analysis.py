@@ -14,4 +14,4 @@ bedfile.columns = ['chr', 'pos', 'value']
 bedfile.chr = 'chr4'
 print(bedfile.head())
 
-bedfile.to_csv('/users/invites/routhier/Documents/Projet_RNA_seq/Start_data/SRR7131302_syn_hic.csv')
+bedfile.to_csv('./Start_data/SRR7131302_syn_hic.csv')

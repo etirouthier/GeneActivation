@@ -63,7 +63,7 @@ def mean_counts_maker(path_to_data, replica):
     data = data.drop(data.columns[0], axis=1)
     
     for (i,j) in zip(range(1,17), roman_num):
-        annotation = pd.read_csv('/home/invites/routhier/Projet_RNA_seq/Start_data/annotation_s_cerevisiae/Saccharomyces_cerevisiae.R64-1-1.95.chromosome.' + j + '.gff3', sep = '\t')
+        annotation = pd.read_csv('./Start_data/annotation_s_cerevisiae/Saccharomyces_cerevisiae.R64-1-1.95.chromosome.' + j + '.gff3', sep = '\t')
         annotation = annotation[annotation.type == 'gene']
         annotation['name'] = [annotation['4'].iloc[_].split(';')[0][8:] for _ in range(len(annotation))]
         
