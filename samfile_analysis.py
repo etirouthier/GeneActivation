@@ -14,35 +14,48 @@ import pysam
 
 def parse_arguments():
     parser = argparse.ArgumentParser()
-    parser.add_argument('-b', '--bedfile_to_csv', action='store_true', help = '''Use it to change a .bed file into two .csv file, one for each strand''')
-    parser.add_argument('-c', '--count_coverage', action='store_true', help = '''Use it to count the number of reads into all genes (from a .bam file)''')
-    parser.add_argument('-r', '--replica', help = ''' Code SRR of the replica we want to analyse''')
+    parser.add_argument('-b', '--bedfile_to_csv',
+                        action = 'store_true',
+                        help = '''Use it to change a .bed file into two .csv
+                        file, one for each strand''')
+    parser.add_argument('-c', '--count_coverage', 
+                        action = 'store_true',
+                        help = '''Use it to count the number of reads into all
+                        genes (from a .bam file)''')
+    parser.add_argument('-r', '--replica',
+                        help = ''' Code SRR of the replica we want to analyse''')
     return  parser.parse_args()
 
 
 def bedfile_to_csv(replica) :
     '''
-        Function that takes the .bed file containing the per base density of reads and returns two .csv file with the density of reads 
-        on the genes of the forward and the backward strands.
+        Function that takes the .bed file containing the per base density of
+        reads and returns two .csv file with the density of reads on the genes
+        of the forward and the backward strands.
         
-        The .bed file is obtained using bedtools genomeCoverage and consist of 3 columns : the chromosome number (with roman number),
-        the position of the nucleotid and the number of reads that match this position. The .csv files are made of the three same columns
-        (called respectively 'chr', 'pos' and 'value'). Nevertheless, on the forward csv file the density of reads outside genes in a
-        forward strand is set to zeros. 
-        
+        The .bed file is obtained using bedtools genomeCoverage and consist of
+        3 columns : the chromosome number (with roman number), the position of
+        the nucleotid and the number of reads that match this position. The
+        .csv files are made of the three same columns (called respectively 'chr',
+        'pos' and 'value'). Nevertheless, on the forward csv file the density
+        of reads outside genes in a forward strand is set to zeros.
+
         Args:
             replica: str, code SRR of the replica we want to analyse.
         Returns:
             Two .csv files. 
-    '''    
-    bedfile = pd.read_csv('/home/invites/routhier/Projet_RNA_seq/Start_data/' + replica + '/' + replica + '.bed', sep = '\t')
+    '''
+    bedfile = pd.read_csv('/home/invites/routhier/Projet_RNA_seq/Start_data/' + \
+                          + replica + '/' + replica + '.bed', sep = '\t')
     bedfile_fw = pd.DataFrame()
     bedfile_bw = pd.DataFrame()
     
     roman_num = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X', 'XI', 'XII', 'XIII', 'XIV', 'XV', 'XVI']
     
     for (i,j) in zip(range(1,17), roman_num):
-        annotation = pd.read_csv('./Start_data/annotation_s_cerevisiae/Saccharomyces_cerevisiae.R64-1-1.95.chromosome.' + j + '.gff3', sep = '\t')
+        annotation = pd.read_csv('./Start_data/annotation_s_cerevisiae/' + \
+                                 'Saccharomyces_cerevisiae.R64-1-1.95.' + \
+                                 'chromosome.' + j + '.gff3', sep = '\t')
         annotation = annotation[annotation.type == 'gene']
         
         forward_start = annotation[annotation.strand == '+'].start.values
@@ -82,14 +95,19 @@ def bedfile_to_csv(replica) :
 
 def count_coverage(replica):
     '''
-        Takes the replica code in entry and returns a .csv file with genes and the number of reads that map them.
-        
-        This function returns a .csv file with column names being 'chr', 'name' and 'counts', standing for the chromosome, the names of genes
-        and the number of reads that map every gene. We need for that to pass two file : a .csv file with the annotation and especially the gene positions and 
-        a sorted .bam file corresponding to the replica. An index file corresponding to the .bam file needs to be present in the same directory as the .bam
-        file (file .bam.bai with the sama name as the .bam file otherwise). Such an index can be generated using samtools index file_name.bam in command
-        line.
-        
+        Takes the replica code in entry and returns a .csv file with genes and 
+        the number of reads that map them.
+
+        This function returns a .csv file with column names being 'chr', 'name'
+        and 'counts', standing for the chromosome, the names of genes and the
+        number of reads that map every gene. We need for that to pass two file :
+        a .csv file with the annotation and especially the gene positions and 
+        a sorted .bam file corresponding to the replica. An index file 
+        corresponding to the .bam file needs to be present in the same 
+        directory as the .bam file (file .bam.bai with the sama name as the .bam
+        file otherwise). Such an index can be generated using samtools index 
+        file_name.bam in command line.
+
         Args:
             replica: string, the code SRR for the consider replica
         returns:
@@ -97,11 +115,15 @@ def count_coverage(replica):
     '''
     roman_num = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X', 'XI', 'XII', 'XIII', 'XIV', 'XV', 'XVI']
     
-    bamfile = pysam.AlignmentFile('/home/invites/routhier/Projet_RNA_seq/Start_data/' + replica + '/' + replica + '_sorted.bam', "rb")
+    bamfile = pysam.AlignmentFile('/home/invites/routhier/Projet_RNA_seq/Start_data/' + \
+                                  + replica + '/' + replica + '_sorted.bam', "rb")
     count_per_genes = pd.DataFrame()
     
     for (i,j) in zip(range(1,17), roman_num):
-        annotation = pd.read_csv('/home/invites/routhier/Projet_RNA_seq/Start_data/annotation_s_cerevisiae/Saccharomyces_cerevisiae.R64-1-1.95.chromosome.' + j + '.gff3', sep = '\t')
+        annotation = pd.read_csv('/home/invites/routhier/Projet_RNA_seq/' + \
+                                 'Start_data/annotation_s_cerevisiae/' + \
+                                 'Saccharomyces_cerevisiae.R64-1-1.95.chromosome.' + \
+                                 j + '.gff3', sep = '\t')
         annotation = annotation[annotation.type == 'gene']
         
         count_per_genes_ = pd.DataFrame()
@@ -125,24 +147,4 @@ def main():
 
 if __name__ == '__main__' :
     main()
-
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
         

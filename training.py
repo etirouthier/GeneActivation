@@ -35,8 +35,8 @@ def parse_arguments():
                         help='''Directory containing the DNA sequence
                         chromosome by chromosome in .hdf5 (in seq_sacCer3)''')
     parser.add_argument('-f', '--file',
-                        help="""CSV file containing the nucleosome
-                        occupancy on the whole genome.""")
+                        help="""CSV file containing the RNA-seq lanscape
+                        on the whole genome.""")
     parser.add_argument('-o', '--output_file',
                         help="""Name of the file were the weight
                         will be stored (in Results_nucleosome)""")

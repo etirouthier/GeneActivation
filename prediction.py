@@ -14,9 +14,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 from keras.models import load_model
-from keras.models import Sequential
-from keras.layers import Dropout, Flatten, LeakyReLU
-from keras.layers import Dense, Conv2D, MaxPooling2D
 from scipy.stats import pearsonr
 
 from MyModuleLibrary.array_modifier import rolling_window
@@ -80,10 +77,10 @@ def load_data(seq2seq=False, reversed_seq=False):
     # we get the path conducting to seq_chr_sacCer3
     path_to_directory = os.path.dirname(os.path.dirname(args.directory))
     path_to_file = os.path.join(path_to_directory, 'seq_sacCer3',
-                                args.directory, 'chr4.hdf5')
+                                args.directory, 'chr16.hdf5')
 
     f = h5py.File(path_to_file, 'r')
-    nucleotid = np.array(f[f.keys()[0]])
+    nucleotid = np.array(f['data'])
     f.close()
 
     if reversed_seq:
@@ -106,7 +103,7 @@ def load_data(seq2seq=False, reversed_seq=False):
     proba_file = os.path.join(proba_directory, 'Start_data', args.file)
 
     proba = pd.read_csv(proba_file)
-    y_true = proba[proba.chr == 'chr4'].value.values
+    y_true = proba[proba.chr == 'chr16'].value.values
 
     if reversed_seq:
         y_true = y_true[::-1]

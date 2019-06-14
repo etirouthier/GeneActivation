@@ -35,15 +35,15 @@ def nucleotid_arrays(path_to_directory):
         ..notes:: train set and validation set are respectively
         (chr 2,3 and 5 to chr 14) and (chr 15, chr 16)
     """
-    train_chr = [2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
-    val_chr = [15, 16]
+    train_chr = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+    val_chr = [14, 15]
 
     for i in train_chr:
         path_to_file = os.path.join(path_to_directory, 'chr' + str(i) +
                                     '.hdf5')
 
         f = h5py.File(path_to_file, 'r')
-        nucleotid_ = np.array(f[f.keys()[0]])
+        nucleotid_ = np.array(f['data'])
         f.close()
 
         if i == train_chr[0]:
@@ -96,8 +96,8 @@ def rna_seq_density(path_to_file):
         ..notes:: train set and validation set are respectively
         (chr 2,3 and 5 to chr 14) and (chr 15, chr 16)
     """
-    train_chr = [2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
-    val_chr = [15, 16]
+    train_chr = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+    val_chr = [14, 15]
 
     proba = pd.read_csv(path_to_file)
 
@@ -133,8 +133,8 @@ def rna_seq_density(path_to_file):
     digitize_val = np.digitize(proba_val,
                                bins=np.linspace(0, bins, 2 * bins + 1))
 
-    for index, count in zip(np.unique(digitize, return_counts=True)[0],
-                            np.unique(digitize, return_counts=True)[1])[1:]:
+    for index, count in list(zip(np.unique(digitize, return_counts=True)[0],
+                                 np.unique(digitize, return_counts=True)[1]))[1:]:
         weights_train[digitize_train == index] = \
         np.max(np.unique(digitize, return_counts=True)[1][1:])/(float(count))
         weights_val[digitize_val == index] = \
@@ -150,9 +150,8 @@ def generator(path_to_directory, path_to_file, output_len=1,
 
         :param path_to_directory: the path to the a directory containing the
         DNA sequence of all chromosomes in .hdf5 format (see nucleotid_arrays)
-        :param path_to_file : the path to the .csv file with the nucleosome
-        occupancy (see nuc_occupancy())
-        :param include_zeros: weither or not to include zeros in the traning
+        :param path_to_file : the path to the .csv file with the RNA seq 
+        density (see rna_seq_density())
         :param seq2seq: weither the label is a sequence of length window or a
         single value.
         :param output_len: the length of the output with a seq2seq model
