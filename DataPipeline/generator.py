@@ -10,9 +10,11 @@ import os
 import numpy as np
 import h5py
 import pandas as pd
-from MyModuleLibrary.array_modifier import reorganize_random_multi_array
+from MyModuleLibrary.array_modifier import reorganize_random_multi_array, rolling_window
 
-def nucleotid_arrays(path_to_directory):
+def nucleotid_arrays(path_to_directory,
+                     train_chr,
+                     val_chr):
     """
        Creates two arrays containing the DNA sequence in both train and
        validation set.
@@ -35,9 +37,6 @@ def nucleotid_arrays(path_to_directory):
         ..notes:: train set and validation set are respectively
         (chr 2,3 and 5 to chr 14) and (chr 15, chr 16)
     """
-    train_chr = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
-    val_chr = [14, 15]
-
     for i in train_chr:
         path_to_file = os.path.join(path_to_directory, 'chr' + str(i) +
                                     '.hdf5')
@@ -56,7 +55,7 @@ def nucleotid_arrays(path_to_directory):
                                     '.hdf5')
 
         f = h5py.File(path_to_file, 'r')
-        nucleotid_ = np.array(f[f.keys()[0]])
+        nucleotid_ = np.array(f['data'])
         f.close()
 
         if i == val_chr[0]:
@@ -66,7 +65,18 @@ def nucleotid_arrays(path_to_directory):
 
     return nucleotid_train, nucleotid_val
 
-def rna_seq_density(path_to_file):
+def _calculate_rolling_mean(x, batch_size, sample_len, output_len, num_classes):
+    x = rolling_window(x,
+                       window=(x.shape[0], sample_len, num_classes),
+                       asteps=(x.shape[0], sample_len, num_classes))
+    x = x.reshape((output_len, batch_size, sample_len, num_classes))
+    x = np.mean(x, axis=2)
+    x = np.swapaxes(x, 0, 1)
+    return x
+
+def rna_seq_density(path_to_file,
+                    train_chr,
+                    val_chr):
     """
        Creates two arrays containing the RNA_seq density in both train
        and validation set and their corresponding weight arrays.
@@ -96,9 +106,6 @@ def rna_seq_density(path_to_file):
         ..notes:: train set and validation set are respectively
         (chr 2,3 and 5 to chr 14) and (chr 15, chr 16)
     """
-    train_chr = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
-    val_chr = [14, 15]
-
     proba = pd.read_csv(path_to_file)
 
     proba_train = np.array(proba[proba.chr == 'chr' + str(train_chr[0])].value)
@@ -142,8 +149,14 @@ def rna_seq_density(path_to_file):
 
     return proba_train, weights_train, proba_val, weights_val
 
-def generator(path_to_directory, path_to_file, output_len=1,
-              seq2seq=False):
+def generator(path_to_directory,
+              path_to_file,
+              train_chr,
+              val_chr,
+              window=2001,
+              output_len=1,
+              seq2seq=False,
+              downsampling=False):
     """
         Creates two keras data generator for the train set and the validation
         set.
@@ -173,9 +186,11 @@ def generator(path_to_directory, path_to_file, output_len=1,
         ..notes:: batch_size = 512, window = 2001 bp
         ..warning:: seq2seq need to be manually adapted to the model used
     """
-    nucleotid_train, nucleotid_val = nucleotid_arrays(path_to_directory)
+    nucleotid_train, nucleotid_val = nucleotid_arrays(path_to_directory,
+                                                      train_chr,
+                                                      val_chr)
     proba_train, weights_train, proba_val, weights_val = \
-    rna_seq_density(path_to_file)
+    rna_seq_density(path_to_file, train_chr, val_chr)
 
     positions_train = np.arange(0, nucleotid_train.shape[0])
     positions_val = np.arange(0, nucleotid_val.shape[0])
@@ -183,16 +198,15 @@ def generator(path_to_directory, path_to_file, output_len=1,
     number_of_set_train = positions_train.shape[0] // batch_size
     number_of_set_val = positions_val.shape[0] // batch_size
 
-    positions_train = positions_train[1500 : - 1501]
-    positions_val = positions_val[1500 : - 1501]
+    positions_train = positions_train[2000 : - 2001]
+    positions_val = positions_val[2000 : - 2001]
 
-    def generator_function(positions, nucleotid, proba, weights):
+    def generator_function(positions, nucleotid, proba, weights, window):
         """
             The generator which will be used by the keras model to train.
         """
-        window = 2001
         number_of_set = positions.shape[0] // batch_size
-        half_wx = int((window-1)/2.)
+        half_wx = int((window) // 2)
         length = int(positions.shape[0] // number_of_set)
         half_len = output_len // 2
 
@@ -202,35 +216,44 @@ def generator(path_to_directory, path_to_file, output_len=1,
             position = reorganize_random_multi_array(positions)
 
             for num in range(0, number_of_set):
-                if window % 2 == 0:
-                    raise ValueError("window must be an odd number")
 
                 positions_ = position[num*length : (num + 1) * length]
-                X_ = np.zeros((positions_.shape[0], window, 4, 1))
+                X_ = np.zeros((positions_.shape[0], window, 1, 4))
+                #X_ = np.zeros((positions_.shape[0], window, 4))
 
                 for i in range(0, positions_.shape[0]):
                     nucleotid_ = nucleotid[positions_[i] - half_wx :
-                                           positions_[i] + half_wx + 1]
+                                           positions_[i] + half_wx + (window % 2)]
                     nucleotid_ = nucleotid_.reshape(nucleotid_.shape[0], 1)
                     X_one_hot = (np.arange(4) == nucleotid_[..., None]-1).astype(int)
-                    _X_ = X_one_hot.reshape(X_one_hot.shape[0],
-                                            X_one_hot.shape[1] * X_one_hot.shape[2], 1)
+                    _X_ = X_one_hot.reshape(X_one_hot.shape[0], 1,
+                                            X_one_hot.shape[1] * X_one_hot.shape[2])
+                    #_X_ = X_one_hot.reshape(X_one_hot.shape[0],
+                    #                        X_one_hot.shape[1] * X_one_hot.shape[2])
                     X_[i] = _X_
-
-                if seq2seq and (output_len % 2 == 1):
-                    y = np.array([proba[pos - half_len :
-                                        pos + half_len + 1]
-                                  for pos in positions_])
-                    w = np.array([weights[pos - half_len :
-                                          pos + half_len + 1]
-                                  for pos in positions_])
-                elif seq2seq and (output_len % 2 == 0):
-                    y = np.array([proba[pos - half_len :
-                                        pos + half_len]
-                                  for pos in positions_])
-                    w = np.array([weights[pos - half_len :
-                                          pos + half_len]
-                                  for pos in positions_])
+                    
+                if seq2seq and not downsampling:
+                    y = np.array([proba[pos - half_len : pos + half_len + (output_len % 2)] for pos in positions_])
+                    w = np.array([weights[pos - half_len : pos + half_len + (output_len % 2)] for pos in positions_])
+                    y = y.reshape((y.shape[0], y.shape[1], 1))
+                elif seq2seq and downsampling:
+                    y = np.array([proba[pos - half_wx : pos + half_wx + (window % 2)] for pos in positions_])
+                    w = np.array([weights[pos - half_wx : pos + half_wx + (window % 2)] for pos in positions_])
+                    y = y.reshape((y.shape[0], y.shape[1], 1))
+                    w = w.reshape((w.shape[0], w.shape[1], 1))
+                    
+                    sample_len = window // output_len
+                    y = _calculate_rolling_mean(y,
+                                                batch_size,
+                                                sample_len,
+                                                output_len,
+                                                1)
+                    w = _calculate_rolling_mean(w,
+                                                batch_size,
+                                                sample_len,
+                                                output_len,
+                                                1)
+                    w = w.reshape((w.shape[0], w.shape[1]))
                 else:
                     y = proba[positions_]
                     w = weights[positions_]
@@ -241,11 +264,13 @@ def generator(path_to_directory, path_to_file, output_len=1,
     return generator_function(positions_train,
                               nucleotid_train,
                               proba_train,
-                              weights_train), \
+                              weights_train,
+                              window), \
            number_of_set_train, \
            generator_function(positions_val,
                               nucleotid_val,
                               proba_val,
-                              weights_val), \
+                              weights_val,
+                              window), \
            number_of_set_val
            

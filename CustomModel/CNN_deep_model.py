@@ -10,14 +10,13 @@ from keras.models import Sequential
 from keras.layers import Dropout,Flatten, BatchNormalization
 from keras.layers import Dense, Conv2D, MaxPooling2D
 
-def cnn_deep_model() :
+def cnn_deep_model(window) :
     """
         Create a convolutional model with convolutional layers before a final 
         dense a layer with one node used to make the final prediction.
         
         ..notes: the precision of the prediction does not depend strongly with the architecture.
     """
-    window = 2001
     num_classes = 1
     
     fashion_model = Sequential()

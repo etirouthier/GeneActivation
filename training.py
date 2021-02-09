@@ -42,6 +42,18 @@ def parse_arguments():
                         will be stored (in Results_nucleosome)""")
     parser.add_argument('-m', '--model',
                         help='''Name of the model to be trained''')
+    parser.add_argument('-ds', '--downsampling', action='store_true',
+                        help="""To downsampled the predicted sequence for a 
+                        seq2seq model, the length of sampling will be calculated""")
+    parser.add_argument('-t','--training_set', nargs='+',
+                        default=[2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14],
+                        help='''list of chromosome in the training set''')
+    parser.add_argument('-v','--validation_set', nargs='+',
+                        default=[15, 16],
+                        help='''list of chromosome in the validation set''')
+    parser.add_argument('--window',
+                        default=2001,
+                        help='''Size of the input window''')
     parser.add_argument('-s', '--seq2seq', action='store_true',
                         help="""If the model is a seq2seq model""")
     return parser.parse_args()
@@ -50,10 +62,11 @@ def prepare_session():
     """
         Initializing the Tensorflow session.
     """
-    config = tf.ConfigProto(device_count={'GPU': 1, 'CPU': 8})
-    K.clear_session()
+    config = tf.ConfigProto()
+    config.gpu_options.allow_growth = True  
+    config.log_device_placement = True 
     sess = tf.Session(config=config)
-    K.set_session(sess)
+    K.tensorflow_backend.set_session(sess)
 
 def main():
     """
@@ -71,21 +84,32 @@ def main():
                                      args.directory)
 
     num_epochs = 200
+    prepare_session()
 
     if args.seq2seq:
-        model, output_len = model_dictionary()[args.model]
+        model, output_len = model_dictionary(int(args.window))[args.model]
         generator_train, number_of_set_train, \
         generator_val, number_of_set_val = generator(path_to_directory,
                                                      path_to_file,
-                                                     output_len, args.seq2seq)
+                                                     args.training_set,
+                                                     args.validation_set,
+                                                     window=int(args.window),
+                                                     output_len=output_len,
+                                                     seq2seq=args.seq2seq,
+                                                     downsampling=args.downsampling)
+        model.compile(optimizer='adam', loss='mae',
+                      metrics=['mse', correlate],
+                      sample_weight_mode="temporal")
     else:
-        model = model_dictionary()[args.model]
+        model = model_dictionary(int(args.window))[args.model]
         generator_train, number_of_set_train, \
         generator_val, number_of_set_val = generator(path_to_directory,
                                                      path_to_file,
-                                                     args.seq2seq)
-
-    model.compile(optimizer='adam', loss='mae',
+                                                     args.training_set,
+                                                     args.validation_set,
+                                                     window=int(args.window),
+                                                     seq2seq=args.seq2seq)
+        model.compile(optimizer='adam', loss='mae',
                   metrics=['mse', correlate])
 
     checkpointer = ModelCheckpoint(filepath=path_to_output_file,
@@ -97,12 +121,12 @@ def main():
     early = EarlyStopping(monitor='val_loss', min_delta=0, patience=10,
                           verbose=0, mode='auto')
     tensorboard = TensorBoard(log_dir=path_to_tensorboard, update_freq=200)
-    print model.summary()
+    print(model.summary())
     model.fit_generator(generator=generator_train,
-                        steps_per_epoch=500,
+                        steps_per_epoch=number_of_set_train,
                         epochs=num_epochs,
                         validation_data=generator_val,
-                        validation_steps=200,
+                        validation_steps=number_of_set_val,
                         callbacks=[checkpointer, early, tensorboard])
 
 
