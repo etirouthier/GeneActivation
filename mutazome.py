@@ -89,7 +89,7 @@ def main(command_line_arguments=None):
               args.directory,
               '--file', 'plus_strand_coverage_ypd.csv',
               '--model', 'cnn', '--test', args.chromosome])
-    
+
     config = tf.ConfigProto()
     config.gpu_options.allow_growth = True  
     config.log_device_placement = True 
